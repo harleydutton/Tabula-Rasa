@@ -39,7 +39,7 @@ Most good stories include conflict. This will usually end up being between the t
 - [Systems](#systems)
   - [Character Creation](#character-creation)
     - [How to Fill out a Character Sheet](#how-to-fill-out-a-character-sheet)
-    - [Adding Skills to the Setting](#adding-skills-to-the-setting)
+    - [Adding to the Setting](#adding-to-the-setting)
       - [Scope (fill me out)](#scope-fill-me-out)
       - [Related Skills (fill me out)](#related-skills-fill-me-out)
       - [Uniqueness (fill me out)](#uniqueness-fill-me-out)
@@ -53,11 +53,11 @@ Most good stories include conflict. This will usually end up being between the t
   - [Checks](#checks)
     - [Difficulty](#difficulty)
     - [Nested Checks](#nested-checks)
-    - [Aquisition and Progression](#aquisition-and-progression)
     - [Gambits](#gambits)
     - [Magnitude of Success](#magnitude-of-success)
     - [Contests](#contests)
     - [DTMS Checks](#dtms-checks)
+  - [Character Point Acquisition](#character-point-acquisition)
   - [Flavor Acquisition (fill me out)](#flavor-acquisition-fill-me-out)
   - [Skill Acquisition (fill me out)](#skill-acquisition-fill-me-out)
   - [Skill Progression (fill me out)](#skill-progression-fill-me-out)
@@ -121,14 +121,9 @@ Most good stories include conflict. This will usually end up being between the t
   - [Motivations](#motivations-2)
   - [Skills](#skills-1)
     - [Mandatory Skills](#mandatory-skills-1)
-    - [Common Skills](#common-skills)
-    - [Gambits](#gambits-1)
-    - [Acquisition](#acquisition)
-    - [Progression](#progression)
-    - [Mandatory Skills](#mandatory-skills-2)
     - [Available Skills](#available-skills)
   - [Flavor](#flavor-1)
-    - [Acquisition](#acquisition-1)
+    - [Acquisition](#acquisition)
     - [Bad Flavor](#bad-flavor)
     - [Deals](#deals)
     - [Items](#items)
@@ -150,8 +145,8 @@ Characters need skills, flavor and an action delay to be playable. The first thi
 ### How to Fill out a Character Sheet
 Begin at the top of the character sheet; In order, the boxes should contain your character's name, your name, the setting's name, the setting's Action Delay, your character points, your character's motivations, and your character's concept/story. See the [character](#character) section if you don't know what something is.
 
-### Adding Skills to the Setting
-The unique part of this system is that it allows you to make your own skills. This requires co-operation from the Storyteller -- who will vet and occasionally veto skills players have proposed as additions to the Setting. Rather than a veto, however, the Storyteller can put some [limiting factors](#limiting-factors) on a skill to make it less disruptive (and arguably more interesting).
+### Adding to the Setting
+The unique part of this system is that it allows you to make your own skills. This requires co-operation from the Storyteller -- who will vet and occasionally veto skills players have proposed as additions to the Setting. Rather than a veto, however, the Storyteller can put some [limiting factors](#limiting-factors) on a skill to make it less disruptive (and arguably more interesting). You can add anything to the setting. Flavor, in-game organizations, plants, animals, tech, etc.
 
 #### Scope (fill me out)
 
@@ -201,9 +196,6 @@ The difficulty of a skill check can be modified by a number of things. A charact
 ### Nested Checks
 If a character is trying to do two things at once, juggling while doing a backflip for instance, just increase the difficulty. If a player is doing two things that are radically different, that is the appropriate time to make two skill checks. (Doing a backflip and casting a spell)
 
-### Aquisition and Progression
-Taking new skills and leveling them up use the same process. Skills always cost a number of CP (Character Points) equal to the desired level of the skill. You must spend CP on each level individually. Taking a new skill costs 1 CP. Leveling that skill up to level 2 costs 2 CP. The total for this is 3 CP. Taking a skill at level 5 during character creation costs 15 CP. Get storyteller approval before taking new skills during a story. Otherwise skills can be leveled up any time.
-
 ### Gambits
 Gambits are where you make a deal with the storyteller to modify the the difficulty of a check, the pass-effect, and the fail-effect. You might ask for something special to happen on a success in exchange for an increase in difficulty.
 
@@ -216,6 +208,9 @@ Examples of contests include arm wrestling and racing. Characters can tie contes
 
 ### DTMS Checks
 There is one special kind of die that the storyteller will make frequently. These are DTMS (Does this make sense?) checks. They don't use dice. This is just the storyteller deciding if something is possible within the world or not.
+
+## Character Point Acquisition
+Character points are given by the storyteller at character creation, for heroic, or at the end of sessions. The storyteller should keep a running total on the setting document of how many CP have been given out to the group.
 
 ## Flavor Acquisition (fill me out)
 
@@ -416,26 +411,10 @@ Characters must have at least one motivation and ideally less than five motivati
 Each character has a list of skills representing the actions they can take in the story. Skills do have to be things that a character can *do* which also means they have to be able to fail as well. Skills can be either mandatory or available. All characters must have at least one level in all mandatory skills. Otherwise characters may take levels in available skills unless it doesn't make sense.
 
 ### Mandatory Skills
-All characters should have the ability to attack, defend, move, hide, see, lie, detect lies, persuade, resist persuasion, etc. The list of mandatory skills on the setting should represent these potential actions. All characters must have all mandatory skills for their setting. Mandatory skills are typically for actions that a character doesn't have a more suitable common skill for. Alternatively they are for performing very basic actions that every character must be able to perform like `seeing` or feats of `strength`. 
-
-### Common Skills
-Common skills are those that can be found in a setting. Not every character has these skills but most characters should be able to learn them given the opportunity. There will be a list of common skills within the setting document that players can add to their characters. Additionally, players can propose skills be added to the list of common skills found within the setting.
-
-### Gambits
-At its most basic a gambit is a deal you make with the storyteller. Anyone can propose a gambit but all parties must agree before the dice are rolled for the gambit to take effect.
-Two common gambits would be to go for a called shot in combat or to take your time with an action out of combat. Raise the difficulty for the called shot and make it insta-kill. Lower the difficulty for the careful action and lower the quality of a success.
-
-### Acquisition
-New skills can be obtained at character creation by taking them off the list of skills and paying one CP per level of the desired skill and all previous levels of the skill recursively. For instance a level 3 skill would cost 6: 1 point for the first level, 2 CP for the second, and 3 CP for the third level cumulatively. To obtain new skills in the story ask the storyteller if you can being learning the skill.
-
-### Progression
-Skills level up once they have been used a number of times equal to their level. For example, to level up a level 7 `sword-fighting` a player would need to succeed at 7 `sword-fighting` checks. This usually means this will require over 7 attempts because failures do not earn exp. Mark successes next to the skill on your character sheet. 
-
-### Mandatory Skills
 Mandatory skills are those that every character must take some levels in. This is meant to represent the skills that every character should naturally have access to like `seeing`, `strength`, and `persuasion`. Granted, there are some characters who will have flavor that renders these skills useless or remove them entirely. The flavors `blind` and `paralyzed` come to mind.
 
 ### Available Skills
-Available skills are those that are present in the setting but that not everyone has. They can be rare or common like `surgery` and `driving` are in modern times. The point is that not *every* character has them but most characters are able to learn these skills. Some more modern-day examples are cooking, driving, computer programming, basketball, and surgery.
+Available skills are those that are present in the setting but that not everyone has. They can be rare or common like `surgery` and `driving` are in modern times. The point is that not *every* character has them but most characters are able to learn these skills. A few more modern-day examples are `cooking`, `driving`, `computer programming`, `basketball`, and `surgery`.
 
 ## Flavor
 Flavor is a mechanic in Tabula used to describe the interesting parts of a character. Almost anything unique that a character *is* or *has* is likely to be flavor. Flavor is used primarily for DTMS (does this make sense) checks and modifying the difficulty on checks. A few examples of flavor might be `armor`, `horse`, `landed noble`, `flaming sword`, `elf`, `big and tall`, etc. for an elvish knight of the summer court. Each piece of flavor should be a short, evocative description.
