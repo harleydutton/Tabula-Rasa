@@ -6,20 +6,18 @@ Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying 
 
 The worldbuilding framework produces a Setting. Settings are short, standardized, and easily sharable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
 
-The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the setting and start playing very quickly!
+The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the Setting and start playing very quickly!
 
-## getting started
+## getting started (rewrite me to be useful)
 The storyteller should go take a look at the setting section and make sure they understand settings. Then the storyteller will need to make a setting or find one online.
 The players should go take a look at character creation and begin creating characters using the setting your storyteller has provided you with.
 
 ## How to Play (maybe remove this section or merge with something?)
-Tabula Rasa is a roleplaying game. Experienced role-players can now proceed to the [Checks](#checks) section. For everyone else, roleplaying is a form of collaborative, improvisational storytelling.
+One person, the storyteller, will present a world and a story. The storyteller should review the Setting section and make sure they understand Settings. The storyteller can use a world, or setting, of their own design or one from popular media.  The [setting](#setting) section has more details on what you can expect from this fictitious world. The storyteller is also responsible for giving the world life. They plan out scenes between players and NPCs, provide the decisions and voice acting for NPCs, and narrate events in the world to drive the story they have planned.
 
-One person, the storyteller, will present a world and a story. The storyteller can use a world, or setting, of their own design or one from popular media. The [setting](#setting) section has more details on what you can expect from this fictitious world. The storyteller is also responsible for giving the world life. They plan out scenes between players and NPCs, provide the decisions and voice acting for NPCs, and narrate events in the world to drive the story they have planned.
+The rest of the party in a roleplaying game are players. Typically, players will create a character for the game. See the [character_creation](#character-creation) section for help with this. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions within the fictitious realm of the story. The players should look at character creation and begin creating characters using the Setting your storyteller has provided.
 
-The rest of the people in a roleplaying game are players. Usually, players will create a character for the game. See the [character_creation](#character-creation) section for help with this. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions within the fictitious realm of the story.
-
-A night of roleplaying usually lasts anywhere from two to six hours and usually includes a variety of scenes. Exhilarating chases, nail-biting espionage, terrifying battles, grand speeches, descriptions of exotic lands, and of course joking around in and out of character are all hallmarks of good roleplaying.
+A night of roleplaying usually lasts anywhere from two to six hours and includes a variety of scenes: Exhilarating chases, nail-biting espionage, terrifying battles, grand speeches, descriptions of exotic lands, and of course joking around in and out of character are all hallmarks of good roleplaying.
 
 Most good stories include conflict. This will usually end up being between the the player-characters and either NPCs or some other element in the story. When a conflict arises, resolve it by rolling a skill-check. Please see the [checks](#checks) section for help with this.
 
@@ -32,7 +30,7 @@ Most good stories include conflict. This will usually end up being between the t
 <!-- TOC -->
 
 - [Introduction](#introduction)
-  - [getting started](#getting-started)
+  - [getting started (rewrite me to be useful)](#getting-started-rewrite-me-to-be-useful)
   - [How to Play (maybe remove this section or merge with something?)](#how-to-play-maybe-remove-this-section-or-merge-with-something)
   - [Legend](#legend)
   - [Table of Contents](#table-of-contents)
@@ -52,7 +50,7 @@ Most good stories include conflict. This will usually end up being between the t
     - [Printable Character Sheet](#printable-character-sheet)
   - [Checks](#checks)
     - [Difficulty](#difficulty)
-    - [Nested Checks](#nested-checks)
+    - [Nested Checks (decide and fix)](#nested-checks-decide-and-fix)
     - [Gambits](#gambits)
     - [Magnitude of Success](#magnitude-of-success)
     - [Contests](#contests)
@@ -155,7 +153,7 @@ The unique part of this system is that it allows you to make your own skills. Th
 #### Uniqueness (fill me out)
 
 #### Limiting factors
-To limit a how disruptive a Skill can be to the story a few things are necessary. Firstly, the Storyteller, must make it clear to the players that while their character *might* be the first character to have a Skill they will probably not be the only character to have this Skill. Next adding a cooldown, timing restriction, or cost to a Skill can go a long way to making the Skill less disruptive. You will have to come up with your own rules regarding this--Keep in mind they should be short and simple.
+To limit a how disruptive a Skill can be to the story a few things are necessary. Firstly, the Storyteller, must make it clear to the players that while their character *might* be the first character to have a Skill they will probably not be the only character to have this Skill. Next adding a cooldown, timing restriction, or cost to a Skill can go a long way to making the Skill less disruptive. You will have to come up with your own rules regarding this--Keep in mind they should be short and simple. A natural difficulty of `hard` is also a decent limiting factor.
 
 ### Motivations
 <!-- is this its own section or should it be a part of flavor. misc info?-->
@@ -193,8 +191,8 @@ When conflict occurs during roleplaying the fairest way to resolve it most times
 ### Difficulty
 The difficulty of a skill check can be modified by a number of things. A character's flavor, other characters, and the world itself can all cause a skill-check to become easier or harder. The storyteller decides if any of these things is meaningful enough to make the roll easy or hard. What this means for the check is that the target number for the success of an individual die changes based on the subjective difficulty. The usual difficulty is 5 meaning 5's and 6's are successes. For hard checks only 6's are successes. For easy checks 4's, 5's, and 6's are all successes. Checks with a difficulty of impossible are automatic failures and checks with a difficulty of trivial are automatic successes.
 
-### Nested Checks
-If a character is trying to do two things at once, juggling while doing a backflip for instance, just increase the difficulty. If a player is doing two things that are radically different, that is the appropriate time to make two skill checks. (Doing a backflip and casting a spell)
+### Nested Checks (decide and fix)
+If a character is trying to do two things at once, juggling while doing a backflip for instance, just increase the difficulty. If a player is doing two things that are radically different, that is the appropriate time to make two skill checks. (Doing a backflip and casting a spell). Only make one check for each action. Backflipping down some stairs while shooting a gun would normally be a nested check and honestly it should be. Make the checks fail individually and succeed individually if possible. So I guess nest checks, but only for the combination of movement and major actions. Maybe?
 
 ### Gambits
 Gambits are where you make a deal with the storyteller to modify the the difficulty of a check, the pass-effect, and the fail-effect. You might ask for something special to happen on a success in exchange for an increase in difficulty.
@@ -299,7 +297,7 @@ At the start of their turn a characters actions refresh. Actions include a major
 Major actions are used to do pretty much everything in combat other than move or take out-of-turn actions. Most of the time you will need to use a major action to attack, interact with the environment, cast spells, create advantages or disadvantages, etc.
 
 ##### Attacking
-Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes an attack and passes the check and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks.
+Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes an attack and passes the check and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks. If a player has an attack that is an AOE consider adding a limiting factor to it.
 
 ##### advantages and disadvantages
 As an action character may attempt to create an advantage for themselves or a disadvantage for another character. If the action succeeds whomever is controlling the character gets to describe the advantage they create. If the storyteller finds it reasonable it happens. If not, don’t waste time arguing, just move on.
@@ -411,7 +409,7 @@ Characters must have at least one motivation and ideally less than five motivati
 Each character has a list of skills representing the actions they can take in the story. Skills do have to be things that a character can *do* which also means they have to be able to fail as well. Skills can be either mandatory or available. All characters must have at least one level in all mandatory skills. Otherwise characters may take levels in available skills unless it doesn't make sense.
 
 ### Mandatory Skills
-Mandatory skills are those that every character must take some levels in. This is meant to represent the skills that every character should naturally have access to like `seeing`, `strength`, and `persuasion`. Granted, there are some characters who will have flavor that renders these skills useless or remove them entirely. The flavors `blind` and `paralyzed` come to mind.
+Mandatory Skills are those that every character receives from the given Setting. This is meant to represent the Skills that every character should naturally have access to like `seeing`, `strength`, and `persuasion`. There are some characters who will have Flavor that renders these skills useless or remove them entirely. The flavors `blind` and `paralyzed` come to mind.
 
 ### Available Skills
 Available skills are those that are present in the setting but that not everyone has. They can be rare or common like `surgery` and `driving` are in modern times. The point is that not *every* character has them but most characters are able to learn these skills. A few more modern-day examples are `cooking`, `driving`, `computer programming`, `basketball`, and `surgery`.
@@ -423,8 +421,7 @@ Flavor is a mechanic in Tabula used to describe the interesting parts of a chara
 Flavor can be gotten in three ways. First, it can be asked for an paid for with CP at character creation. It typically costs 1 CP per word for flavor at character creation unless modified by a deal. Second, it can be earned and paid for during the story similarly to at character creation. The only difference is that the storyteller may make you spend time in character to earn the flavor you want. Thirdly, flavor might be given to or inflicted upon a character as a result of the story. Lands and title may be given to a peasant after he rescues the princess but he may have also taken some fire damage from the dragon guarding here and have a half-melted face now.
 
 ### Bad Flavor
-Negative flavor is usually gotten in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask to be compensated for it. In return for their character being blind a player might ask that their character be *paid* 3 or 4 CP rather than spending 1 for that piece of flavor.
-The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
+Negative Flavor is usually acquired in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask to be compensated for it. In return for their character being blind a player might ask that their character be *paid* 3 or 4 CP rather than spending 1 for that piece of flavor. The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
 
 ### Deals
 At character creation you may have noticed that there is no way to modify action delay. There is also no way to get any special racial abilities. There is also no way to become rich and famous. Etc. The point is you have to talk to the storyteller when you are creating your character, ask for the things you want, and represent them as flavor. Sometimes the things you want are OP as shit and the DM will want to keep your character in line by raising the cost above the normal for what you are asking for. Want to be super fast? Have -2 action delay by being a vampire (instead death by sunlight). Want to be big enough you can throw cars? Become an Ent for +3 action delay and a vulnerability to fire. Perhaps you can be a world famous boxer if you also have some gambling debts. The point is, talk to your DM and work it out. Sometimes it is appropriate to add a deal to the setting such that it is available to all players and NPCs.
