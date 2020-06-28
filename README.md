@@ -41,15 +41,10 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
 
 ## To-Do
 - merge the stealth and lying sections. should become "deception and perception"
-- CP are given to you by the storyteller at CC and at the end of sessions or when you do cool stuff
-- define skills better
-- define flavor better
-- add description to top level section "stealth and perception"
 - CC
   - reduce the "character creation" section and add sections to "character" (really just move them and refine both)
   - redo the "adding skills to the setting" section in CC
   - change character sheet such that it has "current AD" and "initial AD"
-  - remove duplicate subsections in skills section
 - images
   - add an example image/table for the store
   - add an example image for a whole setting
@@ -57,6 +52,8 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
   - which terms need to go in the glossary. does the glossary need to exist?
   - does the attacking section need subsections?
   - where do we need example images, charts, or descriptions?
+  - define skills better
+  - define flavor better
 - formatting
   - format things using legend
   - make sure all formatting options appearing in the legend can be in a list so the legend looks less crazy and random.
