@@ -40,16 +40,19 @@ Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship
 - Bombs exist and guns can exist but do not presently; The chambers on amber guns have a tendency to fit poorly or explode.
 - Electronics do not exist due to the lack of metal.
 
-> Social Description:
+> Factions:
 - Sane Vampires will trade you anything they can get for a bit of your blood. They hang out at the edge of the city, in the darkness.
 - Ambersmiths are the folk who take raw amber and turn it into usable goods. They have a guild largely consisting of fire mages and engineers.
 - Rot Farmers are the guys who grow mushrooms under the city, manage sewage, and produce food, water, and mushroom planks.
 - The Church of the Sun is a group devoted to the worship of the sun as it keeps a ton of nasty critters out of the city. They have also done lots of research into the nature of the world and are the premier scholars of the world.
 - Shadewalkers are anyone who spends a decent amount of time in the darkness for whatever reason. There are various groups within the shadewalkers but as a rule they are all badasses and know the dark's dangers better than anyone. They are mailmen, travelers, traders, pioneers, and missionaries. Some of them travel between sunspots and cities.
+
+> Places:
 - Cradle is the starting city and has a pop. of 100k.
 - Aris is a large dry wasteland sustained by a clan of water mages. 
 - Kragstoff is an intermittently shady city run by a militant authoritarian society. 
 - Rivilin is a small, lush, swampy, utopia. 
+- The Dark is where all the nasty things live. Stay out of the dark.
 
 > Geographic Description:
 - The sky is black and the sun never moves. In fact you can see multiple sunbeams in the distance that do not appear to be coming from the same place. Where the sun does not shine there is darkness.
