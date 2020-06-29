@@ -36,18 +36,31 @@ Most good stories include conflict. This will usually end up being between the t
   - [Table of Contents](#table-of-contents)
 - [Systems](#systems)
   - [Character Creation](#character-creation)
-    - [How to Fill out a Character Sheet](#how-to-fill-out-a-character-sheet)
+    - [Identification Information](#identification-information)
+    - [Action Delay](#action-delay)
+    - [Remaining Character Points](#remaining-character-points)
+    - [Motivations](#motivations)
+    - [Aesthetic Description](#aesthetic-description)
+    - [Flavor](#flavor)
+    - [Deals](#deals)
+    - [Hooks and Boons](#hooks-and-boons)
+    - [Skills](#skills)
+      - [Mandatory Skills](#mandatory-skills)
+      - [Available Skills](#available-skills)
+      - [Recommended Skills](#recommended-skills)
     - [Adding to the Setting](#adding-to-the-setting)
+      - [Limiting Factors](#limiting-factors)
+      - [Scope](#scope)
+      - [Uniqueness](#uniqueness)
+    - [Printable Character Sheet](#printable-character-sheet)
+    - [Adding to the Setting](#adding-to-the-setting-1)
       - [Scope (fill me out)](#scope-fill-me-out)
       - [Related Skills (fill me out)](#related-skills-fill-me-out)
       - [Uniqueness (fill me out)](#uniqueness-fill-me-out)
-      - [Limiting factors](#limiting-factors)
-    - [Motivations](#motivations)
-    - [Skills](#skills)
-    - [Flavor](#flavor)
-    - [Action Delay](#action-delay)
+      - [Limiting factors](#limiting-factors-1)
+    - [Skills](#skills-1)
+    - [Flavor](#flavor-1)
     - [Non-Player Characters](#non-player-characters)
-    - [Printable Character Sheet](#printable-character-sheet)
   - [Checks](#checks)
     - [Difficulty](#difficulty)
     - [Nested Checks (decide and fix)](#nested-checks-decide-and-fix)
@@ -100,7 +113,7 @@ Most good stories include conflict. This will usually end up being between the t
   - [Action Delay](#action-delay-1)
   - [Character Points](#character-points)
   - [Common/Available skills](#commonavailable-skills)
-  - [Mandatory Skills](#mandatory-skills)
+  - [Mandatory Skills](#mandatory-skills-1)
   - [Technology and Magic Descriptions](#technology-and-magic-descriptions)
   - [Store](#store)
   - [Tone](#tone)
@@ -108,7 +121,7 @@ Most good stories include conflict. This will usually end up being between the t
   - [Physical Description](#physical-description)
     - [Spacial Scope](#spacial-scope)
 - [Character](#character)
-  - [Identification Information](#identification-information)
+  - [Identification Information](#identification-information-1)
     - [Your Name](#your-name)
     - [Story](#story)
     - [Concept](#concept)
@@ -117,13 +130,13 @@ Most good stories include conflict. This will usually end up being between the t
   - [Action Delay](#action-delay-2)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-2)
-  - [Skills](#skills-1)
-    - [Mandatory Skills](#mandatory-skills-1)
-    - [Available Skills](#available-skills)
-  - [Flavor](#flavor-1)
+  - [Skills](#skills-2)
+    - [Mandatory Skills](#mandatory-skills-2)
+    - [Available Skills](#available-skills-1)
+  - [Flavor](#flavor-2)
     - [Acquisition](#acquisition)
     - [Bad Flavor](#bad-flavor)
-    - [Deals](#deals)
+    - [Deals](#deals-1)
     - [Items](#items)
     - [Money](#money-1)
     - [Social Flavor](#social-flavor)
@@ -138,10 +151,79 @@ Most good stories include conflict. This will usually end up being between the t
 This section goes into detail on the typical systems involved in roleplaying and how this game choses to do them instead. Some of these will be very far from typical given that there is no source material to reference for skills, items, monsters, etc.
 
 ## Character Creation
-Characters need skills, flavor and an action delay to be playable. The first thing you should do when making a character is take a look at the [setting](#setting), read through it and make sure they understand the world. Players can propose things to be added to the Setting because they are supposed to have a mild influence upon what exists within the setting.
+To make a character first read through the setting document your storyteller has provided you with. When you have done this and understand the world you will be playing in read through this and fill in the sections for the character sheet--located at the end of this section--using what you have learned. Ask your storyteller for help with things you do not understand or consult the table of contents.
 
-### How to Fill out a Character Sheet
-Begin at the top of the character sheet; In order, the boxes should contain your character's name, your name, the setting's name, the setting's Action Delay, your character points, your character's motivations, and your character's concept/story. See the [character](#character) section if you don't know what something is.
+### Identification Information
+These things go on your sheet to keep you and your storyteller sane in real life. You can omit these things if you like but it is not recommended and I already carved out some space on the sheet for it.
+- Name: The character's name
+- Player: The player's name
+- Setting: The name of the character's setting
+- Story: The name of the story the character was in
+
+### Action Delay
+This is how long your character has to wait to do things in combat. Lower means faster. If you would like to decrease your action delay you can do so by spending CP. The typical default action delay is 10 but you should take a look at the setting document provided by your storyteller to make sure.
+
+|                | Default | -1 AD | -2 AD | -3 AD | -4 AD | -5 AD | -X AD  |
+| -------------- | ------- | ----- | ----- | ----- | ----- | ----- | ------ |
+| Cost for -1 AD | 0       | 1 CP  | 4 CP  | 9 CP  | 16 CP | 25 CP | X*X CP |
+| Total cost     | 0       | 1 CP  | 5 CP  | 14 CP | 30 CP | 55 CP | ...    |
+
+### Remaining Character Points
+The storyteller should be tracking the CP they have distributed to the group on the setting document. Each player should be keeping track of how much of this they have not spent on their character sheet such that they can easily take new skills.
+
+### Motivations
+Tell my why your character gets out of bed in the morning. What is their purpose? Do they seek revenge? To protect something? Are they on the run? Do they want to be respected? Are they searching for something? Do they have any ideals that they follow? These are all motivations that will give a storyteller a good way to interact with your character. You must have at least one and you should consider taking a few.
+
+### Aesthetic Description
+This is a good place to describe your character's gender, age, weight, build, height, bearing, clothes, stereotypical class, etc. The purpose of this section is to give other players or the storyteller an idea of what your character looks and acts like. If you want anything here to influence your rolls it should also be added to flavor.
+
+### Flavor
+Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak lets not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Most flavor costs one CP at character creation or one hook for those which are particularly powerful. More flavor can be obtained or inflicted later on in the game.
+
+### Deals
+Deals are where you ask the storyteller for something unusual, offer something in return, and if they agree the exchange happens. Deals can include anything: character points, flavor, skills, restrictions, small personal rules changes, action delay, hooks and boons, motivations, etc.
+> "I would like to get +5 CP to be morbidly obese and have a +3 to AD"
+
+### Hooks and Boons
+
+### Skills
+Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
+
+| Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
+| -------- | ---- | ---- | ---- | ----- | ----- | ---- |
+| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
+| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
+
+> lockpicking, pyromancy, lying, and blocking are all examples of skills.
+
+#### Mandatory Skills
+Mandatory skills are Body, Mind, Spirit and Social. They are the most broad skills in each of their respective categories which are physical, mental, magical, and... social. These skills can be used to roll any check in their category but scale differently than every other skill. All characters have one level in all mandatory skills just in case they encounter a check to which there is not a more appropriate skill.
+
+| Level    | 1    | 2    | 3     | 4     | 5     | X      |
+| -------- | ---- | ---- | ----- | ----- | ----- | ------ |
+| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP |
+| Total CP | 0 CP | 4 CP | 14 CP | 29 CP | 54 CP | ...    |
+
+#### Available Skills
+Available skills are those listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
+
+#### Recommended Skills
+Even though the mandatory skills should have you covered having some way to attack, defend, sense, communicate, and disagree is a good idea.
+> For physical skills athletics, acrobatics, endurance, and s weapon skill are all fairly useful.
+> For mental skills intelligence, memory, and willpower are all quite useful.
+> Spirit is optional but if your storyteller is allowing magic you should pick a magic school so you can do more interesting magic.
+> For social skills bartering, persuasion, seduction, lying, leadership, and intimidation are all classics.
+
+### Adding to the Setting
+#### Limiting Factors
+#### Scope
+#### Uniqueness
+
+
+### Printable Character Sheet
+![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
+
+***
 
 ### Adding to the Setting
 The unique part of this system is that it allows you to make your own skills. This requires co-operation from the Storyteller -- who will vet and occasionally veto skills players have proposed as additions to the Setting. Rather than a veto, however, the Storyteller can put some [limiting factors](#limiting-factors) on a skill to make it less disruptive (and arguably more interesting). You can add anything to the setting. Flavor, in-game organizations, plants, animals, tech, etc.
@@ -154,10 +236,6 @@ The unique part of this system is that it allows you to make your own skills. Th
 
 #### Limiting factors
 To limit a how disruptive a Skill can be to the story a few things are necessary. Firstly, the Storyteller, must make it clear to the players that while their character *might* be the first character to have a Skill they will probably not be the only character to have this Skill. Next adding a cooldown, timing restriction, or cost to a Skill can go a long way to making the Skill less disruptive. You will have to come up with your own rules regarding this--Keep in mind they should be short and simple. A natural difficulty of `hard` is also a decent limiting factor.
-
-### Motivations
-<!-- is this its own section or should it be a part of flavor. misc info?-->
-Each character must have at least one motivation but not more than 5, however, this number is flexible. Motivations describe at a high level what your character wants from the world and gives the Storyteller useful ways to interact with your character. NPCs will also have motivations to influence the difficulty of their persuasion and willpower tests.
 
 ### Skills
 Second, your character needs [skills](#skills). Skills are used to roll checks, which is how a character interacts with the game world. Skills are usually self-descriptively named and have levels. The higher level the Skill the better at it a character is.
@@ -173,16 +251,12 @@ Example Common or Self-Invented Skills: sword fighting, pyromancy, computer hack
 ```
 
 ### Flavor
-Third, your character needs [flavor](#flavor). Flavor is a word or short phrase describing your character. It can include knowledge, possessions, physique, and even social position. Review the starting Flavor options listed on the Setting. The Setting will almost always give your character a language, clothes, and equipment that is relevant to the story. When the Setting specifies a type of flavor but not what it is specifically, you get to choose something that would fit within the Setting. Add your choice of starting Flavor to your character sheet. Afterward, add Flavor to your character to describe them. Flavor costs one CP per Flavor after you have allocated starting flavor. Flavor is usually benign, but can occasionally make checks easier or harder.
+Flavor is a word or short phrase describing your character. It can include knowledge, possessions, physique, and even social position. You don't need to worry about clothes, or the ability to speak  The Setting will almost always give your character a language, clothes, and equipment that is relevant to the story. When the Setting specifies a type of flavor but not what it is specifically, you get to choose something that would fit within the Setting. Add your choice of starting Flavor to your character sheet. Afterward, add Flavor to your character to describe them. Flavor costs one CP per Flavor after you have allocated starting flavor. Flavor is usually benign, but can occasionally make checks easier or harder.
 
-### Action Delay
-I have been thinking about a procedural way for players to modify Action Delay. If I suggest a typical action delay of 10 for every setting then I think it would be reasonable to allow players to modify their action delays at a cost equal to the difference between the desired AD and 10 squared. This would only work for decreasing a characters AD as characters should not be able to max out a character for non-combat stuff by deciding to never have a turn. Instead I think it might be reasonable to give players the default option to increase their character's size by increasing their action delay. I am unsure how to price reductions in action delay that started above ten. I think the same cost progression just starting form the character's starting AD. I guess characters will need to document their starting AD on their character sheets.
 
 ### Non-Player Characters
 Tabula Rasa treats NPCs the same as every other character. They should have motivations, skills, flavor, action delay, and all the other fields of a character sheet filled out. Creating them should be relatively quick as you only need to fill things in as necessary and can leave most of their character points un-spent. Careful, as this can result in some very min-maxed NPCs. NPCs should always have motivations to influence their decisions. Make sure you include motivation.
 
-### Printable Character Sheet
-![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
 
 
 ## Checks

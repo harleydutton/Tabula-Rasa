@@ -22,6 +22,7 @@ Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship
 | lodging       |         | AEther      |            |
 | booze         |         | magic items |            |
 | clothes       |         | allies      |            |
+| materials     |         | boons       |            |
 |               |         |             |            |
 
 > Tone: Dark, scary, mysterious, magical, wonder, gallows humor
@@ -57,6 +58,9 @@ Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship
 > Geographic Description:
 - The sky is black and the sun never moves. In fact you can see multiple sunbeams in the distance that do not appear to be coming from the same place. Where the sun does not shine there is darkness.
 - Largely, mushrooms are the most successful type of plant in this world.
+- The soil varies place to place though sunspots tend to be a bit more arid.
+- There are smooth, hard mountain ranges here and there according to shadewalkers and vampires. Sometimes they weave through the air and earth like great petrified serpents.
+- There is no Moon
 
 > Critter Description:
 - Feral vampires live in the dark and eat people.
