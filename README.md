@@ -41,15 +41,16 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
 
 ## To-Do
 - merge the stealth and lying sections. should become "deception and perception"
-- settings should have deals on them (possibly in a secret section)
-- settings should have a list of player made skills on them
-- CC
-  - add hooks and boons to CC. 
-  - reduce the "character creation" section and add sections to "character" (really just move them and refine both)
-  - redo the "adding skills to the setting" section in CC
-- images
+- combat: which actions are free? those that are trivial OOC (talking, inventory management, trivial perception checks, etc.)
+- I would at some point like to make it clear that CP can be converted to minor purchases and boons to major purchases
+- setting
+  - settings should have deals on them (possibly in a secret section)
+  - settings should have a list of player made skills on them
+  - make sure settings outline the theme characters should try and stick to.
   - add an example image/table for the store
-  - add an example image for a whole setting
+  - add an example image for a whole setting doc
+- CC
+  - reduce the "character creation" section and add sections to "character" (really just move them and refine both)
 - feedback
   - which terms need to go in the glossary. does the glossary need to exist?
   - does the attacking section need subsections?
@@ -63,7 +64,7 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
 - polish
   - make the voice consistent ie. always speak to player
   - link things
-  - add grammar check plugin
+  - add grammar check plugin (or just run a grammar check?)
   - make the images non-shit
   - export as PDF
 

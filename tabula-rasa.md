@@ -42,25 +42,19 @@ Most good stories include conflict. This will usually end up being between the t
     - [Motivations](#motivations)
     - [Aesthetic Description](#aesthetic-description)
     - [Flavor](#flavor)
-    - [Deals](#deals)
     - [Hooks and Boons](#hooks-and-boons)
     - [Skills](#skills)
       - [Mandatory Skills](#mandatory-skills)
       - [Available Skills](#available-skills)
       - [Recommended Skills](#recommended-skills)
     - [Adding to the Setting](#adding-to-the-setting)
-      - [Limiting Factors](#limiting-factors)
+      - [Veto](#veto)
+      - [Theme](#theme)
       - [Scope](#scope)
+      - [Limiting Factors](#limiting-factors)
       - [Uniqueness](#uniqueness)
+    - [NPCs](#npcs)
     - [Printable Character Sheet](#printable-character-sheet)
-    - [Adding to the Setting](#adding-to-the-setting-1)
-      - [Scope (fill me out)](#scope-fill-me-out)
-      - [Related Skills (fill me out)](#related-skills-fill-me-out)
-      - [Uniqueness (fill me out)](#uniqueness-fill-me-out)
-      - [Limiting factors](#limiting-factors-1)
-    - [Skills](#skills-1)
-    - [Flavor](#flavor-1)
-    - [Non-Player Characters](#non-player-characters)
   - [Checks](#checks)
     - [Difficulty](#difficulty)
     - [Nested Checks (decide and fix)](#nested-checks-decide-and-fix)
@@ -130,13 +124,13 @@ Most good stories include conflict. This will usually end up being between the t
   - [Action Delay](#action-delay-2)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-2)
-  - [Skills](#skills-2)
+  - [Skills](#skills-1)
     - [Mandatory Skills](#mandatory-skills-2)
     - [Available Skills](#available-skills-1)
-  - [Flavor](#flavor-2)
+  - [Flavor](#flavor-1)
     - [Acquisition](#acquisition)
     - [Bad Flavor](#bad-flavor)
-    - [Deals](#deals-1)
+    - [Deals](#deals)
     - [Items](#items)
     - [Money](#money-1)
     - [Social Flavor](#social-flavor)
@@ -180,11 +174,8 @@ This is a good place to describe your character's gender, age, weight, build, he
 ### Flavor
 Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak lets not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Most flavor costs one CP at character creation or one hook for those which are particularly powerful. More flavor can be obtained or inflicted later on in the game.
 
-### Deals
-Deals are where you ask the storyteller for something unusual, offer something in return, and if they agree the exchange happens. Deals can include anything: character points, flavor, skills, restrictions, small personal rules changes, action delay, hooks and boons, motivations, etc.
-> "I would like to get +5 CP to be morbidly obese and have a +3 to AD"
-
 ### Hooks and Boons
+Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor.
 
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
@@ -194,10 +185,10 @@ Skills are the most mechanical part of a character. They allow your character to
 | CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
 | Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
 
-> lockpicking, pyromancy, lying, and blocking are all examples of skills.
+> lock-picking, pyromancy, lying, and blocking are all examples of skills.
 
 #### Mandatory Skills
-Mandatory skills are Body, Mind, Spirit and Social. They are the most broad skills in each of their respective categories which are physical, mental, magical, and... social. These skills can be used to roll any check in their category but scale differently than every other skill. All characters have one level in all mandatory skills just in case they encounter a check to which there is not a more appropriate skill.
+Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. They are the most broad skills in each of their respective categories which are physical, mental, magical, and... social. These skills can be used to roll any check in their category but scale differently than every other skill. All characters get one level in each mandatory skill for free just in case they have to make a check they don't have an appropriate skill for.
 
 | Level    | 1    | 2    | 3     | 4     | 5     | X      |
 | -------- | ---- | ---- | ----- | ----- | ----- | ------ |
@@ -215,49 +206,30 @@ Even though the mandatory skills should have you covered having some way to atta
 > For social skills bartering, persuasion, seduction, lying, leadership, and intimidation are all classics.
 
 ### Adding to the Setting
-#### Limiting Factors
-#### Scope
-#### Uniqueness
+It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
 
+#### Veto
+The storyteller can reject your additions to the setting for any reason. You can argue, bitch, and moan, but ultimately they are the storyteller and they don't have to put your idea in the world or the story no matter how much you want it there. Come up with a new idea.
+> @Storyteller: In the interest of reducing arguing, bitching, and moaning, give a reason for your veto.
+
+#### Theme
+A common reason for an addition to a setting to be rejected is because of theme. Don't try to play a wizard in a non-magic setting. Don't try to play a jedi in a medieval setting. Sure there are storytellers who will jump at that but try to stay within the themes outlined in the setting document.
+
+#### Scope
+Many times, players will try to create skills that are much too broad in scope. Less frequently, players will make skills that are too narrow in scope. Loosely speaking scope represents the percentage of situations a skill can apply to. An example of a skill that is too broad is `magic` as you can do anything you want with it. A skill that is too narrow would be `death curse` as it can only be used to kill someone. Somewhere in between we find the skill `death magic` which has many applications but not infinitely many. It has a specific domain in which it is useful. Storytellers should specifically look out for skills that are too broad during character creation and veto them.
+
+#### Limiting Factors
+If you create a skill with appropriate scope that is just too powerful for the setting or story your storyteller may inflict a few limiting factors upon the skill you have proposed or your character.
+> @Storyteller: A few good limiting factors are timing restrictions(requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.).
+
+#### Uniqueness
+When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to a balanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
+
+### NPCs
+Tabula treats NPCs the same as every other character. Make a character sheet for them. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Give them CP based on how much you have given the players. It is a good idea to leave a large chunk of an NPCs CP unspent.
 
 ### Printable Character Sheet
 ![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
-
-***
-
-### Adding to the Setting
-The unique part of this system is that it allows you to make your own skills. This requires co-operation from the Storyteller -- who will vet and occasionally veto skills players have proposed as additions to the Setting. Rather than a veto, however, the Storyteller can put some [limiting factors](#limiting-factors) on a skill to make it less disruptive (and arguably more interesting). You can add anything to the setting. Flavor, in-game organizations, plants, animals, tech, etc.
-
-#### Scope (fill me out)
-
-#### Related Skills (fill me out)
-
-#### Uniqueness (fill me out)
-
-#### Limiting factors
-To limit a how disruptive a Skill can be to the story a few things are necessary. Firstly, the Storyteller, must make it clear to the players that while their character *might* be the first character to have a Skill they will probably not be the only character to have this Skill. Next adding a cooldown, timing restriction, or cost to a Skill can go a long way to making the Skill less disruptive. You will have to come up with your own rules regarding this--Keep in mind they should be short and simple. A natural difficulty of `hard` is also a decent limiting factor.
-
-### Skills
-Second, your character needs [skills](#skills). Skills are used to roll checks, which is how a character interacts with the game world. Skills are usually self-descriptively named and have levels. The higher level the Skill the better at it a character is.
-There are three kinds of Skills. Mandatory Skills, Common Skills, and Self-Invented Skills. Mandatory skills are skills every character _needs_ within the Setting. They are listed at the top of the Skills section in the Setting. Add all of the Sandatory Skills to your character sheet. Common Skills are those that are frequent within the Setting and you can take any of them you can afford. Players can also propose to the zstoryteller that Skills be added to the Setting; These are Self-Invented Skills. You pay for your starting Skills using Character Points (CP). Starting CPs are listed in the upper left of the Setting template. Skills cost a number of CPs equal to the level you want the Skill to start at.
-```
-For example, a level 3 skill will cost 3 CPs intially. 
-```
-> An important note about Self-Invented Skills (new Skills added to the list of available Skills in the Setting; this is highly engouraged). Storyteller approval is required for a Skill to be added to the Setting.
-
-```
-Example Mandatory skills: willpower, strength, magic, dexterity, charisma
-Example Common or Self-Invented Skills: sword fighting, pyromancy, computer hacking, seduction
-```
-
-### Flavor
-Flavor is a word or short phrase describing your character. It can include knowledge, possessions, physique, and even social position. You don't need to worry about clothes, or the ability to speak  The Setting will almost always give your character a language, clothes, and equipment that is relevant to the story. When the Setting specifies a type of flavor but not what it is specifically, you get to choose something that would fit within the Setting. Add your choice of starting Flavor to your character sheet. Afterward, add Flavor to your character to describe them. Flavor costs one CP per Flavor after you have allocated starting flavor. Flavor is usually benign, but can occasionally make checks easier or harder.
-
-
-### Non-Player Characters
-Tabula Rasa treats NPCs the same as every other character. They should have motivations, skills, flavor, action delay, and all the other fields of a character sheet filled out. Creating them should be relatively quick as you only need to fill things in as necessary and can leave most of their character points un-spent. Careful, as this can result in some very min-maxed NPCs. NPCs should always have motivations to influence their decisions. Make sure you include motivation.
-
-
 
 ## Checks
 When conflict occurs during roleplaying the fairest way to resolve it most times is by rolling a skill-check. A skill-check is where one of a character's skills is tested against a subjective difficulty determined by the storyteller based on flavor and story elements. Each level a character has in a skill will give them one d6 towards the check. The target difficulty is typically 5 and can be modified. Each die is rolled and if a character gets any successes among their dice pool the check is a success.

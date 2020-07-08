@@ -12,18 +12,18 @@
 Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship, Fire Magic, Sense Emotion, Necromancy, Seeing, Hearing, etc.
 
 ### Store:
-| Trivial       | Minor   | Major       | Impossible |
-| ------------- | ------- | ----------- | ---------- |
-| food          | armor   | training    | metal      |
-| water         | weapons | ironwood    |            |
-| torches       | tools   | land        |            |
-| entertainment | animals | vehicles    |            |
-| consumables   |         | medicine    |            |
-| lodging       |         | AEther      |            |
-| booze         |         | magic items |            |
-| clothes       |         | allies      |            |
-| materials     |         | boons       |            |
-|               |         |             |            |
+| Trivial       | Minor    | Major       | Impossible |
+| ------------- | -------- | ----------- | ---------- |
+| food          | armor    | training    | metal      |
+| water         | weapons  | ironwood    |            |
+| torches       | tools    | land        |            |
+| entertainment | animals  | vehicles    |            |
+| consumables   | luxuries | medicine    |            |
+| lodging       | meat     | AEther      |            |
+| booze         | jewelry  | magic items |            |
+| clothes       |          | allies      |            |
+| materials     |          | boons       |            |
+|               |          |             |            |
 
 > Tone: Dark, scary, mysterious, magical, wonder, gallows humor
 
@@ -37,7 +37,7 @@ Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship
     - Amber is the primary substitute for metal. It has a melting point of about 1000f, can be cast, is brittle, sharp, translucent orange, light, and strong--until it breaks.
     - Some of you may have heard of Ironwood; As far as anyone knows Ironwood is indestructable and has anti-magic properties. It is incredibly rare.
     - Actual wood is scarce and dried planks of giant mushroom are used instead.
-    - AEther is a brightly glowing glass that comes in the form of rough shards. It is difficult to obtain but easy to turn into a battery for magic.
+    - AEther is a glass that glows with wildly shifting blues and yellows. It comes in the form of thick, smoothly broken shards. It is difficult to obtain but easy to turn into a battery for magic.
 - Bombs exist and guns can exist but do not presently; The chambers on amber guns have a tendency to fit poorly or explode.
 - Electronics do not exist due to the lack of metal.
 
