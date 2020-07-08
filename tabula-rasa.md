@@ -100,6 +100,7 @@ Most good stories include conflict. This will usually end up being between the t
       - [Reactions](#reactions)
         - [Counterattacks](#counterattacks)
         - [Defensive Actions](#defensive-actions)
+      - [Free Actions](#free-actions)
     - [Transitions](#transitions)
     - [Entering and Leaving combat](#entering-and-leaving-combat)
     - [War](#war)
@@ -113,7 +114,7 @@ Most good stories include conflict. This will usually end up being between the t
   - [Tone](#tone)
   - [Social Description](#social-description)
   - [Physical Description](#physical-description)
-    - [Spacial Scope](#spacial-scope)
+  - [Theme](#theme-1)
 - [Character](#character)
   - [Identification Information](#identification-information-1)
     - [Your Name](#your-name)
@@ -175,7 +176,7 @@ This is a good place to describe your character's gender, age, weight, build, he
 Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak lets not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Most flavor costs one CP at character creation or one hook for those which are particularly powerful. More flavor can be obtained or inflicted later on in the game.
 
 ### Hooks and Boons
-Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor.
+Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor. The storyteller must agree to grant you the boon you want or a generic boon for the hook you are offering; be reasonable. Speaking of generic boons, boons can be saved and used later. Generic boons can be converted to major purchases.
 
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
@@ -370,6 +371,9 @@ If you want to stab a bitch that tried to stab you, you must consume your major 
 ##### Defensive Actions
 Defensive actions are those that characters do to avoid the bad flavor that comes with an attack. Commonly this means blocking, dodging, parrying, etc. Uncommonly this means counterattacking to remove a threat before it can hurt you, or jumping in front of an attack for another character.
 
+#### Free Actions
+Free actions do not require an action and can be preformed at any time during combat assuming you pass a DTMS check. Actions that would be trivial out of combat are typically free actions in combat. This would include talking, inventory management (dropping items or giving them to another character), and most perception checks--sometimes even those that are non-trivial.
+
 ### Transitions
 Feel tree to maintain or drop initiative as you switch between chases, combats, and stealth scenes. Use logic to determine when it appropriate to switch between these and when to roll and drop initiative. Characters that start a combat or chase should go first. Characters need to be hidden if they want to start a stealth scene. Any of these can transition into any of the others. Chases are just combat with movement instead of fighting. Initiative for chases and combats works the same.
 
@@ -380,7 +384,6 @@ Entering combat is simple. When a player decides they would like to enter combat
 ### War
 Once the number of NCPs gets into the double digits it doesn't make a whole lot of sense to actually play the individual characters in combat. In this case the NPCs battle is narrated with the PCs party being able to influence the outcome through their success or failure in smaller battles where most of the combatants matter. This is also a good time to include the event die. When the storyteller ends up controlling more than triple the number of units the PCs do that is probably a good time to change things to a simultaneous battle and war.
 
-<!-- /TOC -->
 # Setting
 A Setting is a template for worldbuilding. It includes a description of the world, the normal speed of characters in the world for combat, the amount of character points new characters in the world start with, a list of Mandatory Skills, and a list of Skills common within the Setting. The description includes the technological level, magic, history, spacial/geographic scope, flora, fauna, biomes, natural resources, items, culture, store, etc. of the World.
 To be mechanically playable a Setting needs an Action Delay, starting character points, a list of Mandatory Skills, a list of common skills, and a  general description. Splitting the description into the cultural and the physical aspects of the world can be helpful. Creating a store is a good idea in most cases (unless you're a communist).
@@ -394,7 +397,7 @@ Choosing a suitable action delay is fairly easy but it is possible to mess it up
 Character Points, also known as CP, are a resource used by players throughout the game to take new Skills and Flavor and level up existing skills. The suggested starting character points for a setting is basically a recommendation for starting level. If characters start with 30 CP rather than 25 they will be a little stronger on average. There is usually a positive correlation between the number of mandatory skills in a setting and the starting CP.
 
 ## Common/Available skills
-Available skills are skills that every character in a setting has access to. Any character can learn these skills with storyteller approval either at character creation or during the story. Players are encouraged to suggest additions to the list of available skills for the setting. Available skills are where characters get their options for interesting actions. A few examples of available skills are `swordfighting`, `necromancy`, `seduction`, and `piloting`. Available skills can be purchased with CP at character creation and during the story by any character. Characters do not need to have every available skill.
+Available skills are skills that every character in a setting has access to. Any character can learn these skills with storyteller approval either at character creation or during the story. Players are encouraged to suggest additions to the list of available skills for the setting. Available skills are where characters get their options for interesting actions. A few examples of available skills are `sword-fighting`, `necromancy`, `seduction`, and `piloting`. Available skills can be purchased with CP at character creation and during the story by any character. Characters do not need to have every available skill.
 
 ## Mandatory Skills
 Mandatory skills are those that every character must have to be make sure they will not have checks that they should be able to roll but cannot. For instance, `seeing` and `hearing` are both skills almost every humanoid character should have so that they can perceive the game world. Every character must have one level in every mandatory skill but can take more levels if they wish.
@@ -415,10 +418,10 @@ It is typically a good idea to set expectations for the tone of the story such t
 The social description for the setting should describe what the people of the setting are like and what they have done. This will be things like important places, institutions, cultural events, and historic events. This will also include the races/peoples/cultures within the setting and the countries and governments they have formed.
 
 ## Physical Description
-The physical description for the setting should describe what the land itself is like (assuming there is land). This would be things like geography, weather, plants, and animals. This goes well with spacial scope and a map.
+The physical description for the setting should describe what the land itself is like (assuming there is land). This would be things like geography, weather, plants, and animals. This should also include scope; how large an are does this description cover? A city? A country? A continent? A planet? A map will supplement this description nicely. The spacial scope can be the entire known universe or just the part the characters are in right now. A rough idea of how bug it is will always help players wrap their heads around it though.
 
-### Spacial Scope
-Settings have a size. They might be the entire known universe but even that has a size. Tell your players what that is. It is worth noting that you can have settings that are smaller than the known world and have multiple settings within the same story. A map with a some kind of scale marker and a region marked out as the place the setting governs is a good idea.
+## Theme
+Each setting has a theme. It might be the wild west with cowpokes getting into brawls and lobbing dynamite off of trains. It might be an epic swords and sorceries adventure. It might be a modern day espionage story with lots of gunfights and back alley deals. It might be the far flung future with space ships battling around every asteroid. The point is that players should try to match their characters to the theme of the setting as well as they can. Usually the storyteller doesn't enjoy telling you you cannot play a wizard in the story about space pirates.
 
 # Character
 This chapter is for you, the Player. Characters are representations of the fictional people within the Setting. To be mechanically playable, your character needs an action delay, a motivation, skills, flavor and a number of other shit.
