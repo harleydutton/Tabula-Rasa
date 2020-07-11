@@ -210,7 +210,7 @@ Even though the mandatory skills should have you covered having some way to atta
 It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
 
 #### Veto
-The storyteller can reject your additions to the setting for any reason. You can bitch and moan but ultimately the storyteller is the one telling the story to put your idea in the the story no matter how much you want it there. Come up with a new idea.
+The storyteller can reject your additions to the setting for any reason. You can bitch and moan but ultimately the storyteller is the one telling the story and doesn't have to put your idea in the the story no matter how much you want it there. Come up with a new idea.
 > @Storyteller: In the interest of reducing arguing, bitching, and moaning, give a reason for your veto.
 
 #### Theme
