@@ -63,9 +63,11 @@ Most good stories include conflict. This will usually end up being between the t
     - [Contests](#contests)
     - [DTMS Checks](#dtms-checks)
   - [Character Point Acquisition](#character-point-acquisition)
-  - [Flavor Acquisition (fill me out)](#flavor-acquisition-fill-me-out)
-  - [Skill Acquisition (fill me out)](#skill-acquisition-fill-me-out)
-  - [Skill Progression (fill me out)](#skill-progression-fill-me-out)
+  - [Flavor Acquisition](#flavor-acquisition)
+  - [Skill Acquisition](#skill-acquisition)
+  - [Skill Progression](#skill-progression)
+      - [Mandatory Skills Progression](#mandatory-skills-progression)
+      - [Available Skills Progression](#available-skills-progression)
   - [Crafting](#crafting)
   - [Money](#money)
     - [Trivial Purchases](#trivial-purchases)
@@ -181,11 +183,6 @@ Character hooks, or hooks for short, are a way to get boons and give the storyte
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
 
-| Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
-| -------- | ---- | ---- | ---- | ----- | ----- | ---- |
-| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
-| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
-
 > lock-picking, pyromancy, lying, and blocking are all examples of skills.
 
 #### Mandatory Skills
@@ -198,6 +195,11 @@ Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. They are the most br
 
 #### Available Skills
 Available skills are those listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
+
+| Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
+| -------- | ---- | ---- | ---- | ----- | ----- | ---- |
+| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
+| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
 
 #### Recommended Skills
 Even though the mandatory skills should have you covered having some way to attack, defend, sense, communicate, and disagree is a good idea.
@@ -257,11 +259,30 @@ There is one special kind of die that the storyteller will make frequently. Thes
 ## Character Point Acquisition
 Character points are given by the storyteller at character creation, for heroic, or at the end of sessions. The storyteller should keep a running total on the setting document of how many CP have been given out to the group.
 
-## Flavor Acquisition (fill me out)
+## Flavor Acquisition
+Your character will acquire flavor throughout the story for mostly for free. You can, however, pay for it in the same way as you would during character creation. Hooks and boons can be acquired through roleplaying, items and other things worth one CP can be obtained from stores where available, and temporary wound flavor is the natural result of combat. Beware, sometimes actions have consequences and flavor will be inflicted upon you.
 
-## Skill Acquisition (fill me out)
+## Skill Acquisition
+Skills can be learned from other characters in the story. If a skill is fairly simple or if a character is fairly dedicated they can learn it on their own. Dedicated characters can also create new skills and add them to the setting--once again, only with storyteller approval. The first level of any new skill costs one character point. All skill acquisitions need to pass a DTMS check.
 
-## Skill Progression (fill me out)
+## Skill Progression
+Leveling up skills can happen at any time and requires CP. The CP cost varies by level and type of skill. Mandatory skills are significantly more expensive than available skills to level up.
+
+#### Mandatory Skills Progression
+Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. The cost to level a mandatory skill is the desired level squared in CP. You must level up skills one level at a time.
+
+| Level    | 1    | 2    | 3     | 4     | 5     | X      |
+| -------- | ---- | ---- | ----- | ----- | ----- | ------ |
+| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP |
+| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | ...    |
+
+#### Available Skills Progression
+All other skills are available skills. The cost to level is the desired level in CP. You must level up skills one level at a time.
+
+| Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
+| -------- | ---- | ---- | ---- | ----- | ----- | ---- |
+| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
+| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
 
 ## Crafting
 In Tabula, crafting is just a skill check. Describe what you want and how you plan on using your crafting skill to get it, ask the DM what the difficulty is, and make the roll. If you succeed you get the desired item, likely with some narrative flair heavily influenced by magnitude of success. If you fail you do not get what you asked for, any materials and time put into the crafting roll are non refundable, and it is possible something bad happens based on the event die if the storyteller chooses to use it.
