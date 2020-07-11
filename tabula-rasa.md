@@ -194,7 +194,7 @@ Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. They are the most br
 | Level    | 1    | 2    | 3     | 4     | 5     | X      |
 | -------- | ---- | ---- | ----- | ----- | ----- | ------ |
 | CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP |
-| Total CP | 0 CP | 4 CP | 14 CP | 29 CP | 54 CP | ...    |
+| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | ...    |
 
 #### Available Skills
 Available skills are those listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
