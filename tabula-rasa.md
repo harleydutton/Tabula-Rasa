@@ -52,8 +52,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Printable Character Sheet](#printable-character-sheet)
   - [Checks](#checks)
     - [Difficulty](#difficulty)
-    - [Nested Checks (decide and fix)](#nested-checks-decide-and-fix)
-    - [Magnitude of Success](#magnitude-of-success)
+    - [Nested Checks](#nested-checks)
     - [Contests](#contests)
     - [DTMS Checks](#dtms-checks)
   - [Character Point Acquisition](#character-point-acquisition)
@@ -229,23 +228,25 @@ Tabula treats NPCs the same as every other character. Make a character sheet for
 ![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
 
 ## Checks
-When conflict occurs during roleplaying the fairest way to resolve it most times is by rolling a skill-check. A skill-check is where one of a character's skills is tested against a subjective difficulty determined by the storyteller based on flavor and story elements. Each level a character has in a skill will give them one d6 towards the check. The target difficulty is typically 5 and can be modified. Each die is rolled and if a character gets any successes among their dice pool the check is a success.
+When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. Tell the storyteller what you want to do with your skill and feel free to be specific. The storyteller will set a subjective difficulty (target number) for the action. Roll a number of dice equal the skill's level. If any beat the target number you pass the check and what you described happens.
+> If Sam wants to stab a goblin and sam has a `fencing` skill of 5, Sam would say "I want to skewer the goblin through the heart with my rapier!". The storyteller tells him "that will be hard" which means the target number is 6. If any one of Sam's 5 dice come up as a 6, Sam kills the goblin.
 
 ### Difficulty
-The difficulty of a skill check can be modified by a number of things. A character's flavor, other characters, and the world itself can all cause a skill-check to become easier or harder. The storyteller decides if any of these things is meaningful enough to make the roll easy or hard. What this means for the check is that the target number for the success of an individual die changes based on the subjective difficulty. The usual difficulty is 5 meaning 5's and 6's are successes. For hard checks only 6's are successes. For easy checks 4's, 5's, and 6's are all successes. Checks with a difficulty of impossible are automatic failures and checks with a difficulty of trivial are automatic successes.
+The storyteller can assign a check five different difficulties: Trivial, Easy, Normal, Hard, and Impossible. The difficulty of a skill check can be modified by flavor, context, or the innate ease or difficulty of the action itself. The storyteller decides if any of these things is meaningful enough to change the difficulty. The subjective difficulty of a roll translates directly to a target number, meaning when you roll a check only dice that are greater than or equal to the target number count as successes. The players can challenge the difficulty the storyteller has prescribed if they wish. If this happens everyone votes on the desired difficulty and the storyteller wins ties.
+| Difficulty    | Trivial        | Easy | Normal | Hard | Impossible     |
+| ------------- | -------------- | ---- | ------ | ---- | -------------- |
+| Target Number | Automatic Pass | 4    | 5      | 6    | Automatic Fail |
 
-### Nested Checks (decide and fix)
-If a character is trying to do two things at once, juggling while doing a backflip for instance, just increase the difficulty. If a player is doing two things that are radically different, that is the appropriate time to make two skill checks. (Doing a backflip and casting a spell). Only make one check for each action. Backflipping down some stairs while shooting a gun would normally be a nested check and honestly it should be. Make the checks fail individually and succeed individually if possible. So I guess nest checks, but only for the combination of movement and major actions. Maybe?
-
-### Magnitude of Success
-When a character succeeds at a check sometimes this is not enough to determine success or failure. This happens most often in contests between multiple characters like races and contests of strength. It can also color the following narration of a check if a character gets a large magnitude of success on a typical check. Anyway, to get magnitude of success a character has to succeed. The number of successes on the dice is their magnitude of success.
+### Nested Checks
+When you want to perform an action involving multiple different skills you might have to make a nested skill check. What this means is that you roll a check for each skill involved and if any of them fail the action fails. If they all succeed the action succeeds.
+> To back flip down some stairs while shooting a fireball up the stairs you would need to pass both `acrobatics` and `fire magic` checks.
 
 ### Contests
-For contests rather than just looking at whether or not a character succeeded look at the magnitude of success. Magnitude of success is how many successes were rolled on the contest check. The character with the most wins the contest.
-Examples of contests include arm wrestling and racing. Characters can tie contests.
+Contests are where two or more characters are trying to be best at some action. The problem comes in that there is a good chance both characters will succeed and so we must use magnitude of success to determine the winner of the contest. You only need one success to pass a skill check. Any successes beyond one contribute to magnitude of success. The character with the highest magnitude of success wins the contest.
+> Racing, feats of strength, public debates, drinking contents, and gambling are all common contests.
 
 ### DTMS Checks
-There is one special kind of die that the storyteller will make frequently. These are DTMS (Does this make sense?) checks. They don't use dice. This is just the storyteller deciding if something is possible within the world or not.
+There is one special kind of check that the storyteller will make frequently. These are DTMS checks which stands for "Does this make sense?" They don't use dice and they aren't a check in thr traditional sense. DTMS checks are just a way for me to shorthand the idea "use your brain to decide if this should be allowed or not."
 
 ## Character Point Acquisition
 Character points are given by the storyteller at character creation, for heroic, or at the end of sessions. The storyteller should keep a running total on the setting document of how many CP have been given out to the group.
