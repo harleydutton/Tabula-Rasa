@@ -4,12 +4,10 @@
 
 > Distributed CP: 40
 
-> Mandatory Skills:
-- Body, Mind, Spirit, Social
-- People seem to be confused. You shouldn't be using these. You should have at most 3-4 in any given mandatory skill. Don't expect to be able to use a mandatory skill if a more applicable skill exists. If you have a 0 in lying and a 6 in social you automatically fail to lie if the lie is anything other than trivial.
+> Mandatory Skills: Body, Mind, Spirit, Social
 
 > Available Skills:
-Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship, Fire Magic, Sense Emotion, Necromancy, Seeing, Hearing, etc.
+Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship, Fire Magic, Sense Emotion, Necromancy, Seeing, Hearing, etc., and many more. This is out of date. I will update it after next session.
 
 ### Store:
 | Trivial       | Minor    | Major       | Impossible |

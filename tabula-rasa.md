@@ -53,7 +53,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
   - [Checks](#checks)
     - [Difficulty](#difficulty)
     - [Nested Checks (decide and fix)](#nested-checks-decide-and-fix)
-    - [Gambits](#gambits)
     - [Magnitude of Success](#magnitude-of-success)
     - [Contests](#contests)
     - [DTMS Checks](#dtms-checks)
@@ -237,9 +236,6 @@ The difficulty of a skill check can be modified by a number of things. A charact
 
 ### Nested Checks (decide and fix)
 If a character is trying to do two things at once, juggling while doing a backflip for instance, just increase the difficulty. If a player is doing two things that are radically different, that is the appropriate time to make two skill checks. (Doing a backflip and casting a spell). Only make one check for each action. Backflipping down some stairs while shooting a gun would normally be a nested check and honestly it should be. Make the checks fail individually and succeed individually if possible. So I guess nest checks, but only for the combination of movement and major actions. Maybe?
-
-### Gambits
-Gambits are where you make a deal with the storyteller to modify the the difficulty of a check, the pass-effect, and the fail-effect. You might ask for something special to happen on a success in exchange for an increase in difficulty.
 
 ### Magnitude of Success
 When a character succeeds at a check sometimes this is not enough to determine success or failure. This happens most often in contests between multiple characters like races and contests of strength. It can also color the following narration of a check if a character gets a large magnitude of success on a typical check. Anyway, to get magnitude of success a character has to succeed. The number of successes on the dice is their magnitude of success.
