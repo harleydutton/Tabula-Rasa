@@ -53,7 +53,7 @@ Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship
 - Aris is a large dry wasteland sustained by a clan of water mages. 
 - Kragstoff is an intermittently shady city run by a militant authoritarian society. 
 - Rivilin is a small, lush, swampy, utopia. 
-- The Dark is where all the nasty things live. Stay out of the dark.
+- The Dark is where all the nasty things live. Stay out of the dark. Some claim the dark has a life of its own.
 
 > Geographic Description:
 - The sky is black and the sun never moves. In fact you can see multiple sunbeams in the distance that do not appear to be coming from the same place. Where the sun does not shine there is darkness.

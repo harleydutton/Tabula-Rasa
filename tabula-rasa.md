@@ -2,24 +2,20 @@
 ![titlePage.png not found](titlePage.png "Title Page")
 
 # Introduction
-Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying game that lets players create their own skills.
+Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying game that lets players create their own skills and add to the setting easily.
 
 The worldbuilding framework produces a Setting. Settings are short, standardized, and easily sharable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
 
 The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the Setting and start playing very quickly!
 
-## getting started (rewrite me to be useful)
-The storyteller should go take a look at the setting section and make sure they understand settings. Then the storyteller will need to make a setting or find one online.
-The players should go take a look at character creation and begin creating characters using the setting your storyteller has provided you with.
-
-## How to Play (maybe remove this section or merge with something?)
-One person, the storyteller, will present a world and a story. The storyteller should review the Setting section and make sure they understand Settings. The storyteller can use a world, or setting, of their own design or one from popular media.  The [setting](#setting) section has more details on what you can expect from this fictitious world. The storyteller is also responsible for giving the world life. They plan out scenes between players and NPCs, provide the decisions and voice acting for NPCs, and narrate events in the world to drive the story they have planned.
-
-The rest of the party in a roleplaying game are players. Typically, players will create a character for the game. See the [character_creation](#character-creation) section for help with this. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions within the fictitious realm of the story. The players should look at character creation and begin creating characters using the Setting your storyteller has provided.
-
+## Getting Started
 A night of roleplaying usually lasts anywhere from two to six hours and includes a variety of scenes: Exhilarating chases, nail-biting espionage, terrifying battles, grand speeches, descriptions of exotic lands, and of course joking around in and out of character are all hallmarks of good roleplaying.
 
-Most good stories include conflict. This will usually end up being between the the player-characters and either NPCs or some other element in the story. When a conflict arises, resolve it by rolling a skill-check. Please see the [checks](#checks) section for help with this.
+One player will need to be the storyteller. The storyteller is largely responsible for running the game. A storyteller's responsibilities include setting up scenes between characters, planning and narrating events that drive the story, roleplaying NPCs, setting check difficulties, and managing the setting. Once a storyteller is chosen they should go take a look at the [setting](#setting) section and either create or find a setting for their story.
+
+Everyone else will be a player. Players should go straight to the [character_creation](#character-creation) section and begin creating characters using the setting provided by the storyteller. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions in the story.
+
+Most good stories include conflict. Once you have a storyteller, a setting, a story, and a character for each player you will need to know how to resolve conflicts. Conflicts are usually between characters and when they arise they can be resolved by rolling [checks](#check). Everyone should make sure they understand how checks work.
 
 ## Legend
 - examples of specific skills and flavor will be `monospace` in-line
@@ -30,8 +26,7 @@ Most good stories include conflict. This will usually end up being between the t
 <!-- TOC -->
 
 - [Introduction](#introduction)
-  - [getting started (rewrite me to be useful)](#getting-started-rewrite-me-to-be-useful)
-  - [How to Play (maybe remove this section or merge with something?)](#how-to-play-maybe-remove-this-section-or-merge-with-something)
+  - [Getting Started](#getting-started)
   - [Legend](#legend)
   - [Table of Contents](#table-of-contents)
 - [Systems](#systems)

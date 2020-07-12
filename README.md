@@ -2,7 +2,6 @@
 ## About
 This README is not intended to be part of Tabula Rasa. Instead it is a meta-document for tracking design, philosophy, formatting, and tasks. Created by Harley Dutton.
 
-### From the Intro:
 Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying game that lets players create their own skills.
 
 The worldbuilding framework produces a Setting. Settings are short, standardized, and easily sharable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
@@ -32,15 +31,11 @@ The roleplaying system is generic so it will work with any Setting produced by t
 |                    |                          |
 
 ### Outstanding problems
-THE RELATED SKILLS PROBLEM: how do you take new skills or make new characters in the system where skills level up independently? What if a character wants a skill similar to one of their existing skills but different? How do you make new characters or replacements when one dies in game? Elder scrolls leveling is messy...
-
-THE CRAFTING PROBLEM: Either items have numbers (NO) or magnitude of success has no bearing on the item being created. This is okay if the player creating the item is specific about what they want and this modifies the difficulty.
-
-THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get to inflict bad flavor when does a character die? When they have a certain number of bad flavors? Who determines what flavor can be added to a character? Perhaps we should just have health? How do you determine when a character has accumulated enough flavor that they are unconscious or dead? This can probably be solved by saying "no giving immediately lethal flavor", "unconscious/downed characters can be coup de gra'ed", and adding a subjective system for when a character has a shit-pile of wounds they should probably go down. Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed. When attacking is impossible a character can be considered impotent and initiative can be dropped.
-
+DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would kill them. use DTMS checks) When they have a certain number of bad flavors? (no, not by number) Who determines what flavor can be added to a character? (called shots, the player) Perhaps we should just have health? (no) How do you determine when a character has accumulated enough flavor that they are unconscious or dead? (DTMS check) This can probably be solved by saying the difficulty for giving immediately lethal flavor will usually be high against non-mooks unless you have silver bullets. Unconscious, sleeping, incapacitated, downed, etc. characters can be killed outright. When a character achieves the downed status from wounds is based on a DTMS check I guess? Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed? When attacking is impossible a character can be considered impotent/incapacitated and initiative can be dropped.
 
 ## To-Do
 - merge the stealth and lying sections. should become "deception and perception"
+- add a thing to checks about voting for difficulty
 - setting
   - add an example image/table for the store
   - add an example image for a whole setting doc
@@ -54,7 +49,6 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
   - define flavor better
 - formatting
   - format things using legend
-  - make sure all formatting options appearing in the legend can be in a list so the legend looks less crazy and random.
   - put headings in title case
 - polish
   - make the voice consistent ie. always speak to player
@@ -62,12 +56,6 @@ THE WOUNDS AND DEATH PROBLEM: If we are saying MoS on attack rolls means you get
   - add grammar check plugin (or just run a grammar check?)
   - make the images non-shit
   - export as PDF
-
-
-## Legend
-examples of specific skills and flavor will be `monospace` in-line
-> larger examples will be quoted and appear under the relevant section with no header.
-
 
 ## formatting options
 <!--html style comment-->
