@@ -35,7 +35,6 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
 
 ## To-Do
 - merge the stealth and lying sections. should become "deception and perception"
-- add a thing to checks about voting for difficulty
 - setting
   - add an example image/table for the store
   - add an example image for a whole setting doc
