@@ -67,7 +67,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Trivial Purchases](#trivial-purchases)
     - [Minor Purchases](#minor-purchases)
     - [Major Purchases](#major-purchases)
-    - [Unreachable Purchases](#unreachable-purchases)
+    - [Impossible Purchases](#impossible-purchases)
   - [Perception and Hidden Information (have this section consume the stealth and lying sections)](#perception-and-hidden-information-have-this-section-consume-the-stealth-and-lying-sections)
   - [Stealth and Perception (fill me out!)](#stealth-and-perception-fill-me-out)
     - [Perception](#perception)
@@ -283,26 +283,40 @@ All other skills are available skills. The cost to level is the desired level in
 | CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
 | Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
 
--------
--------
--------
--------
--------
-
 ## Money
-In Tabula, money is represented even more abstractly than usual as flavor. Before we get into that lets talk about how money spends in roleplaying games. A simple breakdown of prices would be to say that things can be non-numerically priced as trivial, minor, major, unreachable. The legality and availability of items will vary with the story. It is intended that minor and major purchases be acquired through roleplaying.
+In Tabula money has been abstracted away as annoying bookkeeping. Many common items will be effectively free. When you actually have money it will usually be the flavor `minor purchase` or less commonly a `major purchase`. These purchases can be roleplayed as being whatever the native currency of the world is be it gold coins, bank notes, or space-bucks. To understand how these purchases will spend take a look at the store chart on your setting.
+
+> This is the store from Sequoia, the example setting. 
+
+| Trivial       | Minor    | Major       | Impossible |
+| ------------- | -------- | ----------- | ---------- |
+| food          | armor    | training    | metal      |
+| water         | weapons  | ironwood    |            |
+| torches       | tools    | land        |            |
+| entertainment | animals  | vehicles    |            |
+| consumables   | luxuries | medicine    |            |
+| lodging       | meat     | AEther      |            |
+| booze         | jewelry  | magic items |            |
+| clothes       |          | allies      |            |
+| materials     |          | boons       |            |
 
 ### Trivial Purchases
-Trivial purchases are things like food, clothes, entertainment, ammunition, and gasoline that should typically be available to the players with little fuss. Trivial purchases are small enough that players don't have to keep track of the money used for trivial purchases at all. It is assumed that characters have either income or savings from which they spend to pay for their trivial purchases with no meaningful net gain or loss. (w00t communism; w00t privilege).
+Many common things characters will need are effectively free. The idea here is that each character has some way of paying for their adventures--usually a day-job or some savings--and they dip into this during the adventure and replenish it during downtime such that it comes out in the wash. Typically food, clothes, ammo, and lodging end up on the list of trivial purchases but a storyteller might want to make you sweat by making one of your basic needs non-trivial.
 
 ### Minor Purchases
-Next, minor purchases are things like tools, weapons and armor, vehicles, medicine, and jewelry. Minor purchases are typically worth one CP and should be represented as the flavor `minor purchase`. A character can have multiple of the `minor purchase` flavor.
+The idea behind minor purchases is that while they aren't everyday purchases they are easy to get. Tools, weapons, vehicles, jewelry, and luxuries all typically fall into this category. You can convert your character's character points into minor purchases at a one-for-one ratio but you cannot typically convert them back. The `minor purchase` flavor can be used to pay for goods and services under the "minor" column of the setting's store. A character can multiple copies of the `minor purchase` flavor.
 
 ### Major Purchases
-Major purchases are just like minor purchases except they can purchase more expensive things. Major purchases can typically purchase companies, elite training, houses, spaceships and the like. Major purchases should be represented as the flavor `major purchase` as many times as is necessary.
+Major purchases are very similar to minor purchases except that they are worth more. Typically, to obtain a major purchase, you will have to give the storyteller a hook for your character or give up a boon. The `major purchase` flavor can be used to pay for things in the "major" column of the setting's store. Leadership of an organization, elite training, property, and spaceships are all roughly the same value as the flavor `major purchase`. Furthermore, major purchases can also be used to be used to pay off hooks or purchase new boons.
 
-### Unreachable Purchases
-Lastly and of least importance we have unreachable purchases. unreachable purchases are things that are so expensive that no character has any hope of ever purchasing them.
+### Impossible Purchases
+Lastly and of least importance we have impossible purchases. There isn't much to say here really. You typically can't obtain these things for one reason or another. They might be illegal, one-of-a-kind, insanely expensive, or simply non-existent in the setting.
+
+-------
+-------
+-------
+-------
+-------
 
 ## Perception and Hidden Information (have this section consume the stealth and lying sections)
 
@@ -428,10 +442,10 @@ Mandatory skills are those that every character must have to be make sure they w
 A couple of initial questions players usually have when they are making characters in a new setting are "Is there magic?" and "What is the technological level?" and for this reason the answers to these questions should be on the setting. They are commonly asked, important, and usually easy to answer. If there is any fictitious magic in the setting it should be described here.
 
 ## Store
-First off *the* store doesn't really exist after character creation. Characters will have to go stores in the story to purchase things listed on *the* store. Going to *a* store within the story rather than *the* store will drastically affect what is available for sale and maybe even what it is legal to trade. This is all subject to DTMS checks and storyteller approval after character creation. Anyway, *the* store is set up as a series of priced columns. The flavor section describes the purchasing power of various pieces of flavor-money, also known as AUTs. The columns should be "Trivial", "Minor", "Major", and "unreachable/Unreachable?". Trivial purchases are effectively free, minor purchases are worth one CP, major purchases need to be roleplayed for or a deal needs to be struck, and unreachable purchases are typically too expensive to ever purchase. Unreachable purchases may become available through roleplaying. The columns of the store should all have things characters can purchase in/under them.
+First off *the* store doesn't really exist after character creation. Characters will have to go stores in the story to purchase things listed on *the* store. Going to *a* store within the story rather than *the* store will drastically affect what is available for sale and maybe even what it is legal to trade. This is all subject to DTMS checks and storyteller approval after character creation. Anyway, *the* store is set up as a series of priced columns. The flavor section describes the purchasing power of various pieces of flavor-money, also known as AUTs. The columns should be "Trivial", "Minor", "Major", and "impossible". Trivial purchases are effectively free, minor purchases are worth one CP, major purchases need to be roleplayed for or a deal needs to be struck, and impossible purchases are typically too expensive to ever purchase. Impossible purchases may become available through roleplaying. The columns of the store should all have things characters can purchase in/under them.
 <!-- everything below from the storyteller section on store/money-->
-Money in Tabula is handled with things called AUCs. An AUC is an arbitrary unit of currency. In this game an AUC might be 1000 spacebucks or $10 or an ounce of gold. The point is that it is money. The way Tabula organizes money is so that you don't have to do much bookkeeping with your money. Groupings of AUCs form different levels of purchasing power. One AUC is one minor purchase. Three AUCs are a major purchase. There are 4 tiers of purchasing power. The first is trivial, then minor, major, and unreachable. To ground this in the real human world trivial purchases are things like food, beer, candy, ammo, clothes, or entertainment. A minor purchase would be things that cost more like guns, cars, specialized tools, computers, or medicine. Major purchases would be things like houses, companies, famous art, fancy cars, or a college education. A unreachable purchase is one that you simply cannot buy right now because it is either far to expensive or it is unavailable.
-I think to actually make the store on the setting it should be the four columns with various goods underneath them. (columns are trivial, minor, major, and unreachable)
+Money in Tabula is handled with things called AUCs. An AUC is an arbitrary unit of currency. In this game an AUC might be 1000 spacebucks or $10 or an ounce of gold. The point is that it is money. The way Tabula organizes money is so that you don't have to do much bookkeeping with your money. Groupings of AUCs form different levels of purchasing power. One AUC is one minor purchase. Three AUCs are a major purchase. There are 4 tiers of purchasing power. The first is trivial, then minor, major, and impossible. To ground this in the real human world trivial purchases are things like food, beer, candy, ammo, clothes, or entertainment. A minor purchase would be things that cost more like guns, cars, specialized tools, computers, or medicine. Major purchases would be things like houses, companies, famous art, fancy cars, or a college education. A impossible purchase is one that you simply cannot buy right now because it is either far to expensive or it is unavailable.
+I think to actually make the store on the setting it should be the four columns with various goods underneath them. (columns are trivial, minor, major, and impossible)
 
 ## Tone
 It is typically a good idea to set expectations for the tone of the story such that people have the same expectations for the game and those expectations are met. It can ruin a scary horror campaign to have a bunch of goofy shit happening all the time. It can ruin a serious campaign to have a character named reginald fuck-hammer. Siilarly it can ruin a goofy space-romp to have a character with a depressing or sinister history.
