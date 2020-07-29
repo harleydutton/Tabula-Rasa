@@ -73,10 +73,11 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Undetected](#undetected)
     - [Suspicious](#suspicious)
     - [Detected](#detected)
-  - [Persuasion, Willpower, and Motivations (Fill me out)](#persuasion-willpower-and-motivations-fill-me-out)
-    - [Persuasion](#persuasion)
-    - [Motivations](#motivations-1)
-    - [Willpower](#willpower)
+  - [Influence](#influence)
+    - [Social Influence](#social-influence)
+    - [Mental Influence](#mental-influence)
+    - [Difficulty](#difficulty-1)
+    - [Resisting](#resisting)
   - [Combat](#combat)
     - [Rolling Initiative](#rolling-initiative)
     - [Turns](#turns)
@@ -114,7 +115,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Character name](#character-name)
   - [Action Delay](#action-delay-2)
   - [Character Points](#character-points-1)
-  - [Motivations](#motivations-2)
+  - [Motivations](#motivations-1)
   - [Skills](#skills-1)
     - [Mandatory Skills](#mandatory-skills-2)
     - [Available Skills](#available-skills-1)
@@ -166,7 +167,7 @@ This is a good place to describe your character's gender, age, weight, build, he
 Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak lets not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Most flavor costs one CP at character creation or one hook for those which are particularly powerful. More flavor can be obtained or inflicted later on in the game.
 
 ### Hooks and Boons
-Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor. The storyteller must agree to grant you the boon you want or a generic boon for the hook you are offering; be reasonable. Speaking of generic boons, boons can be saved and used later. Generic boons can be converted to major purchases.
+Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor. The storyteller must agree to grant you the boon you want or either of the `boon` and `major purchase` flavors for the hook you are offering; be reasonable. The flavors `boon` and `major purchase` are equal in value and can be converted. Speak with your storyteller to trade these flavors for boons or things from the major purchase column of the setting's store.
 
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
@@ -317,28 +318,42 @@ Undetected is a state for the thief's hidden info and represents that the thief 
 > Actions to hide information: Lying, moving silently, putting on a disguise, setting a trap, picking a pocket, etc.
 
 ### Suspicious
-Suspicious represents the state where the guard knows the assassin's hidden information exists but doesn't have it. At this point the guard can start making checks to attempt to uncover the hidden info. Pass or fail, when the guard stops looking for the information they should be considered unsuspicious. The guard might use `seeing`, `hearing`, some extra-sensory perception skill, a domain-specific skill like `animal handling`, or a mandatory skill to try and detect the hidden information.
+Suspicious represents the state where the guard knows the thief's hidden information exists but doesn't have it. At this point the guard can start making checks to attempt to uncover the hidden info. Pass or fail, when the guard stops looking for the information they should be considered unsuspicious. The guard might use `seeing`, `hearing`, some extra-sensory perception skill, a domain-specific skill like `animal handling`, or a mandatory skill to try and detect the hidden information.
 > Reasons to become suspicious: Nervous stuttering, heard a noise, clothes don't fit well, saw a wire, felt something in pants, etc.
 
 ### Detected
-The assassin's hidden information has been detected by the guard. No further checks need to be made and the situation can be played out.
-> Discovered the assassin's lie, saw the assassin sneaking up, saw through the assassin's disguise, saw the assassin's trap, etc.
+The thief's hidden information has been detected by the guard. No further checks need to be made and the situation can be played out.
+> Discovered the thief's lie, saw the thief sneaking up, saw through the thief's disguise, saw the thief's trap, etc.
 
 -------
 -------
+
+<!-- 
+I think I need to combine Social Influence and Mental Influence into the top level section and describe them and the common uses.
+I think the section Influence needs to define the how-to of all this. make a check, if you pass, the desired character tries to do the desired thing unless they resist.
+the difficulty and resistance sections should exist and remain mostly unchanged...
+-->
+
+
+## Influence
+When one character uses a skill to make another character do something that character is exerting their influence. These situations can quickly break the game or make it unenjoyable unless there is counter play. This sections defines a system for resolving these situations. Lets define the salesman as the character exerting influence and the rube as the character being influenced.
+
+### Social Influence
+Social influence is when the salesman uses their demeanor and skill with words to convince the rube to do their will. The skills `persuasion`, `seduction`, `bartering`, and `intimidation` are the common examples. Social influence is strongly affected by the rube's [motivations](#motivations) and frequently goes without resistance. When social influence is resisted the mandatory skill `social` is what is typically used.
+
+### Mental Influence
+Mental influence is when a character uses magic or some other plot device to subvert the will of the rube. The best example is `mind control` but others are `madness` and `emotion magic`. The rube's motivations are of little relevance in situations of mental influence and the mandatory skill `mind` is almost always used to resist mental influence. 
+
+### Difficulty
+Before any rolls are made the storyteller should determine what the rube's motivations are. The rube's [motivations](#motivations) will probably change the difficulty of the salesman's influence check and the rube's check to resist said influence. By default, the difficulty should be revealed but it doesn't have to be revealed before, or even after, the check is made.
+
+<!-- the rube's motivations should only effect one of the rolls. Which one... I think the resistance roll? maybe just make it clear that it should only be one and that the resistance rolls are there as a check/balance. eh, idk. fuck it, bedtime. -->
+
+### Resisting
+If the rube doesn't want to do what the salesman wants them to do they have the option to resist. This is done by rolling a check. Characters do not commonly have skills just for resisting influence because `stubbornness` is a silly skill to have. Instead to resist social influence from skills like `persuasion`, `seduction`, and `bartering` the check is made using the mandatory skill `social`. Similarly to resist mental influence from skills like `mind control`, `madness`, and `emotion magic` the check is made using the mandatory skill `mind`. Rubes do not have to resist influence if they don't want to.
+
 -------
 -------
-## Persuasion, Willpower, and Motivations (Fill me out)
-
-### Persuasion
-Persuasion is a mandatory skill in most settings. It is any character's ability to persuade another character to do something. It is resisted by willpower and the difficulty of both rolls is strongly affected by motivations. If a character tries to persuade another based on something that isn't true, that action might require a deception roll in addition to the perception check, or it might just increase the difficulty of the perception check. It depends on how suspicious the mark is of the false information.
-
-### Motivations
-Motivations are what a character wants. These are a characters dreams, long term goals, morality, and fears. Some examples of motivations are `family legacy`, `money`, `serving the gods`, `following the law`, `afraid of spiders`, `pride`, and many many more. Motivations strongly influence the difficulty of most persuasion and willpower rolls.
-
-### Willpower
-You can only defend if you know you are being attacked. if we have attributes all characters get a check against persuasion. otherwise they don't unless they have a relevant skill. Mandatory skills make this a lot better. Everyone has to have the `willpower` skill perhaps?
-this is a good time to mention that when you try to convince a character of something they don't _have_ to be convinced. instead they can thing about it a bit and roll some relevant "resist persuasion" rolls which probably uses __willpower__. It is worth noting that not every persuasion roll needs an accompanying willpower roll to resist it. Sometimes a character has no reason to attempt to rest a persuasion roll.
 
 ## Combat
 <!-- this should be a BRIEF description of combat and a more lengthy description of why it is necessary -->
