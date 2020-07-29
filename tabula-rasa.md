@@ -68,18 +68,12 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Minor Purchases](#minor-purchases)
     - [Major Purchases](#major-purchases)
     - [Impossible Purchases](#impossible-purchases)
-  - [Perception and Hidden Information (have this section consume the stealth and lying sections)](#perception-and-hidden-information-have-this-section-consume-the-stealth-and-lying-sections)
-  - [Stealth and Perception (fill me out!)](#stealth-and-perception-fill-me-out)
-    - [Perception](#perception)
-    - [Hidden](#hidden)
-    - [Alerted](#alerted)
-    - [Detected](#detected)
-    - [Surprise](#surprise)
-  - [Lying](#lying)
+  - [Hidden Information](#hidden-information)
+    - [Unsuspicious](#unsuspicious)
+    - [Undetected](#undetected)
     - [Suspicious](#suspicious)
-    - [Fooled](#fooled)
-    - [Caught](#caught)
-  - [Persuasion, Willpower, and Motivations](#persuasion-willpower-and-motivations)
+    - [Detected](#detected)
+  - [Persuasion, Willpower, and Motivations (Fill me out)](#persuasion-willpower-and-motivations-fill-me-out)
     - [Persuasion](#persuasion)
     - [Motivations](#motivations-1)
     - [Willpower](#willpower)
@@ -312,45 +306,29 @@ Major purchases are very similar to minor purchases except that they are worth m
 ### Impossible Purchases
 Lastly and of least importance we have impossible purchases. There isn't much to say here really. You typically can't obtain these things for one reason or another. They might be illegal, one-of-a-kind, insanely expensive, or simply non-existent in the setting.
 
--------
--------
--------
--------
--------
+## Hidden Information
+Hidden information in roleplaying games can range from lying, to sneaking up on someone, to hiding things. Hidden info is a source of tension and surprise but resolving can be tricky. The way I like to think about it there are two roles when talking about hidden information. One is the thief, the character going around hiding information. The other is the guard, the character trying to discover this information. The information the thief hides can be undiscovered or discovered. The guard can be suspicious or unsuspicious. Because it will almost certainly come up, it is worth noting that the difficulty of checks related to hidden information should be disclosed by default but doesn't have to be revealed before or even after the check is made. Whenever the thief wishes to hide info or change hidden info they need to make a check.
 
-## Perception and Hidden Information (have this section consume the stealth and lying sections)
+### Unsuspicious
+Unsuspicious is a state for the guard and represents that the guard does not know the hidden information and doesn't even know it exists. This is the default state for every character.
 
-## Stealth and Perception (fill me out!)
-This should probably be combined with the lying section...
-
-### Perception
-Perception can be rolled any time a character becomes suspicious and would like to look around for something. Typical skills for perception are `seeing` and `hearing` though more interesting ones are common in high magic and high tech settings. The storyteller can also indicate that a player should roll a spot check or simply give players information without a check. There is no passive perception in Tabula. Characters attempting to hide can slip up and do something that is perceptible or a spot check can be trivially easy but there is no passive perception. To roll a perception check declare what you are looking for as vaguely or as specifically as you like, get the subjective difficulty from the storyteller, roll the check, and stand by the result.
-
-### Hidden
-Being hidden is the typical starting state for a stealth scene. If one character is hidden, other characters don't know they are there. Whenever they want to make actions they will have to roll stealth checks to avoid alerting other characters.
-
-### Alerted
-Alerted characters are those who have seen, heard, smelled, or sensed something strange and are going to look around for it. They can make various perception checks like investigation, searching, seeing, smelling, etc. to try and uncover hidden things and characters. If an alerted character succeeds at their check to detect a hidden character then the hidden character goes from hidden to detected. Use DTMS checks for taking characters out of the alerted state. The NPCs will probably eventually get bored if they don't find anything.
-
-### Detected
-Detected characters are no longer hidden or in stealth. Everyone can interact with them normally or as though their location is known. Whether one character can detect another is strongly dependant on DTMS checks. A blind man can't detect anyone precisely but he can be alerted and alert other character. A character with ESP can probably sense characters through stealth even if they didn't fail any stealth checks which would have alerted the character with ESP.
-
-### Surprise
-When a character or synchronized group of hidden characters start a combat they start on turn 0 at the very beginning of the initiative track. Other characters roll for initiative in the usual way.
-
-## Lying
-In Tabula, lying is defined as trying to get other characters to believe information that is not true or at the very least to get other characters to believe that you believe that information. This is not persuasion. Mechanically, lying is resisted in an entirely different way from persuasion and more closely resembles stealth. Where persuasion is resisted by willpower lying has no specific resistance roll or skill. Instead it is always resisted by knowledge and DTMS checks. Characters may become suspicious if your lie isn't good enough or they may happen to know the truth and can catch you in the lie immediately. As a point of order IRL it is night impossible to detect lying, but it is possible to tell if someone is uncomfortable or something like that when certain topics are brought up. If you are trying to convince a character to act on untrue information you might need to make both lying and persuasion checks. If you don't have to make a lying check the lie might factor into the difficulty of the persuasion check.
+### Undetected
+Undetected is a state for the thief's hidden info and represents that the thief has successfully hidden it and that the guard might know it exists but hasn't detected it. When the thief wants to hide info or change hidden info, if there is a guard who could detect them, they need to pass a relevant check. `Lying`, `stealth`, `disguise`, `traps`, `pickpocket`, etc. are skills they might use.
+> Actions to hide information: Lying, moving silently, putting on a disguise, setting a trap, picking a pocket, etc.
 
 ### Suspicious
-When a character is suspicious they don't know you are lying but things don't quite add up and they want more information. If you fail on your lying check characters typically become suspicious and begin looking for more information so they can get to the truth (if they care).
+Suspicious represents the state where the guard knows the assassin's hidden information exists but doesn't have it. At this point the guard can start making checks to attempt to uncover the hidden info. Pass or fail, when the guard stops looking for the information they should be considered unsuspicious. The guard might use `seeing`, `hearing`, some extra-sensory perception skill, a domain-specific skill like `animal handling`, or a mandatory skill to try and detect the hidden information.
+> Reasons to become suspicious: Nervous stuttering, heard a noise, clothes don't fit well, saw a wire, felt something in pants, etc.
 
-### Fooled
-When you have fooled a character they have effectively accepted the false information you have presented. They will operate on this naturally. If they find something that contradicts this information they will become suspicious. A fooled character will not typically look for the truth of things because they believe they have found it.
+### Detected
+The assassin's hidden information has been detected by the guard. No further checks need to be made and the situation can be played out.
+> Discovered the assassin's lie, saw the assassin sneaking up, saw through the assassin's disguise, saw the assassin's trap, etc.
 
-### Caught
-When a character catches you in a lie you are caught. They will act as though the information you have presented is false and as though you were trying to deceive them. They may go as far as to tell other characters about your deception.
-
-## Persuasion, Willpower, and Motivations
+-------
+-------
+-------
+-------
+## Persuasion, Willpower, and Motivations (Fill me out)
 
 ### Persuasion
 Persuasion is a mandatory skill in most settings. It is any character's ability to persuade another character to do something. It is resisted by willpower and the difficulty of both rolls is strongly affected by motivations. If a character tries to persuade another based on something that isn't true, that action might require a deception roll in addition to the perception check, or it might just increase the difficulty of the perception check. It depends on how suspicious the mark is of the false information.
