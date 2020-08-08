@@ -19,6 +19,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
 
 ## Legend
 - examples of specific skills and flavor will be `monospace` in-line
+- section specific keywords will be in **bold**
 - sections will be referenced using [links](#legend)
 - > larger examples will be quoted and appear under the relevant section with no header.
 
@@ -75,9 +76,11 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Detected](#detected)
   - [Influence](#influence)
     - [Social Influence](#social-influence)
+      - [Difficulty](#difficulty-1)
+      - [Resistance](#resistance)
     - [Mental Influence](#mental-influence)
-    - [Difficulty](#difficulty-1)
-    - [Resisting](#resisting)
+      - [Difficulty](#difficulty-2)
+      - [Resistance](#resistance-1)
   - [Combat](#combat)
     - [Rolling Initiative](#rolling-initiative)
     - [Turns](#turns)
@@ -212,7 +215,7 @@ Many times, players will try to create skills that are much too broad in scope. 
 
 #### Limiting Factors
 If you create a skill with appropriate scope that is just too powerful for the setting or story your storyteller may inflict a few limiting factors upon the skill you have proposed or your character.
-> @Storyteller: A few good limiting factors are timing restrictions(requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.).
+> @Storyteller: A few good limiting factors are timing restrictions(requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), context restrictions (must have line of sight, must have eye contact, must be touching the target, must have a piece of the target, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.).
 
 #### Uniqueness
 When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to a balanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
@@ -222,6 +225,8 @@ Tabula treats NPCs the same as every other character. Make a character sheet for
 
 ### Printable Character Sheet
 ![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
+
+***
 
 ## Checks
 When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. Tell the storyteller what you want to do with your skill and feel free to be specific. The storyteller will set a subjective difficulty (target number) for the action. Roll a number of dice equal the skill's level. If any beat the target number you pass the check and what you described happens.
@@ -243,6 +248,8 @@ Contests are where two or more characters are trying to be best at some action. 
 
 ### DTMS Checks
 There is one special kind of check that the storyteller will make frequently. These are DTMS checks which stands for "Does this make sense?" They don't use dice and they aren't a check in thr traditional sense. DTMS checks are just a way for me to shorthand the idea "use your brain to decide if this should be allowed or not."
+
+***
 
 ## Character Progression
 Characters usually get stronger over the course of a story. They can acquire new skills, level up the existing ones, and get new flavor including but not limited to items, social status, and followers.
@@ -278,6 +285,8 @@ All other skills are available skills. The cost to level is the desired level in
 | CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
 | Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
 
+***
+
 ## Money
 In Tabula money has been abstracted away as annoying bookkeeping. Many common items will be effectively free. When you actually have money it will usually be the flavor `minor purchase` or less commonly a `major purchase`. These purchases can be roleplayed as being whatever the native currency of the world is be it gold coins, bank notes, or space-bucks. To understand how these purchases will spend take a look at the store chart on your setting.
 
@@ -307,6 +316,8 @@ Major purchases are very similar to minor purchases except that they are worth m
 ### Impossible Purchases
 Lastly and of least importance we have impossible purchases. There isn't much to say here really. You typically can't obtain these things for one reason or another. They might be illegal, one-of-a-kind, insanely expensive, or simply non-existent in the setting.
 
+***
+
 ## Hidden Information
 Hidden information in roleplaying games can range from lying, to sneaking up on someone, to hiding things. Hidden info is a source of tension and surprise but resolving can be tricky. The way I like to think about it there are two roles when talking about hidden information. One is the thief, the character going around hiding information. The other is the guard, the character trying to discover this information. The information the thief hides can be undiscovered or discovered. The guard can be suspicious or unsuspicious. Because it will almost certainly come up, it is worth noting that the difficulty of checks related to hidden information should be disclosed by default but doesn't have to be revealed before or even after the check is made. Whenever the thief wishes to hide info or change hidden info they need to make a check.
 
@@ -325,33 +336,36 @@ Suspicious represents the state where the guard knows the thief's hidden informa
 The thief's hidden information has been detected by the guard. No further checks need to be made and the situation can be played out.
 > Discovered the thief's lie, saw the thief sneaking up, saw through the thief's disguise, saw the thief's trap, etc.
 
--------
--------
-
-<!-- 
-I think I need to combine Social Influence and Mental Influence into the top level section and describe them and the common uses.
-I think the section Influence needs to define the how-to of all this. make a check, if you pass, the desired character tries to do the desired thing unless they resist.
-the difficulty and resistance sections should exist and remain mostly unchanged...
--->
-
+***
 
 ## Influence
-When one character uses a skill to make another character do something that character is exerting their influence. These situations can quickly break the game or make it unenjoyable unless there is counter play. This sections defines a system for resolving these situations. Lets define the salesman as the character exerting influence and the rube as the character being influenced.
+When one character uses a skill to make another character do something the first character is exerting their influence. These situations can quickly break the game or make it unenjoyable unless there is counter play. This sections defines a system for resolving these situations. For this section the **salesman** will be the character exerting influence and the **mark** will be the target of their influence.
+
+<!-- Should mental and social influence be combined? I think they should... -->
 
 ### Social Influence
-Social influence is when the salesman uses their demeanor and skill with words to convince the rube to do their will. The skills `persuasion`, `seduction`, `bartering`, and `intimidation` are the common examples. Social influence is strongly affected by the rube's [motivations](#motivations) and frequently goes without resistance. When social influence is resisted the mandatory skill `social` is what is typically used.
+Social influence is when the **salesman** uses their demeanor and way with words to convince the **mark** to do their will. The skills `persuasion`, `seduction`, `bartering`, and `intimidation` are the usual suspects.
+
+#### Difficulty
+Before the **salesman's** influence check is made the storyteller should check the mark's motivations. Social influence checks are affected by the **mark's** [motivations](#motivations) as well as flavor.
+
+#### Resistance
+Social influence is typically not resisted unless the character has a reason to do so. When influence social is resisted the mandatory skill `social`, or a more apt skill, is used to roll a check. The **mark's** [motivations](#motivations) can have an effect on this check as well.
+> A guard has obvious reasons to not tell you about the secret entrance and should resist. A child has little reason not to carry your message to the mayor when you ask him.
+
+<!-- Motivations should only effect one of the resistance and influence rolls. Not both. Do testing to determine which makes more sense. -->
 
 ### Mental Influence
-Mental influence is when a character uses magic or some other plot device to subvert the will of the rube. The best example is `mind control` but others are `madness` and `emotion magic`. The rube's motivations are of little relevance in situations of mental influence and the mandatory skill `mind` is almost always used to resist mental influence. 
+Mental influence is when a character uses magic or some other plot device to subvert the will of the **mark**. The best example is `mind control` but others are `madness`, `illusions`, and `emotion magic`.
 
-### Difficulty
-Before any rolls are made the storyteller should determine what the rube's motivations are. The rube's [motivations](#motivations) will probably change the difficulty of the salesman's influence check and the rube's check to resist said influence. By default, the difficulty should be revealed but it doesn't have to be revealed before, or even after, the check is made.
+#### Difficulty
+The **mark's** motivations are typically of little relevance in situations of mental influence. The **mark's** code of honor doesn't really come into play when they are told "go jump out a window."
 
-<!-- the rube's motivations should only effect one of the rolls. Which one... I think the resistance roll? maybe just make it clear that it should only be one and that the resistance rolls are there as a check/balance. eh, idk. fuck it, bedtime. -->
+#### Resistance
+Mental influence is almost always resisted. When the **salesman** uses `mind control` and tells the **mark** "Give me your wallet.", the **mark** probably doesn't have a relevant motivation to influence their resistance roll but will definitely want to resist. Usually the **mark** resists by rolling a check with the mandatory skill `mind` or a more apt skill. Typically this check goes unmodified unless magic items or flavor are involved.
 
-### Resisting
-If the rube doesn't want to do what the salesman wants them to do they have the option to resist. This is done by rolling a check. Characters do not commonly have skills just for resisting influence because `stubbornness` is a silly skill to have. Instead to resist social influence from skills like `persuasion`, `seduction`, and `bartering` the check is made using the mandatory skill `social`. Similarly to resist mental influence from skills like `mind control`, `madness`, and `emotion magic` the check is made using the mandatory skill `mind`. Rubes do not have to resist influence if they don't want to.
-
+-------
+-------
 -------
 -------
 

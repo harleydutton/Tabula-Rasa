@@ -34,6 +34,8 @@ The roleplaying system is generic so it will work with any Setting produced by t
 DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would kill them. use DTMS checks) When they have a certain number of bad flavors? (no, not by number) Who determines what flavor can be added to a character? (called shots, the player) Perhaps we should just have health? (no) How do you determine when a character has accumulated enough flavor that they are unconscious or dead? (DTMS check) This can probably be solved by saying the difficulty for giving immediately lethal flavor will usually be high against non-mooks unless you have silver bullets. Unconscious, sleeping, incapacitated, downed, etc. characters can be killed outright. When a character achieves the downed status from wounds is based on a DTMS check I guess? Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed? When attacking is impossible a character can be considered impotent/incapacitated and initiative can be dropped.
 
 ## To Do
+- influence
+  - try to combine mental and social influence.
 - checks
   - make it clear that the order is 1. describe action, 2. set difficulty, 2.5. optional abort if impossible or challenge if unfair, 3. roll and resolve. Make this an image
   - make it clear here, in mandatory skills, or in the skill creation section that you will often be asked to roll using a relevant skill. this means you pick the skill. if you don't have a better one use a mandatory skill.
