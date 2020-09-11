@@ -82,6 +82,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
       - [Difficulty](#difficulty-2)
       - [Resistance](#resistance-1)
   - [Combat](#combat)
+    - [Intent](#intent)
     - [Rolling Initiative](#rolling-initiative)
     - [Turns](#turns)
       - [Major Actions](#major-actions)
@@ -366,10 +367,42 @@ Mental influence is almost always resisted. When the **salesman** uses `mind con
 
 -------
 -------
+<!--
+newly proposed combat section outline
+combat (description, warning regarding death, and intended difficulty of killing blows)
+  timing
+    mechanics of the action economy and global turn ticker
+    transitions (starting, ending, changing combat)
+  actions (major, minor/move, reaction, free)
+    attacking, damage and dying (this feels like it doesn't fit well)
+  war? (too preachy? include in the intent for combat?)
+
+I think maybe just use this section to describe combat as a system for handling timed actions
+and deal with attacking and death in another (sub)section
+
+Because it affects a number of systems I think it might be a good idea to put in checks that "the last action to be rolled as a success decides what happens" or something similar. reactions beat actions, resistance beats persuasion, and seeing beats stealth.
+
+how should difficulties be formatted. update the legend.
+
+NPC     PLAYER      NPC
+sneak   perception  
+        sneak       perception
+
+Should the player always get a roll? include target difficulites for sneak?
+suggest having enemies always fail their sneak checks?
+
+-->
 -------
 -------
 
 ## Combat
+This really isn't a section describing combat, but instead a section describing any extended competitive activity within a story where timing is incredibly important. Sword and gun fights certainly fit the mould, sure, but so do a number of other things like horse races, ritual summoning gone wrong, and trying to command a fleet with light-minutes of delay. Combat in this game is based on actions and cooldowns. Despite this these rules will focus on the more traditional combat and I will leave you, dear reader, to adapt them to your competitive pie-eating contests as necessary.
+
+### Intent
+The intent of combat in this system is to be dramatic. It isn't intended to be fair, realistic, or comprehensive. It is intended to be dramatic (and fun). Like the rest of the system players can have their characters do anything they think of. This means players can say "I would like to shoot that robot in the power core" with the reasonable expectation that the robot will be incapacitated if they they pass their `shooting` check. There are two problems with this. First, suddenly gaining the `death` flavor is well and good for henchmen but big-bad-evil-guys need time to monologue and should always be dealt the `dying` flavor instead. Second, again instant death is fine for henchmen but bosses and players should be harder to kill. Typically 
+
+
+henchmen but this is not a dramatic way for bosses to go out. The intent is to make it hard to kill named characters before their defences have been lowered. Once the boss robot's force field has been shorted out with a bucket of water then can be dealt some form of the `dying` flavor at normal difficulty and finished off as an action or once combat ends. 
 <!-- this should be a BRIEF description of combat and a more lengthy description of why it is necessary -->
 Combat in Tabula, unlike many roleplaying games, is based on AUTs and action cooldowns. AUTs, or Arbitrary Units of Time, are usually around one second but can be modified to suit the scale of the battle. During combat it is the storyteller's job to call out the current AUT starting from 0 and counting up. Characters participating the fight have their actions refreshed every time a number of AUTs have passed equal to their action delay. On the AUT a character's actions refresh that character can use as many of their actions as they want by describing them and rolling skill checks as appropriate. When all characters acting on an AUT are done taking actions the storyteller calls out the next AUT. It is intended that players track the action cooldowns for their characters. Repeat until the fight is over.
 
