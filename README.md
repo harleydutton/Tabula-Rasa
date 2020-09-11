@@ -36,11 +36,6 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
 ## To Do
 - **influence**
   - try to combine mental and social influence.
-- **checks** <!-- continue bolding these top level bullets-->
-  - make it clear that the order is 1. describe action, 2. set difficulty, 2.5. optional abort if impossible or challenge if unfair, 3. roll and resolve. Make this an image
-  - make it clear here, in mandatory skills, or in the skill creation section that you will often be asked to roll using a relevant skill. this means you pick the skill. if you don't have a better one use a mandatory skill.
-  - add a section for challenging the difficulty if I haven't already. vote. storyteller gets 1.5
-  - redo the flowchart image in paint and include it.
 - **setting**
   - add an example image/table for the store
   - add an example image for a whole setting doc
