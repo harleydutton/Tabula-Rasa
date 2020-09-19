@@ -83,6 +83,11 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Mental Influence](#mental-influence)
       - [Difficulty](#difficulty-2)
       - [Resistance](#resistance-1)
+  - [Distance](#distance)
+    - [Zones](#zones)
+    - [Battlefields](#battlefields)
+    - [Movement](#movement)
+    - [Maps (is this section useful or necessary?)](#maps-is-this-section-useful-or-necessary)
   - [Combat](#combat)
     - [Intent](#intent)
     - [Rolling Initiative](#rolling-initiative)
@@ -92,7 +97,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
         - [advantages and disadvantages](#advantages-and-disadvantages)
         - [Interactions](#interactions)
       - [Move Actions](#move-actions)
-        - [Zones](#zones)
         - [Dodging](#dodging)
       - [Reactions](#reactions)
         - [Counterattacks](#counterattacks)
@@ -183,18 +187,18 @@ Skills are the most mechanical part of a character. They allow your character to
 #### Mandatory Skills
 Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. They are the most broad skills in each of their respective categories which are physical, mental, magical, and... social. These skills can be used to roll any check in their category but scale differently than every other skill. All characters get one level in each mandatory skill for free just in case they have to make a check they don't have an appropriate skill for.
 
-| Level    | 1    | 2    | 3     | 4     | 5     | X      |
-| -------- | ---- | ---- | ----- | ----- | ----- | ------ |
-| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP |
-| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | ...    |
+| Level    | 1    | 2    | 3     | 4     | 5     | X                     |
+| -------- | ---- | ---- | ----- | ----- | ----- | --------------------- |
+| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP                |
+| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | (X(X+1)(2X+1)/6)-1 CP |
 
 #### Available Skills
 Available skills are those listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
 
-| Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
-| -------- | ---- | ---- | ---- | ----- | ----- | ---- |
-| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP |
-| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | ...  |
+| Level    | 1    | 2    | 3    | 4     | 5     | X+1         |
+| -------- | ---- | ---- | ---- | ----- | ----- | ----------- |
+| CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP        |
+| Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | X(X+1)/2 CP |
 
 #### Recommended Skills
 Even though the mandatory skills should have you covered having some way to attack, defend, sense, communicate, and disagree is a good idea.
@@ -221,7 +225,7 @@ If you create a skill with appropriate scope that is just too powerful for the s
 > @Storyteller: A few good limiting factors are timing restrictions(requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), context restrictions (must have line of sight, must have eye contact, must be touching the target, must have a piece of the target, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.).
 
 #### Uniqueness
-When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to a balanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
+When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to an unbalanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
 
 ### NPCs
 Tabula treats NPCs the same as every other character. Make a character sheet for them. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Give them CP based on how much you have given the players. It is a good idea to leave a large chunk of an NPCs CP unspent.
@@ -359,10 +363,10 @@ When one character uses a skill to make another character do something the first
 Social influence is when the **salesman** uses their demeanor and way with words to convince the **mark** to do their will. The skills `persuasion`, `seduction`, `bartering`, and `intimidation` are the usual suspects.
 
 #### Difficulty
-Before the **salesman's** influence check is made the storyteller should check the mark's motivations. Social influence checks are affected by the **mark's** [motivations](#motivations) as well as flavor.
+Before the **salesman's** influence check is made the storyteller should check the **mark's** motivations. Social influence checks are affected by the **mark's** [motivations](#motivations) as well as flavor.
 
 #### Resistance
-Social influence is typically not resisted unless the character has a reason to do so. When influence social is resisted the mandatory skill `social`, or a more apt skill, is used to roll a check. The **mark's** [motivations](#motivations) can have an effect on this check as well.
+Social influence is typically not resisted unless the character has a reason to do so. When social influence is resisted the mandatory skill `social`, or a more apt skill, is used to roll a check. The **mark's** [motivations](#motivations) can have an effect on this check as well.
 > A guard has obvious reasons to not tell you about the secret entrance and should resist. A child has little reason not to carry your message to the mayor when you ask him.
 
 <!-- Motivations should only effect one of the resistance and influence rolls. Not both. Do testing to determine which makes more sense. -->
@@ -375,6 +379,29 @@ The **mark's** motivations are typically of little relevance in situations of me
 
 #### Resistance
 Mental influence is almost always resisted. When the **salesman** uses `mind control` and tells the **mark** "Give me your wallet.", the **mark** probably doesn't have a relevant motivation to influence their resistance roll but will definitely want to resist. Usually the **mark** resists by rolling a check with the mandatory skill `mind` or a more apt skill. Typically this check goes unmodified unless magic items or flavor are involved.
+
+## Distance
+This system does not use distance for anything mechanical. It does not govern how far weapons can fire, how far characters can see, how large spells can be, nor even how far characters can move in one round. Most of these metrics have been eschewed in favor of DTMS checks. The last of these, "how far can a character move in a round?", is the exception and the answer is the purpose of this section.
+
+### Zones
+A zone is an abstract unit of area. It is a maximum of one move action across such that characters can move between adjacent zones and do something meaningful in the same turn. A zone in an infinite field would be a circle however when terrain is introduced it expands and contracts sensibly. A zone's name should be a logical reflection of the area it represents on the map. Lastly, zones are much larger than most characters and can contain many characters.
+
+> Living room, dining room, master bedroom, guest bedroom, basement, front yard, back yard, street, garage, bathroom, kitchen
+
+### Battlefields
+At the appropriate scale, battlefields are very useful for visualizing terrain. All battlefields are a collection of zones which are typically presented as a drawing or collection of figurines and set pieces. Battlefields are an excellent tool for keeping track of spacial information in a story.
+
+> Below is a battlefield of a castle consisting of tower and wall segments 1-5 and 1-6 respectively, a keep, a gate, and a courtyard divided into sections based on the cardinal directions.
+
+![battlefield.jpg not found](battlefield.jpg "Example Battlefield")
+
+### Movement
+Characters have a tendency to move around battlefields. Typically characters need to pass DTMS checks to move between zones. Whenever a character is in combat and have a movement action to spend they can move between two logically connected adjacent zones on the battlefield. Atypically characters can move between unconnected zones or zones missing a logical connection by by passing a skill check for a relevant skills. Outside of combat characters can usually move around the battlefield with a large degree of freedom.
+
+### Maps (is this section useful or necessary?)
+Whatever the scale may be a map is typically a top-down representation of geographic features, structures or both. There are world maps, region maps, battlefields, star-maps, and a variety of others. When I say map I am referring to any and all of these scopes. I think we have all seen a map but for those of you who haven't...
+
+![worldMap.jpg not found](worldMap.jpg "Example Map")
 
 -------
 -------
@@ -410,7 +437,7 @@ suggest having enemies always fail their sneak checks?
 This really isn't a section describing combat, but instead a section describing any extended competitive activity within a story where timing is incredibly important. Sword and gun fights certainly fit the mould, sure, but so do a number of other things like horse races, ritual summoning gone wrong, and trying to command a fleet with light-minutes of delay. Combat in this game is based on actions and cooldowns. Despite this these rules will focus on the more traditional combat and I will leave you, dear reader, to adapt them to your competitive pie-eating contests as necessary.
 
 ### Intent
-The intent of combat in this system is to be dramatic. It isn't intended to be fair, realistic, or comprehensive. It is intended to be dramatic (and fun). Like the rest of the system players can have their characters do anything they think of. This means players can say "I would like to shoot that robot in the power core" with the reasonable expectation that the robot will be incapacitated if they they pass their `shooting` check. There are two problems with this. First, suddenly gaining the `death` flavor is well and good for henchmen but big-bad-evil-guys need time to monologue and should always be dealt the `dying` flavor instead. Second, again instant death is fine for henchmen but bosses and players should be harder to kill. Typically 
+It isn't intended to be fair, realistic, or deep. It is intended to be dramatic (and fun). Like the rest of the system players can have their characters do anything they think of. This means players can say "I would like to shoot that robot in the power core" with the reasonable expectation that the robot will be incapacitated if they they pass their `shooting` check. There are two problems with this. First, suddenly gaining the `death` flavor is well and good for henchmen but big-bad-evil-guys need time to monologue and should always be dealt the `dying` flavor instead. Second, again instant death is fine for henchmen but bosses and players should be harder to kill. Typically 
 
 
 henchmen but this is not a dramatic way for bosses to go out. The intent is to make it hard to kill named characters before their defences have been lowered. Once the boss robot's force field has been shorted out with a bucket of water then can be dealt some form of the `dying` flavor at normal difficulty and finished off as an action or once combat ends. 
@@ -432,20 +459,17 @@ At the start of their turn a characters actions refresh. Actions include a major
 Major actions are used to do pretty much everything in combat other than move or take out-of-turn actions. Most of the time you will need to use a major action to attack, interact with the environment, cast spells, create advantages or disadvantages, etc.
 
 ##### Attacking
-Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes an attack and passes the check and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks. If a player has an attack that is an AOE consider adding a limiting factor to it.
+Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes an attack and passes the check and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks. If a player has an attack that is an AOE consider adding a limiting factor to it. The default difficulty for a fair fight is "normal" which is to say not trivial, easy, hard, or impossible.
 
 ##### advantages and disadvantages
 As an action character may attempt to create an advantage for themselves or a disadvantage for another character. If the action succeeds whomever is controlling the character gets to describe the advantage they create. If the storyteller finds it reasonable it happens. If not, don’t waste time arguing, just move on.
-An advantage can also take the form of having to roll fewer dice on a skill check in the future, extra damage dice on an attack roll, or a bonus to initiative. Inversely an advantage might mean that the character’s opponents have to roll more dice on skill checks, get fewer dice on their damage rolls, or lose initiative.
+An advantage can also take the form of having to roll fewer dice on a skill check in the future, or a bonus to initiative. Inversely an advantage might mean that the character’s opponents have to roll more dice on skill checks, get fewer dice on their damage rolls, or lose initiative.
 
 ##### Interactions
 Players can decide to make non-combative actions during a combat like reading a scroll to help decipher a puzzle or pulling a lever to open a door. These things are typically major actions as they are distracting and take time. Many other things are major actions. Note to self: add some more examples.
 
 #### Move Actions
-Move actions are the simplest of the actions. If you need to change zones in battle you will need to make a move action. That said small bits of movement in the same zone like footwork in combat or walking two meters to a different computer terminal would not be considered large enough movement to require a move action. Sometimes when using a reaction to dodge the dodge won't make sense unless it also moves you. In this case you will also need a move action.
-
-##### Zones
-Rather than using a traditional grid I would recommend forming zones for your combat scene. If you want to use an image as a map you can either subdivide the sections of the map into large sections or overlay a large grid on the image to form zones. These zones should be about the size of one movement action. If you are simply describing a map you can just describe the zones. Each movement action will allow a player to change zones. There are no meaningful units of distance in this system. Use your brain if something that requires distance comes up.
+Move actions are the simplest of the actions. If you need to change [zones](#zones) in battle you will need to make a move action. That said small bits of movement in the same zone like footwork in combat or walking two meters to a different computer terminal would not be considered large enough movement to require a move action. See the [Distance](#distance) section for a more complete look at the movement system. Sometimes when using a reaction to dodge the dodge won't make sense unless it also moves you. In this case you will also need a move action in order to dodge.
 
 ##### Dodging
 Some defensive actions require a character to get out of the way to avoid an attack. In these cases character will need to spend a movement action in addition to a reaction to make a defensive action.
