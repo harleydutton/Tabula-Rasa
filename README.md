@@ -34,7 +34,15 @@ The roleplaying system is generic so it will work with any Setting produced by t
 DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would kill them. use DTMS checks) When they have a certain number of bad flavors? (no, not by number) Who determines what flavor can be added to a character? (called shots, the player) Perhaps we should just have health? (no) How do you determine when a character has accumulated enough flavor that they are unconscious or dead? (DTMS check) This can probably be solved by saying the difficulty for giving immediately lethal flavor will usually be high against non-mooks unless you have silver bullets. Unconscious, sleeping, incapacitated, downed, etc. characters can be killed outright. When a character achieves the downed status from wounds is based on a DTMS check I guess? Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed? When attacking is impossible a character can be considered impotent/incapacitated and initiative can be dropped.
 
 ## To Do
+- **Distance**
+  - rename battlefields to something less combat oriented
+  - switch the distance and movement sections. make it clear in the distance section that the system does not determine weapon ranges or the like
+- **Timing**
+  - Rename "join combat" to something less combat oriented
+- **skills?**
+  - On the subject of ordering, all actions must be able to be reacted to.
 - **combat**
+  - In addition all reactions occur after the action that caused them.
   - add running to actions (by converting a major to a move)
   - define more free actions. possibly convert some to minor actions
   - consider renaming move action minor action and defining some minor actions
@@ -57,12 +65,15 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
   - flavor cannot point to a specific skill. If a flavor boils down to "+1 to a skill" or "X skill is easy for me" it isn't really flavor. Instead it should have many ups and downs and they should be situational.
   - at skill/flavor creation, discuss power level as a limiting factor. it should be a consideration at the least.
   - at skill/flavor creation, discuss the typical use case and difficulty.
+  - add an example to scope: fireball, fire magic, magic
 - **feedback**
   - which terms need to go in the glossary. does the glossary need to exist?
   - does the attacking section need subsections?
   - where do we need example images, charts, or descriptions?
   - define skills better. Heuristic: skills allow you to *do*
   - define flavor better. Heuristic: flavor represents thing you *are* or *have*
+  - I should make it clear that undetectable is not a state but rather a difficulty modifier in this system. context: invisible rogue and guard who may or may not have true sight.
+  - Anyway, I suppose I should give some suggestions on how to create compelling puzzle bosses much the same way I give suggestions on how to create skills in the player section. Zelda bosses are good sources of inspiration and I recently saw an episode of critical role with ghosts who had their souls in breakable jars around the room.
 - **formatting**
   - format things using legend
   - put headings in title case

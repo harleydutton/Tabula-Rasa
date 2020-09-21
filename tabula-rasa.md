@@ -88,7 +88,33 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Battlefields](#battlefields)
     - [Movement](#movement)
     - [Maps (is this section useful or necessary?)](#maps-is-this-section-useful-or-necessary)
+  - [Damage, wounds, dying, death](#damage-wounds-dying-death)
+    - [Damage](#damage)
+    - [Wounds](#wounds)
+    - [Dying](#dying)
+    - [Death](#death)
+    - [Armor](#armor)
+    - [Weapons](#weapons)
+  - [Timing](#timing)
+    - [Tick Length](#tick-length)
+    - [Transitions](#transitions)
+    - [Join Combat](#join-combat)
+    - [Surprise](#surprise)
+    - [Action Delay](#action-delay-1)
+    - [Global Ticker](#global-ticker)
+  - [Actions](#actions)
+    - [Major Action (Typically attack)](#major-action-typically-attack)
+    - [Minor Action (typically movement)](#minor-action-typically-movement)
+    - [Reaction (dodge-roll, counterattack)](#reaction-dodge-roll-counterattack)
+    - [Free Actions (talking, dropping, footwork)](#free-actions-talking-dropping-footwork)
   - [Combat](#combat)
+    - [Warning (lethal, meatgrinder)](#warning-lethal-meatgrinder)
+    - [Intent (stripping defences, multitarget, dealing "dying")](#intent-stripping-defences-multitarget-dealing-dying)
+    - [Timing](#timing-1)
+    - [Actions](#actions-1)
+    - [Damage](#damage-1)
+    - [Distance](#distance-1)
+  - [Combat](#combat-1)
     - [Intent](#intent)
     - [Rolling Initiative](#rolling-initiative)
     - [Turns](#turns)
@@ -102,11 +128,11 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
         - [Counterattacks](#counterattacks)
         - [Defensive Actions](#defensive-actions)
       - [Free Actions](#free-actions)
-    - [Transitions](#transitions)
+    - [Transitions](#transitions-1)
     - [Entering and Leaving combat](#entering-and-leaving-combat)
     - [War](#war)
 - [Setting](#setting)
-  - [Action Delay](#action-delay-1)
+  - [Action Delay](#action-delay-2)
   - [Character Points](#character-points)
   - [Common/Available skills](#commonavailable-skills)
   - [Mandatory Skills](#mandatory-skills-1)
@@ -123,7 +149,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Concept](#concept)
     - [Setting Name](#setting-name)
     - [Character name](#character-name)
-  - [Action Delay](#action-delay-2)
+  - [Action Delay](#action-delay-3)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-1)
   - [Skills](#skills-1)
@@ -208,10 +234,10 @@ Even though the mandatory skills should have you covered having some way to atta
 > For social skills bartering, persuasion, seduction, lying, leadership, and intimidation are all classics.
 
 ### Adding to the Setting
-It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
+It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant, propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
 
 #### Veto
-The storyteller can reject your additions to the setting for any reason. You can bitch and moan but ultimately the storyteller is the one telling the story and doesn't have to put your idea in the the story no matter how much you want it there. Come up with a new idea.
+The storyteller can reject your additions to the setting for any reason. You can bitch and moan but ultimately the storyteller is the one telling the story and doesn't have to put your idea in the story no matter how much you want it there. Come up with a new idea.
 > @Storyteller: In the interest of reducing arguing, bitching, and moaning, give a reason for your veto.
 
 #### Theme
@@ -324,10 +350,10 @@ In Tabula money has been abstracted away as annoying bookkeeping. Many common it
 Many common things characters will need are effectively free. The idea here is that each character has some way of paying for their adventures--usually a day-job or some savings--and they dip into this during the adventure and replenish it during downtime such that it comes out in the wash. Typically food, clothes, ammo, and lodging end up on the list of trivial purchases but a storyteller might want to make you sweat by making one of your basic needs non-trivial.
 
 ### Minor Purchases
-The idea behind minor purchases is that while they aren't everyday purchases they are easy to get. Tools, weapons, vehicles, jewelry, and luxuries all typically fall into this category. You can convert your character's character points into minor purchases at a one-for-one ratio but you cannot typically convert them back. The `minor purchase` flavor can be used to pay for goods and services under the "minor" column of the setting's store. A character can multiple copies of the `minor purchase` flavor.
+The idea behind minor purchases is that while they aren't everyday purchases they are easy to get. Tools, weapons, vehicles, jewelry, and luxuries all typically fall into this category. You can convert your character's character points into minor purchases at a one-for-one ratio but you cannot typically convert them back. The `minor purchase` flavor can be used to pay for goods and services under the "minor" column of the setting's store. A character can have multiple copies of the `minor purchase` flavor.
 
 ### Major Purchases
-Major purchases are very similar to minor purchases except that they are worth more. Typically, to obtain a major purchase, you will have to give the storyteller a hook for your character or give up a boon. The `major purchase` flavor can be used to pay for things in the "major" column of the setting's store. Leadership of an organization, elite training, property, and spaceships are all roughly the same value as the flavor `major purchase`. Furthermore, major purchases can also be used to be used to pay off hooks or purchase new boons.
+Major purchases are very similar to minor purchases except that they are worth more. Typically, to obtain a major purchase, you will have to give the storyteller a hook for your character or give up a boon. The `major purchase` flavor can be used to pay for things in the "major" column of the setting's store. Leadership of an organization, elite training, property, and spaceships are all roughly the same value as the flavor `major purchase`. Furthermore, major purchases can also be used to pay off hooks or purchase new boons.
 
 ### Impossible Purchases
 Lastly and of least importance we have impossible purchases. There isn't much to say here really. You typically can't obtain these things for one reason or another. They might be illegal, one-of-a-kind, insanely expensive, or simply non-existent in the setting.
@@ -380,6 +406,8 @@ The **mark's** motivations are typically of little relevance in situations of me
 #### Resistance
 Mental influence is almost always resisted. When the **salesman** uses `mind control` and tells the **mark** "Give me your wallet.", the **mark** probably doesn't have a relevant motivation to influence their resistance roll but will definitely want to resist. Usually the **mark** resists by rolling a check with the mandatory skill `mind` or a more apt skill. Typically this check goes unmodified unless magic items or flavor are involved.
 
+***
+
 ## Distance
 This system does not use distance for anything mechanical. It does not govern how far weapons can fire, how far characters can see, how large spells can be, nor even how far characters can move in one round. Most of these metrics have been eschewed in favor of DTMS checks. The last of these, "how far can a character move in a round?", is the exception and the answer is the purpose of this section.
 
@@ -402,6 +430,46 @@ Characters have a tendency to move around battlefields. Typically characters nee
 Whatever the scale may be a map is typically a top-down representation of geographic features, structures or both. There are world maps, region maps, battlefields, star-maps, and a variety of others. When I say map I am referring to any and all of these scopes. I think we have all seen a map but for those of you who haven't...
 
 ![worldMap.jpg not found](worldMap.jpg "Example Map")
+
+***
+
+## Damage, wounds, dying, death
+### Damage
+### Wounds
+### Dying
+### Death
+### Armor
+### Weapons
+
+***
+
+## Timing 
+### Tick Length
+### Transitions
+### Join Combat
+### Surprise
+### Action Delay
+### Global Ticker
+
+***
+
+## Actions
+### Major Action (Typically attack)
+### Minor Action (typically movement)
+### Reaction (dodge-roll, counterattack)
+### Free Actions (talking, dropping, footwork)
+
+***
+
+## Combat
+### Warning (lethal, meatgrinder)
+### Intent (stripping defences, multitarget, dealing "dying")
+### Timing
+### Actions
+### Damage
+### Distance
+
+
 
 -------
 -------
@@ -475,7 +543,7 @@ Move actions are the simplest of the actions. If you need to change [zones](#zon
 Some defensive actions require a character to get out of the way to avoid an attack. In these cases character will need to spend a movement action in addition to a reaction to make a defensive action.
 
 #### Reactions
-Reactions are actions that characters can use to act out of turn. This is most commonly used for defensive actions. Anytime a character uses their reaction they can make a free defensive action. Acting out of turn to counterattack, defend yourself or another character, or by holding a major action all require a character's reaction.
+Reactions are actions that characters can use to act out of turn. This is most commonly used for defensive actions. Anytime a character uses their reaction they can make a free defensive action. Acting out of turn to counterattack, defend yourself or another character, or by holding a major action all require a character's reaction. On the subject of ordering, all actions must be able to be reacted to. In addition all reactions occur after the action that caused them.
 
 ##### Counterattacks
 If you want to stab a bitch that tried to stab you, you must consume your major action and your reaction.
@@ -544,7 +612,7 @@ This info is of little relevance to a character and of great relevance to the ac
 Your real life name. Put it on your sheet. Don't lose your sheet. Storytellers hate that.
 
 ### Story
-What is the name of the story this character is apart of? This and the setting name will help both the storyteller and the player keep track of which characters, settings, and stories go together.
+What is the name of the story this character is a part of? This and the setting name will help both the storyteller and the player keep track of which characters, settings, and stories go together.
 
 ### Concept
 Stereotype your character and stick it in the relevant box. Next! It is worth noting that a concept can help 
@@ -578,10 +646,10 @@ Available skills are those that are present in the setting but that not everyone
 Flavor is a mechanic in Tabula used to describe the interesting parts of a character. Almost anything unique that a character *is* or *has* is likely to be flavor. Flavor is used primarily for DTMS (does this make sense) checks and modifying the difficulty on checks. A few examples of flavor might be `armor`, `horse`, `landed noble`, `flaming sword`, `elf`, `big and tall`, etc. for an elvish knight of the summer court. Each piece of flavor should be a short, evocative description.
 
 ### Acquisition
-Flavor can be gotten in three ways. First, it can be asked for an paid for with CP at character creation. It typically costs 1 CP per word for flavor at character creation unless modified by a deal. Second, it can be earned and paid for during the story similarly to at character creation. The only difference is that the storyteller may make you spend time in character to earn the flavor you want. Thirdly, flavor might be given to or inflicted upon a character as a result of the story. Lands and title may be given to a peasant after he rescues the princess but he may have also taken some fire damage from the dragon guarding here and have a half-melted face now.
+Flavor can be gotten in three ways. First, it can be asked for an paid for with CP at character creation. It typically costs 1 CP per piece of flavor at character creation unless modified by a deal. Second, it can be earned and paid for during the story similarly to at character creation. The only difference is that the storyteller may make you spend time in character to earn the flavor you want. Thirdly, flavor might be given to or inflicted upon a character as a result of the story. Lands and title may be given to a peasant after he rescues the princess but he may have also taken some fire damage from the dragon guarding here and have a half-melted face now.
 
 ### Bad Flavor
-Negative Flavor is usually acquired in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask to be compensated for it. In return for their character being blind a player might ask that their character be *paid* 3 or 4 CP rather than spending 1 for that piece of flavor. The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
+Negative Flavor is usually acquired in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask that it not cost them CP. If the storyteller agrees that this is bad flavor then you can take it for free. The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
 
 ### Deals
 At character creation you may have noticed that there is no way to modify action delay. There is also no way to get any special racial abilities. There is also no way to become rich and famous. Etc. The point is you have to talk to the storyteller when you are creating your character, ask for the things you want, and represent them as flavor. Sometimes the things you want are OP as shit and the DM will want to keep your character in line by raising the cost above the normal for what you are asking for. Want to be super fast? Have -2 action delay by being a vampire (instead death by sunlight). Want to be big enough you can throw cars? Become an Ent for +3 action delay and a vulnerability to fire. Perhaps you can be a world famous boxer if you also have some gambling debts. The point is, talk to your DM and work it out. Sometimes it is appropriate to add a deal to the setting such that it is available to all players and NPCs.
