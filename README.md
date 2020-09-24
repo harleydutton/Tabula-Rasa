@@ -9,8 +9,8 @@ The worldbuilding framework produces a Setting. Settings are short, standardized
 The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the setting and start playing very quickly!
 
 ## Philosophy
-- Plays fast
-- Players make skills
+- plays fast
+- players make skills
 - generic
 - low entry barrier
 - short
@@ -18,17 +18,17 @@ The roleplaying system is generic so it will work with any Setting produced by t
 - fun > balance/realism
 - avoid math/book-keeping
 - DRY using links; otherwise printable
-- avoid charts/tables (in the actual doc)
+- avoid charts/tables (source material. illustrations okay)
 
-| In Scope           | Out of Scope             |
-| ------------------ | ------------------------ |
-| character creation | story/adventure template |
-| rolling checks     | how to roleplay          |
-| settings           | source material          |
-| combat mechanics   | forming the PC party     |
-| setting creation   | storyteller section      |
-|                    | probability charts       |
-|                    |                          |
+| In Scope           | Out of Scope                                      |
+| ------------------ | ------------------------------------------------- |
+| character creation | story/adventure template                          |
+| rolling checks     | probability charts                                |
+| settings           | source material                                   |
+| combat mechanics   | forming the PC party                              |
+| setting creation   | tips sections (single, tabula-specific tips okay) |
+|                    |                                                   |
+|                    |                                                   |
 
 ### Outstanding problems
 DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would kill them. use DTMS checks) When they have a certain number of bad flavors? (no, not by number) Who determines what flavor can be added to a character? (called shots, the player) Perhaps we should just have health? (no) How do you determine when a character has accumulated enough flavor that they are unconscious or dead? (DTMS check) This can probably be solved by saying the difficulty for giving immediately lethal flavor will usually be high against non-mooks unless you have silver bullets. Unconscious, sleeping, incapacitated, downed, etc. characters can be killed outright. When a character achieves the downed status from wounds is based on a DTMS check I guess? Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed? When attacking is impossible a character can be considered impotent/incapacitated and initiative can be dropped.
@@ -74,6 +74,8 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
   - define flavor better. Heuristic: flavor represents thing you *are* or *have*
   - I should make it clear that undetectable is not a state but rather a difficulty modifier in this system. context: invisible rogue and guard who may or may not have true sight.
   - Anyway, I suppose I should give some suggestions on how to create compelling puzzle bosses much the same way I give suggestions on how to create skills in the player section. Zelda bosses are good sources of inspiration and I recently saw an episode of critical role with ghosts who had their souls in breakable jars around the room.
+- **review**
+  - is the map section in distance useful?
 - **formatting**
   - format things using legend
   - put headings in title case
