@@ -97,16 +97,16 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Weapons](#weapons)
   - [Timing](#timing)
     - [Tick Length](#tick-length)
-    - [Transitions](#transitions)
-    - [Join Combat](#join-combat)
-    - [Surprise](#surprise)
     - [Action Delay](#action-delay-1)
     - [Global Ticker](#global-ticker)
+    - [Initiative](#initiative)
+    - [Surprise](#surprise)
+    - [Ties](#ties)
   - [Actions](#actions)
-    - [Major Action (Typically attack)](#major-action-typically-attack)
-    - [Minor Action (typically movement)](#minor-action-typically-movement)
-    - [Reaction (dodge-roll, counterattack)](#reaction-dodge-roll-counterattack)
-    - [Free Actions (talking, dropping, footwork)](#free-actions-talking-dropping-footwork)
+    - [Major Action](#major-action)
+    - [Minor Action](#minor-action)
+    - [Reaction](#reaction)
+    - [Free Actions](#free-actions)
   - [Combat](#combat)
     - [Warning (lethal, meatgrinder)](#warning-lethal-meatgrinder)
     - [Intent (stripping defences, multitarget, dealing "dying")](#intent-stripping-defences-multitarget-dealing-dying)
@@ -127,8 +127,8 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
       - [Reactions](#reactions)
         - [Counterattacks](#counterattacks)
         - [Defensive Actions](#defensive-actions)
-      - [Free Actions](#free-actions)
-    - [Transitions](#transitions-1)
+      - [Free Actions](#free-actions-1)
+    - [Transitions](#transitions)
     - [Entering and Leaving combat](#entering-and-leaving-combat)
     - [War](#war)
 - [Setting](#setting)
@@ -444,21 +444,55 @@ Whatever the scale may be a map is typically a top-down representation of geogra
 ***
 
 ## Timing 
+This section describes any extended competitive activity within a story where the order of events is relevant. Sword and gun fights certainly fit the mould, sure, but so do a number of other things like horse races, ritual summoning gone wrong, and trying to command a fleet with light-minutes of delay. The order and speed with which characters are allowed to act in this game is based on actions and cooldowns.
+
 ### Tick Length
-### Transitions
-### Join Combat
-### Surprise
+In Tabula, timed scenes use ticks, an abstract and arbitrary unit of time to measure how long the scene has lasted and when any individual character can act. The storyteller determines the length of a tick for any given scene. Typically ticks are about a second long but for large scale scenes ticks might be days or even weeks.
+
 ### Action Delay
+Each character has an AD (action delay) stat that governs how quickly they can act in timed scenes. Characters' actions refresh based on their AD. When a number of ticks have passed equal to a character's AD stat that character's [major action](#major-action), [minor action](#minor-action), and [reaction](#reaction) come off of cooldown. The default AD for a setting will be defined on the setting document and represent the typical speed expected for the setting. A higher AD represents a character acting slower than normal and inversely a lower AD represents a character acting faster.
+
+> If a character with an AD of 7 acted on 11 that character's actions will refresh on ticks 18, 25, 32, 39, etc. until the scene ends.
+
 ### Global Ticker
+Every timed scene starts with 0 ticks having passed. As a timed scene progresses the storyteller should announce the current tick by counting aloud, one by one. As the global ticker counts up, it is the responsibility of whomever controls a given character to know when that character acts next and call out that it is their turn.
+
+### Initiative
+To get started with a timed scene each character will need to have a first turn. Roll 1d6 for each character. This is the turn each character starts on. If a character is joining the scene late, their first turn is 1d6 after the current tick. See the [surprise](#surprise) for special cases.
+
+> Tim is starting a pie eating contest with two of his friends. When he rolls 3 on 1d6 his first turn is on tick 3.
+> Lets say the tick is 32 and one of the spectators, Joey, has decided he wants to participate. Joey rolls a 5 on 1d6 which means that Joey's first turn will be on tick 37. 
+
+### Surprise
+When one character sneaks up on another using the [hidden information](#hidden-information) section, and starts something they do not get any benefit. Instead, characters that are surprised are disadvantaged. By default, when a character joins a timed scene they start with all of their actions off cooldown. When a [suspicious](#suspicious) character joins a timed scene they start with their major action on cooldown. If a character is [oblivious](#unsuspicious) they start with their major action on cooldown and their cooldowns do not refresh on their first turn.
+
+| state      | first turn on tick      | actions on cooldown |
+| ---------- | ----------------------- | ------------------- |
+| default    | current tick + 1d6      | none                |
+| suspicious | current tick + 1d6      | major               |
+| oblivious  | current tick + AD + 1d6 | major               |
+
+### Ties
+When two or more characters would act on the same tick, PCs go before NPCs. If two or more PCs act on the same tick the PC with lower AD acts first. If there is still a tie break the tie randomly. The storyteller can use this method to break ties for NPCs but doesn't have to.
 
 ***
 
 ## Actions
-### Major Action (Typically attack)
-### Minor Action (typically movement)
-### Reaction (dodge-roll, counterattack)
-### Free Actions (talking, dropping, footwork)
+### Major Action
+<!--(Typically attack)-->
+### Minor Action
+<!--(typically movement, feint)-->
+### Reaction
+<!-- (dodge-roll, counterattack, holding action) -->
+### Free Actions
+<!-- (talking, dropping, footwork) -->
 
+<!-- other actions I want to price
+perception
+interacting
+causing advantage, disadvantage, or cc
+
+-->
 ***
 
 ## Combat
