@@ -20,9 +20,9 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
 ## Legend
 - examples of specific skills and flavor will be `monospace` in-line
 - section specific keywords will be in **bold**
+- interjections (like this) will be in parenthesis
 - sections will be referenced using [links](#legend)
-- > larger examples will be quoted and appear under the relevant section with no header.
-- interjections (like this) will be in parenthesis because hyphens format badly.
+- > larger examples will be quoted and appear under the relevant section with no header
 
 ## Table of Contents
 <!-- TOC -->
@@ -41,9 +41,8 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Flavor](#flavor)
     - [Hooks and Boons](#hooks-and-boons)
     - [Skills](#skills)
-      - [Mandatory Skills](#mandatory-skills)
-      - [Available Skills](#available-skills)
-      - [Recommended Skills](#recommended-skills)
+      - [Attributes](#attributes)
+      - [Skills](#skills-1)
     - [Adding to the Setting](#adding-to-the-setting)
       - [Veto](#veto)
       - [Theme](#theme)
@@ -64,15 +63,15 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
       - [Crafting](#crafting)
     - [Skill Acquisition](#skill-acquisition)
     - [Skill Progression](#skill-progression)
-      - [Mandatory Skills Progression](#mandatory-skills-progression)
-      - [Available Skills Progression](#available-skills-progression)
+      - [Attribute Progression](#attribute-progression)
+      - [Skill Progression](#skill-progression-1)
   - [Money](#money)
     - [Trivial Purchases](#trivial-purchases)
     - [Minor Purchases](#minor-purchases)
     - [Major Purchases](#major-purchases)
     - [Impossible Purchases](#impossible-purchases)
   - [Hidden Information](#hidden-information)
-    - [Unsuspicious](#unsuspicious)
+    - [Oblivious](#oblivious)
     - [Undetected](#undetected)
     - [Suspicious](#suspicious)
     - [Detected](#detected)
@@ -134,8 +133,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
 - [Setting](#setting)
   - [Action Delay](#action-delay-2)
   - [Character Points](#character-points)
-  - [Common/Available skills](#commonavailable-skills)
-  - [Mandatory Skills](#mandatory-skills-1)
+  - [Skills](#skills-2)
   - [Technology and Magic Descriptions](#technology-and-magic-descriptions)
   - [Store](#store)
   - [Tone](#tone)
@@ -144,19 +142,12 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
   - [Theme](#theme-1)
 - [Character](#character)
   - [Identification Information](#identification-information-1)
-    - [Your Name](#your-name)
-    - [Story](#story)
-    - [Concept](#concept)
-    - [Setting Name](#setting-name)
-    - [Character name](#character-name)
   - [Action Delay](#action-delay-3)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-1)
-  - [Skills](#skills-1)
-    - [Mandatory Skills](#mandatory-skills-2)
-    - [Available Skills](#available-skills-1)
+  - [Skills](#skills-3)
+  - [Attributes](#attributes-1)
   - [Flavor](#flavor-1)
-    - [Acquisition](#acquisition)
     - [Bad Flavor](#bad-flavor)
     - [Deals](#deals)
     - [Items](#items)
@@ -181,9 +172,10 @@ These things go on your sheet to keep you and your storyteller sane in real life
 - Player: The player's name
 - Setting: The name of the character's setting
 - Story: The name of the story the character was in
+- Concept: The characters role
 
 ### Action Delay
-This is how long your character has to wait to do things in combat. Lower means faster. If you would like to decrease your action delay you can do so by spending CP. The typical default action delay is 10 but you should take a look at the setting document provided by your storyteller to make sure.
+This is how long your character has to wait to do things in combat. Lower means faster. If you would like to decrease your action delay you can do so by spending CP. The default action delay is 10 but you should take a look at the setting document provided by your storyteller to make sure.
 
 |                | Default | -1 AD | -2 AD | -3 AD | -4 AD | -5 AD | -X AD  |
 | -------------- | ------- | ----- | ----- | ----- | ----- | ----- | ------ |
@@ -191,47 +183,40 @@ This is how long your character has to wait to do things in combat. Lower means 
 | Total cost     | 0       | 1 CP  | 5 CP  | 14 CP | 30 CP | 55 CP | ...    |
 
 ### Remaining Character Points
-The storyteller should be tracking the CP they have distributed to the group on the setting document. Each player should be keeping track of how much of this they have not spent on their character sheet such that they can easily take new skills.
+The storyteller should be tracking the [character points](#character-points) they have distributed to the group on the setting document. Each player should be keeping track of how much of this they have not spent on their character sheet such that they can easily take new skills.
 
 ### Motivations
-Tell my why your character gets out of bed in the morning. What is their purpose? Do they seek revenge? To protect something? Are they on the run? Do they want to be respected? Are they searching for something? Do they have any ideals that they follow? These are all motivations that will give a storyteller a good way to interact with your character. You must have at least one and you should consider taking a few.
+Tell me why your character gets out of bed in the morning. What is their purpose? Do they seek revenge? To protect something? Are they on the run? Do they want to be respected? Are they searching for something? Do they have any ideals that they follow? These are all motivations that will give a storyteller a good way to interact with your character. You must have at least one and you should consider taking a few.
 
 ### Aesthetic Description
 This is a good place to describe your character's gender, age, weight, build, height, bearing, clothes, stereotypical class, etc. The purpose of this section is to give other players or the storyteller an idea of what your character looks and acts like. If you want anything here to influence your rolls it should also be added to flavor.
 
 ### Flavor
-Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak lets not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Most flavor costs one CP at character creation or one hook for those which are particularly powerful. More flavor can be obtained or inflicted later on in the game.
+Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak, let's not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Flavor costs one CP at character creation and can be obtained or inflicted later on in the game.
 
 ### Hooks and Boons
-Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. Both hooks and boons can be anything but usually end up being flavor. The storyteller must agree to grant you the boon you want or either of the `boon` and `major purchase` flavors for the hook you are offering; be reasonable. The flavors `boon` and `major purchase` are equal in value and can be converted. Speak with your storyteller to trade these flavors for boons or things from the major purchase column of the setting's store.
+Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. `Hooks` and `boons` are both a special kind of flavor that are uniquely powerful. To create a `hook` you must negotiate with the storyteller and they must accept it before you can receive your `boon`. Boons can be used to get `major purchases` or more exotic flavor like being unnaturally large, magical, non-human, etc.
 
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
 
 > lock-picking, pyromancy, lying, and blocking are all examples of skills.
 
-#### Mandatory Skills
-Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. They are the most broad skills in each of their respective categories which are physical, mental, magical, and... social. These skills can be used to roll any check in their category but scale differently than every other skill. All characters get one level in each mandatory skill for free just in case they have to make a check they don't have an appropriate skill for.
+#### Attributes
+Attributes `Body`, `Mind`, `Spirit` and `Social`. They are similar to skills but have meaningful differences. First, every character gets the first level of each attribute for free. Second, attributes cost significantly more CP to level up than skills do. Third, attributes are broad and if a character does not have an applicable skill they can roll an attribute. For this reason attributes are frequently used as defensive skills and for perception checks. Lastly, attributes represent a character's physical, mental, spiritual, and social health. This is discussed in more depth in the [Damage](#damage) section. <!--TODO: make damage section-->
 
 | Level    | 1    | 2    | 3     | 4     | 5     | X                     |
 | -------- | ---- | ---- | ----- | ----- | ----- | --------------------- |
 | CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP                |
 | Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | (X(X+1)(2X+1)/6)-1 CP |
 
-#### Available Skills
-Available skills are those listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
+#### Skills
+Skills are listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
 
 | Level    | 1    | 2    | 3    | 4     | 5     | X+1         |
 | -------- | ---- | ---- | ---- | ----- | ----- | ----------- |
 | CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP        |
 | Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | X(X+1)/2 CP |
-
-#### Recommended Skills
-Even though the mandatory skills should have you covered having some way to attack, defend, sense, communicate, and disagree is a good idea.
-> For physical skills athletics, acrobatics, endurance, and weapon skills are all fairly useful.
-> For mental skills intelligence, memory, and willpower are all quite useful.
-> Spirit is optional but if your storyteller is allowing magic you should pick a magic school so you can do more interesting magic.
-> For social skills bartering, persuasion, seduction, lying, leadership, and intimidation are all classics.
 
 ### Adding to the Setting
 It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant, propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
@@ -247,14 +232,14 @@ A common reason for an addition to a setting to be rejected is because of theme.
 Many times, players will try to create skills that are much too broad in scope. Less frequently, players will make skills that are too narrow in scope. Loosely speaking scope represents the percentage of situations a skill can apply to. An example of a skill that is too broad is `magic` as you can do anything you want with it. A skill that is too narrow would be `death curse` as it can only be used to kill someone. Somewhere in between we find the skill `death magic` which has many applications but not infinitely many. It has a specific domain in which it is useful. Storytellers should specifically look out for skills that are too broad during character creation and veto them.
 
 #### Limiting Factors
-If you create a skill with appropriate scope that is just too powerful for the setting or story your storyteller may inflict a few limiting factors upon the skill you have proposed or your character.
-> @Storyteller: A few good limiting factors are timing restrictions(requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), context restrictions (must have line of sight, must have eye contact, must be touching the target, must have a piece of the target, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.).
+If you create a skill with appropriate scope that is just too powerful for the setting or story (most magic skills) your storyteller may inflict a few limiting factors upon the skill you have proposed for your character.
+> @Storyteller: A few good limiting factors are timing restrictions (requires multiple turns in combat, cannot be done in combat, takes multiple days, etc.), resource costs (add a mana bar, minor purchases, major purchases, etc.), context restrictions (must have line of sight, must have eye contact, must be touching the target, must have a piece of the target, etc.), and cooldowns (AUTs or turns, once per combat, once per day, refreshes randomly, etc.). If you cannot balance a skill, [veto](#veto) it.
 
 #### Uniqueness
 When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to an unbalanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
 
 ### NPCs
-Tabula treats NPCs the same as every other character. Make a character sheet for them. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Give them CP based on how much you have given the players. It is a good idea to leave a large chunk of an NPCs CP unspent.
+Tabula has the potential to treat NPCs and PCs the same way. If you go through the character creation process for an NPC, you should end up with a character of similar power level to the PCs, assuming you use the same amount of cp. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Leaving a large chunk of an NPCs CP unspent is a good way to keep them flexible.
 
 ### Printable Character Sheet
 ![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
@@ -262,14 +247,14 @@ Tabula treats NPCs the same as every other character. Make a character sheet for
 ***
 
 ## Checks
-When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. You can always use one of the mandatory skills (`mind`, `body`, `spirit`, and `social`) or you can use another relevant skill your character has. Tell the storyteller what you want to do with your skill and feel free to be specific--Actually specific is better. The storyteller will set a subjective difficulty (target number) for the action. At this point you have options. You can roll, abort, or challenge the difficulty the storyteller set. Roll a number of dice equal the skill's level. If any beat the target number you pass the check and what you described happens.
+When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. You can always use one of the attributes (`mind`, `body`, `spirit`, and `social`) or you can use a relevant skill your character has. Tell the storyteller what you want to do with your skill and be specific. The storyteller will set a subjective difficulty (target number) for the action. At this point you have three options. You can roll with that difficulty, abort the check, or [challenge](#challenging) the difficulty the storyteller set. If you decide to proceed, roll a number of dice equal the skill's level. If any beat the target number you pass the check and what you described happens.
 
-> If Sam wants to stab a goblin and sam has a `fencing` skill of 5, Sam would say "I want to skewer the goblin through the heart with my rapier!". The storyteller tells him "that will be hard" which means the target number is 6. If any one of Sam's 5 dice come up as a 6, Sam kills the goblin.
+> If Sam wants to jump over a river and has an `athletics` skill of 5, Sam would say "I want to jump across the river." The storyteller might tell him "that will be hard because the rain made the ground muddy and your footing is bad," which means the target number is 6 instead of 5 on a six-sided die. When Sam rolls, if any one of Sam's 5 dice come up as a 6, Sam successfully jumps across the river. On the other hand, if Sam does not get any sixes, he fails to jump across, likely resulting in him landing in the river.
 
 ![checkFlowchart.jpg not found](checkFlowchart.jpg "Check Flowchart")
 
 ### Difficulty
-The storyteller can assign a check five different difficulties: Trivial, Easy, Normal, Hard, and Impossible. The difficulty of a skill check can be modified by flavor, context, or the innate ease or difficulty of the action itself. The storyteller decides if any of these things is meaningful enough to change the difficulty. The subjective difficulty of a roll translates directly to a target number, meaning when you roll a check only dice that are greater than or equal to the target number count as successes. The players can challenge the difficulty the storyteller has prescribed if they wish. If this happens everyone votes on the desired difficulty and the storyteller wins ties.
+The storyteller can assign a check five different difficulties: Trivial, Easy, Normal, Hard, and Impossible. The difficulty of a skill check can be modified by flavor, context, or the innate ease or difficulty of the action itself. The storyteller decides if any of these things is meaningful enough to change the difficulty. The subjective difficulty of a roll translates directly to a target number, meaning when you roll a check only dice that are greater than or equal to the target number count as successes. Players can [challenge](#challenging) the difficulty the storyteller has set if they wish.
 
 | Difficulty    | Trivial        | Easy | Normal | Hard | Impossible     |
 | ------------- | -------------- | ---- | ------ | ---- | -------------- |
@@ -281,15 +266,15 @@ When you want to perform an action involving multiple different skills you might
 > To back flip down some stairs while shooting a fireball up the stairs you would need to pass both `acrobatics` and `fire magic` checks.
 
 ### Contests
-Contests are where two or more characters are trying to be best at some action. The problem comes in that there is a good chance both characters will succeed and so we must use magnitude of success to determine the winner of the contest. You only need one success to pass a skill check. Any successes beyond one contribute to magnitude of success. The character with the highest magnitude of success wins the contest.
+Contests are where two or more characters are trying to be best at some action. The problem comes in that there is a good chance both characters will succeed and so we must use magnitude of success to determine the winner of the contest. You only need one success to pass a skill check. Any successes beyond one contribute to magnitude of success. The character with the highest magnitude of success wins the contest. When the magnitudes of success are tied there is a tie.
 
 > Racing, feats of strength, public debates, drinking contents, and gambling are all common contests.
 
 ### DTMS Checks
-There is one special kind of check that the storyteller will make frequently. These are DTMS checks which stands for "Does this make sense?" They don't use dice and they aren't a check in thr traditional sense. DTMS checks are just a way for me to shorthand the idea "use your brain to decide if this should be allowed or not."
+There is one special kind of check that the storyteller will make frequently. These are DTMS checks which stands for "Does this make sense?" They don't use dice and they aren't a check in the traditional sense. DTMS checks are just a way for me to shorthand the idea "use your brain to decide if this should be allowed or not."
 
 ### Challenging
-When a player wants disagrees with the difficulty of a check they can challenge the difficulty the storyteller has set. Effectively this is asking the table to vote for what they think the difficulty should be. The storyteller's vote counts as 1.5. The purpose of this system is to deal with storytellers who are a little unfair some of the time, not make all checks Easy.
+When a player disagrees with the difficulty of a check they can challenge the difficulty the storyteller has set. Effectively this is asking the table to vote for what they think the difficulty should be. The storyteller's vote counts as 1.5. The purpose of this system is to deal with storytellers who are a little unfair some of the time, not make all checks **easy**. Each check can only have it's difficulty challenged once.
 
 ***
 
@@ -300,7 +285,7 @@ Characters usually get stronger over the course of a story. They can acquire new
 Character points are given by the storyteller at character creation and usually also session by session. Character points are typically awarded for heroics, good roleplaying, and completing quests. The storyteller should keep a running total on the setting document of how many CP have been given out to the group.
 
 ### Flavor Acquisition
-Your character will acquire flavor throughout the story for mostly for free. You can, however, pay for it in the same way as you would during character creation. Hooks and boons can be acquired through roleplaying, items and other things worth one CP can be obtained from stores where available, and temporary wound flavor is the natural result of combat. Beware, actions have consequences and sometimes flavor will be inflicted upon you.
+Your character will acquire flavor throughout the story for mostly for free. You can, however, pay for it in the same way as you would during character creation. Hooks and boons can be acquired through roleplaying, items in the minor purchase category can be obtained from stores where available, and temporary flavor in the form of wounds are the natural result of combat. Beware, actions have consequences and sometimes flavor will be inflicted upon you.
 
 #### Crafting
 In Tabula, crafting an item is just a skill check. Describe what you want and how you plan on using your crafting skill to get it, ask the storyteller what the difficulty is, and make the roll. If you succeed you get the desired item, likely with some narrative flair. If you fail you do not get what you asked for, any materials and time put into the crafting roll are lost, and it is possible something bad happens.
@@ -309,18 +294,18 @@ In Tabula, crafting an item is just a skill check. Describe what you want and ho
 Skills can be learned from other characters in the story. If a skill is fairly simple or if a character is fairly dedicated they can learn it on their own. Dedicated characters can also create new skills and add them to the setting--once again, only with storyteller approval. The first level of any new skill costs one character point. All skill acquisitions need to pass a DTMS check.
 
 ### Skill Progression
-Leveling up skills can happen at any time and requires CP. The CP cost varies by level and type of skill. Mandatory skills are significantly more expensive than available skills to level up.
+Leveling up skills can happen at any time and requires CP. The CP cost varies by level and type of skill. Attributes are significantly more expensive than skills to level up.
 
-#### Mandatory Skills Progression
-Mandatory skills are `Body`, `Mind`, `Spirit` and `Social`. The cost to level a mandatory skill is the desired level squared in CP. You must level up skills one level at a time.
+#### Attribute Progression
+The attributes are `Body`, `Mind`, `Spirit` and `Social`. The cost to level an attribute is the desired level squared in CP. If you wish to raise an attribute more than one level at a time you must still pay for the intermediate levels.
 
 | Level    | 1    | 2    | 3     | 4     | 5     | X      |
 | -------- | ---- | ---- | ----- | ----- | ----- | ------ |
 | CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP |
 | Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | ...    |
 
-#### Available Skills Progression
-All other skills are available skills. The cost to level is the desired level in CP. You must level up skills one level at a time.
+#### Skill Progression
+The cost to level is the desired level in CP. If you with to level a skill more than one level at a time you must pay for the intermediary levels too.
 
 | Level    | 1    | 2    | 3    | 4     | 5     | X+1  |
 | -------- | ---- | ---- | ---- | ----- | ----- | ---- |
@@ -347,7 +332,7 @@ In Tabula money has been abstracted away as annoying bookkeeping. Many common it
 | materials     |          | boons       |            |
 
 ### Trivial Purchases
-Many common things characters will need are effectively free. The idea here is that each character has some way of paying for their adventures--usually a day-job or some savings--and they dip into this during the adventure and replenish it during downtime such that it comes out in the wash. Typically food, clothes, ammo, and lodging end up on the list of trivial purchases but a storyteller might want to make you sweat by making one of your basic needs non-trivial.
+Many common things characters will need are effectively free so as to avoid pointless bookkeeping. The idea here is that each character has some way of paying for their adventures, and that when they get back home, they have a roof over their head and food in their belly because *something* they do is profitable, either back home or on the road. Typically food, clothes, ammo, and lodging end up on the list of trivial purchases but a storyteller might want to make you sweat by making one of your basic needs non-trivial.
 
 ### Minor Purchases
 The idea behind minor purchases is that while they aren't everyday purchases they are easy to get. Tools, weapons, vehicles, jewelry, and luxuries all typically fall into this category. You can convert your character's character points into minor purchases at a one-for-one ratio but you cannot typically convert them back. The `minor purchase` flavor can be used to pay for goods and services under the "minor" column of the setting's store. A character can have multiple copies of the `minor purchase` flavor.
@@ -363,16 +348,16 @@ Lastly and of least importance we have impossible purchases. There isn't much to
 ## Hidden Information
 Hidden information in roleplaying games can range from lying, to sneaking up on someone, to hiding things. Hidden info is a source of tension and surprise but resolving can be tricky. The way I like to think about it there are two roles when talking about hidden information. One is the thief, the character going around hiding information. The other is the guard, the character trying to discover this information. The information the thief hides can be undiscovered or discovered. The guard can be suspicious or unsuspicious. Because it will almost certainly come up, it is worth noting that the difficulty of checks related to hidden information should be disclosed by default but doesn't have to be revealed before or even after the check is made. Whenever the thief wishes to hide info or change hidden info they need to make a check.
 
-### Unsuspicious
-Unsuspicious is a state for the guard and represents that the guard does not know the hidden information and doesn't even know it exists. This is the default state for every character.
+### Oblivious
+Oblivious is a state for the guard and represents that the guard does not know the hidden information and doesn't even know it exists. This is the default state for every character. At any time a player can announce that their character is suspicious and begin being treated that way. NPCs typically need a reason to become suspicious.
 
 ### Undetected
 Undetected is a state for the thief's hidden info and represents that the thief has successfully hidden it and that the guard might know it exists but hasn't detected it. When the thief wants to hide info or change hidden info, if there is a guard who could detect them, they need to pass a relevant check. `Lying`, `stealth`, `disguise`, `traps`, `pickpocket`, etc. are skills they might use.
 > Actions to hide information: Lying, moving silently, putting on a disguise, setting a trap, picking a pocket, etc.
 
 ### Suspicious
-Suspicious represents the state where the guard knows the thief's hidden information exists but doesn't have it. At this point the guard can start making checks to attempt to uncover the hidden info. Pass or fail, when the guard stops looking for the information they should be considered unsuspicious. The guard might use `seeing`, `hearing`, some extra-sensory perception skill, a domain-specific skill like `animal handling`, or a mandatory skill to try and detect the hidden information.
-> Reasons to become suspicious: Nervous stuttering, heard a noise, clothes don't fit well, saw a wire, felt something in pants, etc.
+Suspicious represents the state where the guard knows the thief's hidden information exists but doesn't have it. At this point the guard can start making checks to attempt to uncover the hidden info. Pass or fail, when the guard stops looking for the information they should be considered unsuspicious. The guard might use `seeing`, `hearing`, some extra-sensory perception skill, a domain-specific skill like `animal handling`, or an attribute to try and detect the hidden information.
+> As a guard on duty, some reasons to become suspicious: Nervous stuttering, heard a noise, clothes don't fit well, saw a wire, felt something in pants, etc.
 
 ### Detected
 The thief's hidden information has been detected by the guard. No further checks need to be made and the situation can be played out.
@@ -381,18 +366,18 @@ The thief's hidden information has been detected by the guard. No further checks
 ***
 
 ## Influence
-When one character uses a skill to make another character do something the first character is exerting their influence. These situations can quickly break the game or make it unenjoyable unless there is counter play. This sections defines a system for resolving these situations. For this section the **salesman** will be the character exerting influence and the **mark** will be the target of their influence.
+When one character uses a skill to make another character do something the first character is exerting their influence. These situations can quickly break the game or make it unenjoyable unless there is counter play. This section defines a system for resolving these situations. For this section the **salesman** will be the character exerting influence and the **mark** will be the target of their influence.
 
 <!-- Should mental and social influence be combined? I think they should... -->
 
 ### Social Influence
-Social influence is when the **salesman** uses their demeanor and way with words to convince the **mark** to do their will. The skills `persuasion`, `seduction`, `bartering`, and `intimidation` are the usual suspects.
+Social influence is when the **salesman** uses their demeanor and way with words to convince the **mark** to do their will. The skills `persuasion`, `seduction`, `bartering`, `intimidation` and of course the `social` attribute are the usual suspects.
 
 #### Difficulty
 Before the **salesman's** influence check is made the storyteller should check the **mark's** motivations. Social influence checks are affected by the **mark's** [motivations](#motivations) as well as flavor.
 
 #### Resistance
-Social influence is typically not resisted unless the character has a reason to do so. When social influence is resisted the mandatory skill `social`, or a more apt skill, is used to roll a check. The **mark's** [motivations](#motivations) can have an effect on this check as well.
+Social influence is typically not resisted unless the character has a reason to do so. When social influence is resisted the attribute `social`, or a more apt skill, is used to roll a check. The **mark's** [motivations](#motivations) can have an effect on this check as well.
 > A guard has obvious reasons to not tell you about the secret entrance and should resist. A child has little reason not to carry your message to the mayor when you ask him.
 
 <!-- Motivations should only effect one of the resistance and influence rolls. Not both. Do testing to determine which makes more sense. -->
@@ -404,7 +389,7 @@ Mental influence is when a character uses magic or some other plot device to sub
 The **mark's** motivations are typically of little relevance in situations of mental influence. The **mark's** code of honor doesn't really come into play when they are told "go jump out a window."
 
 #### Resistance
-Mental influence is almost always resisted. When the **salesman** uses `mind control` and tells the **mark** "Give me your wallet.", the **mark** probably doesn't have a relevant motivation to influence their resistance roll but will definitely want to resist. Usually the **mark** resists by rolling a check with the mandatory skill `mind` or a more apt skill. Typically this check goes unmodified unless magic items or flavor are involved.
+Mental influence is almost always resisted. When the **salesman** uses `mind control` and tells the **mark** "Give me your wallet.", the **mark** probably doesn't have a relevant motivation to influence their resistance roll but will definitely want to resist. Usually the **mark** resists by rolling a check with the `mind` attribute or a relevant skill. Typically this check goes unmodified unless magic items or flavor are involved.
 
 ***
 
@@ -455,10 +440,10 @@ Each character has an AD (action delay) stat that governs how quickly they can a
 > If a character with an AD of 7 acted on 11 that character's actions will refresh on ticks 18, 25, 32, 39, etc. until the scene ends.
 
 ### Global Ticker
-Every timed scene starts with 0 ticks having passed. As a timed scene progresses the storyteller should announce the current tick by counting aloud, one by one. As the global ticker counts up, it is the responsibility of whomever controls a given character to know when that character acts next and call out that it is their turn.
+Every timed scene starts with 0 ticks having passed. As a timed scene progresses the storyteller should announce the current tick by counting aloud, one by one. As the global ticker counts up, it is the responsibility of whoever controls a given character to know when that character acts next and call out that it is their turn.
 
 ### Initiative
-To get started with a timed scene each character will need to have a first turn. Roll 1d6 for each character. This is the turn each character starts on. If a character is joining the scene late, their first turn is 1d6 after the current tick. See the [surprise](#surprise) for special cases.
+To get started with a timed scene each character will need to have a first turn. Each player rolls 1d6 for their character and the storyteller rolls 1d6 for each NPC. This is the turn each character starts on. If a character is joining the scene late, their first turn is 1d6 after the current tick. See the [surprise](#surprise) for special cases.
 
 > Tim is starting a pie eating contest with two of his friends. When he rolls 3 on 1d6 his first turn is on tick 3.
 > Lets say the tick is 32 and one of the spectators, Joey, has decided he wants to participate. Joey rolls a 5 on 1d6 which means that Joey's first turn will be on tick 37. 
@@ -598,43 +583,36 @@ Entering combat is simple. When a player decides they would like to enter combat
 Once the number of NCPs gets into the double digits it doesn't make a whole lot of sense to actually play the individual characters in combat. In this case the NPC battle is narrated with the PC party being able to influence the outcome through their success or failure in smaller battles where most of the combatants matter. When the storyteller ends up controlling more than triple the number of units the PCs do that is probably a good time to change things to a simultaneous battle and war.
 
 # Setting
-A Setting is a template for worldbuilding. It includes a description of the world, the normal speed of characters in the world for combat, the amount of character points new characters in the world start with, a list of Mandatory Skills, and a list of Skills common within the Setting. The description includes the technological level, magic, history, spacial/geographic scope, flora, fauna, biomes, natural resources, items, culture, store, etc. of the World.
-To be mechanically playable a Setting needs an Action Delay, starting character points, a list of Mandatory Skills, a list of common skills, and a  general description. Splitting the description into the cultural and the physical aspects of the world can be helpful. Creating a store is a good idea in most cases (unless you're a communist).
+A Setting is a template for worldbuilding. It includes a description of the world, the normal speed of characters in the world for timed actions like combat, the amount of character points new characters in the world start with, and a list of skills common within the Setting. The description includes the technological level, magic, history, spatial/geographic scope, flora, fauna, biomes, natural resources, items, culture, store, etc. of the World.
 
 ## Action Delay
-The default Action Delay for the Setting is what all new characters in the Setting will start with. This will guarantee that most of the characters in the Setting are at about the same speed in combat and chases. Because it is just a default and can be modified it also allows for some characters to be faster or slower than the average character.
-<!-- everything below from storyteller section on action delay-->
-Choosing a suitable action delay is fairly easy but it is possible to mess it up. If the action delay is too high, counting out AUTs becomes tedious and modifying a characters action delay by small numbers becomes less meaningful. On the other hand choosing a default action delay that is too low will greatly increase turn collisions and make it such that characters with non-default action delays have very different "speeds". Default action delay effectively determines the typical speed for characters in the setting. Having an abnormal action delay is how a character becomes faster or slower. AUTs are arbitrary units of time and I think this is what I will be calling initiative "ticks" because depending on the combat they can vary wildly. I recommend a default AD of 10 because it is easy to count up by tens and difficult to reduce to 1 with exponential CP costs.
+The default Action Delay for the Setting is what all new characters in the Setting will start with. Typically this is 10. This will guarantee that most of the characters in the Setting are at about the same speed in scenes where timing matters like combat and chases. Because it is just a default and can be modified it also allows for some characters to be faster or slower than the average character.
 
 ## Character Points
-Character Points, also known as CP, are a resource used by players throughout the game to take new Skills and Flavor and level up existing skills. The suggested starting character points for a setting is basically a recommendation for starting level. If characters start with 30 CP rather than 25 they will be a little stronger on average. There is usually a positive correlation between the number of mandatory skills in a setting and the starting CP.
+Character Points, also known as CP, are a resource used by players throughout the game to take new Skills and Flavor and level up existing skills. The suggested starting character points for a setting is basically a recommendation for starting level. If characters start with 60 CP rather than 50 they will be a little stronger on average.
 
-## Common/Available skills
-Available skills are skills that every character in a setting has access to. Any character can learn these skills with storyteller approval either at character creation or during the story. Players are encouraged to suggest additions to the list of available skills for the setting. Available skills are where characters get their options for interesting actions. A few examples of available skills are `sword-fighting`, `necromancy`, `seduction`, and `piloting`. Available skills can be purchased with CP at character creation and during the story by any character. Characters do not need to have every available skill.
-
-## Mandatory Skills
-Mandatory skills are those that every character must have to make sure they will not have checks that they should be able to roll but cannot. For instance, `seeing` and `hearing` are both skills almost every humanoid character should have so that they can perceive the game world. Every character must have one level in every mandatory skill but can take more levels if they wish.
+## Skills
+Skills represent things a character can do. Each character within a setting has access to the s same set of skills. Any character can learn these skills with storyteller approval either at character creation or during the story. Players are encouraged to suggest additions to the list of skills on the setting. A few examples of skills are `sword-fighting`, `necromancy`, `seduction`, and `piloting`. Skills can be purchased with CP at character creation and during the story by any character. Characters do not need to have every skill.
 
 ## Technology and Magic Descriptions
 A couple of initial questions players usually have when they are making characters in a new setting are "Is there magic?" and "What is the technological level?" and for this reason the answers to these questions should be on the setting. They are commonly asked, important, and usually easy to answer. If there is any fictitious magic in the setting it should be described here.
 
 ## Store
-First off *the* store doesn't really exist after character creation. Characters will have to go stores in the story to purchase things listed on *the* store. Going to *a* store within the story rather than *the* store will drastically affect what is available for sale and maybe even what it is legal to trade. This is all subject to DTMS checks and storyteller approval after character creation. Anyway, *the* store is set up as a series of priced columns. The flavor section describes the purchasing power of various pieces of flavor-money, also known as AUTs. The columns should be "Trivial", "Minor", "Major", and "impossible". Trivial purchases are effectively free, minor purchases are worth one CP, major purchases need to be roleplayed for or a deal needs to be struck, and impossible purchases are typically too expensive to ever purchase. Impossible purchases may become available through roleplaying. The columns of the store should all have things characters can purchase in/under them.
-<!-- everything below from the storyteller section on store/money-->
-Money in Tabula is handled with things called AUCs. An AUC is an arbitrary unit of currency. In this game an AUC might be 1000 spacebucks or $10 or an ounce of gold. The point is that it is money. The way Tabula organizes money is so that you don't have to do much bookkeeping with your money. Groupings of AUCs form different levels of purchasing power. One AUC is one minor purchase. Three AUCs are a major purchase. There are 4 tiers of purchasing power. The first is trivial, then minor, major, and impossible. To ground this in the real human world trivial purchases are things like food, beer, candy, ammo, clothes, or entertainment. A minor purchase would be things that cost more like guns, cars, specialized tools, computers, or medicine. Major purchases would be things like houses, companies, famous art, fancy cars, or a college education. A impossible purchase is one that you simply cannot buy right now because it is either far to expensive or it is unavailable.
-I think to actually make the store on the setting it should be the four columns with various goods underneath them. (columns are trivial, minor, major, and impossible)
+First off *the* store doesn't really exist after character creation. Characters will have to go stores in the story to purchase things listed on *the* store. Going to *a* store within the story rather than *the* store will drastically affect what is available for sale and maybe even what it is legal to trade. This is all subject to DTMS checks and storyteller approval after character creation. Anyway, *the* store is set up as a series of priced columns. The flavor section describes the purchasing power of various pieces of flavor-money, also known as AUTs. The columns should be "Trivial", "Minor", "Major", and "impossible". Trivial purchases are effectively free, minor purchases are worth one CP, major purchases need to be roleplayed for or a deal needs to be struck, and impossible purchases are typically too expensive to ever purchase. Impossible purchases may become available through roleplaying. The columns of the store should all have things characters can purchase in/under them as reference points.
+
+> Trivial purchases are things like food, beer, candy, ammo, clothes, or entertainment. A minor purchase would be something that costs more a gun, car, specialized tool, computer, or medicine. Major purchases would be things like houses, companies, famous art, fancy cars, or a college education. Some impossible purchases would be space shuttles, whole countries, or world-famous art.
 
 ## Tone
-It is typically a good idea to set expectations for the tone of the story such that people have the same expectations for the game and those expectations are met. It can ruin a scary horror campaign to have a bunch of goofy shit happening all the time. It can ruin a serious campaign to have a character named reginald fuck-hammer. Siilarly it can ruin a goofy space-romp to have a character with a depressing or sinister history.
+It is typically a good idea to set expectations for the tone of the story such that people have the same expectations for the game and those expectations are met. It can ruin a scary story to have a bunch of goofy shit happening all the time. It can ruin a serious campaign to have a character named reginald fuck-hammer. Similarly it can ruin a goofy space-romp to have a character with a depressing or sinister history.
 
 ## Social Description
 The social description for the setting should describe what the people of the setting are like and what they have done. This will be things like important places, institutions, cultural events, and historic events. This will also include the races/peoples/cultures within the setting and the countries and governments they have formed.
 
 ## Physical Description
-The physical description for the setting should describe what the land itself is like (assuming there is land). This would be things like geography, weather, plants, and animals. This should also include scope; how large an are does this description cover? A city? A country? A continent? A planet? A map will supplement this description nicely. The spacial scope can be the entire known universe or just the part the characters are in right now. A rough idea of how bug it is will always help players wrap their heads around it though.
+The physical description for the setting should describe what the land itself is like (assuming there is land). This would be things like geography, weather, plants, and animals. This should also include scope; how large an area does this description cover? A city? A country? A continent? A planet? A map will supplement this description nicely. The spatial scope can be the entire known universe or just the part the characters are in right now. A rough idea of how big it is will always help players wrap their heads around it though.
 
 ## Theme
-Each setting has a theme. It might be the wild west with cowpokes getting into brawls and lobbing dynamite off of trains. It might be an epic swords and sorceries adventure. It might be a modern day espionage story with lots of gunfights and back alley deals. It might be the far flung future with space ships battling around every asteroid. The point is that players should try to match their characters to the theme of the setting as well as they can. Usually the storyteller doesn't enjoy telling you you cannot play a wizard in the story about space pirates.
+Each setting has a theme. It might be the wild west with cowpokes getting into brawls and lobbing dynamite off of trains. It might be an epic swords and sorceries adventure. It might be a modern day espionage story with lots of gunfights and back alley deals. It might be the far flung future with spaceships battling around every asteroid. The point is that players should try to match their characters to the theme of the setting as well as they can. Usually the storyteller doesn't enjoy telling you you cannot play a wizard in the story about space pirates.
 
 # Character
 This chapter is for you, the Player. Characters are representations of the fictional people within the Setting. To be mechanically playable, your character needs an action delay, a motivation, skills, flavor and a number of other shit.
@@ -642,45 +620,32 @@ This chapter is for you, the Player. Characters are representations of the ficti
 ## Identification Information
 This info is of little relevance to a character and of great relevance to the actual human people playing them. This stuff is useful to put on your sheet to keep things from getting lost or disorganized but you are welcome to skip it.
 
-### Your Name
-Your real life name. Put it on your sheet. Don't lose your sheet. Storytellers hate that.
-
-### Story
-What is the name of the story this character is a part of? This and the setting name will help both the storyteller and the player keep track of which characters, settings, and stories go together.
-
-### Concept
-Stereotype your character and stick it in the relevant box. Next! It is worth noting that a concept can help 
-
-### Setting Name
-This is useful for making sure the right characters go in the right settings.
-
-### Character name
-Your character's name is the name he/she will carry throughout the world that you must decide prior to playing the game. 
+| information | description                         | example                    |
+| ----------- | ----------------------------------- | -------------------------- |
+| name        | the characters name in the story    | Thomas Brickjaw            |
+| player      | your name in real life              | Harley                     |
+| story       | the story this character is part of | What Stars?!               |
+| concept     | the role your character plays       | disgruntled police officer |
+| setting     | the name of the setting             | Sequoia                    |
 
 ## Action Delay
-This is how fast a character is. Making it lower makes the character faster. See [combat](#combat) for an explanation of how action delay works.
+This is how fast a character is. Making it lower makes the character faster. Action delay can be reduced by spending character points.
 
 ## Character Points
 Character points are used to make a character stronger. They can be used to get new skills and flavor, level up skills, decrease action delay, and acquire minor purchases.
 
 ## Motivations
-Characters must have at least one motivation and ideally less than five motivations. Motivations can be Ideals, Values, Causes, or anything else that gets the character out of bed in the morning.
+Characters must have at least one motivation. Motivations can be Ideals, Values, Causes, or anything else that gets the character out of bed in the morning.
 > Alice is motivated by escaping wonderland and finding her way home. Harry is motivated to defeat the dark lord to protect his friends. 
 
 ## Skills 
-Each character has a list of skills representing the actions they can take in the story. Skills do have to be things that a character can *do* which also means they have to be able to fail as well. Skills can be either mandatory or available. All characters must have at least one level in all mandatory skills. Otherwise characters may take levels in available skills unless it doesn't make sense.
+Each character has a list of skills representing the actions they can take in the story. Skills do have to be things that a character can *do* which also means they have to be able to fail as well. Characters may take levels in any skills listed on the setting document unless it wouldn't make sense for them to do so. Skills can be rare or common like `surgery` and `driving` are in modern times or more outlandish like `necromancy`.
 
-### Mandatory Skills
-Mandatory Skills are those that every character receives from the given Setting. This is meant to represent the Skills that every character should naturally have access to like `seeing`, `strength`, and `persuasion`. There are some characters who will have Flavor that renders these skills useless or remove them entirely. The flavors `blind` and `paralyzed` come to mind.
-
-### Available Skills
-Available skills are those that are present in the setting but that not everyone has. They can be rare or common like `surgery` and `driving` are in modern times. The point is that not *every* character has them but most characters are able to learn these skills. A few more modern-day examples are `cooking`, `driving`, `computer programming`, `basketball`, and `surgery`.
+## Attributes
+Attributes are very similar to skills with a few exceptions. Like skills, attributes can be used to roll checks but unlike skills attributes are as broad in [scope](#scope) as they can be. Like skills, attributes can be leveled up using CP but they are far more expensive. Unlike skills, attributes act as a character's physical, mental, spiritual, and social health. Furthermore, attributes are often used defensively when no other skill would apply. Lastly, attributes can and often are used for perception checks.
 
 ## Flavor
 Flavor is a mechanic in Tabula used to describe the interesting parts of a character. Almost anything unique that a character *is* or *has* is likely to be flavor. Flavor is used primarily for DTMS (does this make sense) checks and modifying the difficulty on checks. A few examples of flavor might be `armor`, `horse`, `landed noble`, `flaming sword`, `elf`, `big and tall`, etc. for an elvish knight of the summer court. Each piece of flavor should be a short, evocative description.
-
-### Acquisition
-Flavor can be gotten in three ways. First, it can be asked for an paid for with CP at character creation. It typically costs 1 CP per piece of flavor at character creation unless modified by a deal. Second, it can be earned and paid for during the story similarly to at character creation. The only difference is that the storyteller may make you spend time in character to earn the flavor you want. Thirdly, flavor might be given to or inflicted upon a character as a result of the story. Lands and title may be given to a peasant after he rescues the princess but he may have also taken some fire damage from the dragon guarding here and have a half-melted face now.
 
 ### Bad Flavor
 Negative Flavor is usually acquired in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask that it not cost them CP. If the storyteller agrees that this is bad flavor then you can take it for free. The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
@@ -726,4 +691,5 @@ Physicality is also represented as flavor. This includes but is not limited to b
 - Setting: A setting is the result of worldbuilding applied to the setting template present in Tabula
 - Battlegrid: A battlegrid is a checkerboard or hex-tiled board game board, usually accompanied by figurines, that visually represents locations for combat in a roleplaying game.
 - RPG: Roleplaying Game. Also sometimes known as Table-top, or Table-top RPG.
+- Power Level: The strengths of one *thing* with relation to other *things* with which it is comparable.
 

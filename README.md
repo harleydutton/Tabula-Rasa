@@ -8,38 +8,51 @@ The worldbuilding framework produces a Setting. Settings are short, standardized
 
 The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the setting and start playing very quickly!
 
-## Philosophy
+## Design Pillars
 - plays fast
 - players make skills
 - generic
 - low entry barrier
 - short
-- not preachy
-- fun > balance/realism
+- orthogonal
+- symmetric
+- drama(tic) > balance/realism
 - avoid math/book-keeping
 - DRY using links; otherwise printable
 - avoid charts/tables (source material. illustrations okay)
 
-| In Scope           | Out of Scope                                      |
-| ------------------ | ------------------------------------------------- |
-| character creation | story/adventure template                          |
-| rolling checks     | probability charts                                |
-| settings           | source material                                   |
-| combat mechanics   | forming the PC party                              |
-| setting creation   | tips sections (single, tabula-specific tips okay) |
-|                    |                                                   |
-|                    |                                                   |
+| In Scope           | Out of Scope                                                   |
+| ------------------ | -------------------------------------------------------------- |
+| character creation | story/adventure template                                       |
+| rolling checks     | probability charts                                             |
+| settings           | source material                                                |
+| combat mechanics   | forming the PC party                                           |
+| setting creation   | preachy-ness/tips sections (single, tabula-specific tips okay) |
 
 ### Outstanding problems
 DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would kill them. use DTMS checks) When they have a certain number of bad flavors? (no, not by number) Who determines what flavor can be added to a character? (called shots, the player) Perhaps we should just have health? (no) How do you determine when a character has accumulated enough flavor that they are unconscious or dead? (DTMS check) This can probably be solved by saying the difficulty for giving immediately lethal flavor will usually be high against non-mooks unless you have silver bullets. Unconscious, sleeping, incapacitated, downed, etc. characters can be killed outright. When a character achieves the downed status from wounds is based on a DTMS check I guess? Not having source material makes combat messy... When moving is non-trivial (on the trivial, easy, normal, hard, impossible subjective check difficulty scale) a character is downed? When attacking is impossible a character can be considered impotent/incapacitated and initiative can be dropped.
 
 ## To Do
 - **Thoughts**
+  - consider giving characters minor purchases equal to 
+  - consider using attributes as HP pools. all attacks do one damage. players can ask the storyteller if a combatant is "vulnerable/weak". What this means is "is the combatant at 1 health in a relevant health pool?" Players can inflict wounds on this health pool if the enemy is not vulnerable/weak. Players can inflict "dying" on a combatant if they are weak. Combatants that drop to 0 in a health pool (have had dying/wound inflicted on them at 1 HP) are incapacitated. Players can inflict "dead" on a characters at 0 HP (dying) in a relevant pool. ########## I might also consider adding another keyword storytellers can use to indicate that players can inflict dead on combatants at 1 HP in a relevant attribute. if scale is meaningfully different the more powerful character can inflict dying upon the weaker character at any health level. perhaps characters can be "large" or equivalent by adding 3 or so to their base AD. Limiting factors can maybe be replaced with a scale chart that works for body, mind, spirit, and social.
+  2+ = alive and well
+  1 = weak; can have dying inflicted upon and maybe dead?
+  0 = dying/incapacitated; can have dead inflicted upon and might die if not saved
+  -1 = real dead
+  - do I need a downtime system?
+  - distributed storytelling. No storyteller, players create parts of a story and combine them ad libs style.
+  - "Symmetric" as a design pillar representing that the system should work the same for players and NPCs?
+  - "Orthogonal/decoupled" as design pillar representing that systems should be independent of each other?
+  - "Maintain parity" as design pillar representing that systems should be simple and not have caveats or exceptions?
+  - is it counterproductive to have both scope and design pillar section?
   - is the map section in distance useful?
   - do I need an equipment bulk system?
   - do I need a fatigue system?
   - the character and character creations settings are largely redundant. make them different or remove one.
     - maybe to complement "systems" have another top level section called "definitions". split the parts out of character and setting but still include character and setting and have them reference the smaller sections now. To some degree this is a bad idea because it implies that I should move the things I have defined in each subsection into it and that is crappy organization.
+  - Gloomhaven style auto-refreshing consumables?
+  - make sure CC, the sheet, and character match. Right now the sheet has "concept" and CC has "aesthetic description" and these are different.
 - **Distance**
   - rename battlefields to something less combat oriented
   - switch the distance and movement sections. make it clear in the distance section that the system does not determine weapon ranges or the like
@@ -47,9 +60,11 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
 - **Hidden Information**
   - rename unsuspicious to oblivious
   - rename undetected to hidden
+  - say somewhere that moving in stealth requires stealth rolls
   - I should make it clear that undetectable is not a state but rather a difficulty modifier in this system. context: invisible rogue and guard who may or may not have true sight.
 - **skills?**
   - On the subject of ordering, all actions must be able to be reacted to. Do they though? Shooting?
+  - taking new skills acts as an unlock. some actions are only possible if you actually have the relevant skill. mandatory skills don't work for everything.
 - **combat**
   - actions
     - In addition all reactions occur after the action that caused them.
@@ -100,10 +115,11 @@ ___both___
 ~~strikethrough~~  
 `monospace`  
 ```
-monospace blocks
+monospace
+blocks
 ```
-> block quotes
->> are nestable  
+> nestable  
+>> block quotes
 ***
 [Links](#formatting-options)
 1. ordered
