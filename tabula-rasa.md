@@ -39,11 +39,11 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Motivations](#motivations)
     - [Aesthetic Description](#aesthetic-description)
     - [Flavor](#flavor)
-    - [Hooks and Boons](#hooks-and-boons)
+    - [Hooks](#hooks)
+    - [Boons](#boons)
     - [Skills](#skills)
-      - [Attributes](#attributes)
-      - [Skills](#skills-1)
     - [Adding to the Setting](#adding-to-the-setting)
+    - [Attributes](#attributes)
       - [Veto](#veto)
       - [Theme](#theme)
       - [Scope](#scope)
@@ -133,7 +133,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
 - [Setting](#setting)
   - [Action Delay](#action-delay-2)
   - [Character Points](#character-points)
-  - [Skills](#skills-2)
+  - [Skills](#skills-1)
   - [Technology and Magic Descriptions](#technology-and-magic-descriptions)
   - [Store](#store)
   - [Tone](#tone)
@@ -145,7 +145,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
   - [Action Delay](#action-delay-3)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-1)
-  - [Skills](#skills-3)
+  - [Skills](#skills-2)
   - [Attributes](#attributes-1)
   - [Flavor](#flavor-1)
     - [Bad Flavor](#bad-flavor)
@@ -192,34 +192,34 @@ Tell me why your character gets out of bed in the morning. What is their purpose
 This is a good place to describe your character's gender, age, weight, build, height, bearing, clothes, stereotypical class, etc. The purpose of this section is to give other players or the storyteller an idea of what your character looks and acts like. If you want anything here to influence your rolls it should also be added to flavor.
 
 ### Flavor
-Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak, let's not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Flavor costs one CP at character creation and can be obtained or inflicted later on in the game.
+Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak, let's not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Flavor costs one CP at character creation and can be obtained later in the game. The storyteller can inflict flavor upon characters. If you have  or inflicted later on in the game.
 
-### Hooks and Boons
-Character hooks, or hooks for short, are a way to get boons and give the storyteller a way to pull you further into the story. A hook is anything that allows the storyteller to motivate your character specifically. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. Boons, on the other hand, are rewards that are unobtainable except through hooks and roleplaying. `Hooks` and `boons` are both a special kind of flavor that are uniquely powerful. To create a `hook` you must negotiate with the storyteller and they must accept it before you can receive your `boon`. Boons can be used to get `major purchases` or more exotic flavor like being unnaturally large, magical, non-human, etc.
+### Hooks
+Character hooks, or hooks for short, are a special piece of flavor that the storyteller can use to interact specifically with your character to create tension within the story. Adding a hook to your is the typical way to go about getting a [boon](#boons) and it also integrates your character into the story a little better most times. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. When you would like to add a hook to your character you must first discuss it with your storyteller and if they agree to let you take the hook you also get a boon. Hooks are distinct from motivations in that they don't always come from within e.g. being #17 on the FBI most wanted list.
+
+### Boons
+Character boons, or boons for short, are basically the extra powerful version of flavor. Boons are unobtainable except through [hooks](#hooks). Boons allow characters to be abnormally large or a powerful non-human, have a magic skill, be unusually rich or famous, or have smart, loyal minions. Boons can also be exchanged for a renewable [major purchase](#major-purchases).
 
 ### Skills
-Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP.
-
-> lock-picking, pyromancy, lying, and blocking are all examples of skills.
-
-#### Attributes
-Attributes `Body`, `Mind`, `Spirit` and `Social`. They are similar to skills but have meaningful differences. First, every character gets the first level of each attribute for free. Second, attributes cost significantly more CP to level up than skills do. Third, attributes are broad and if a character does not have an applicable skill they can roll an attribute. For this reason attributes are frequently used as defensive skills and for perception checks. Lastly, attributes represent a character's physical, mental, spiritual, and social health. This is discussed in more depth in the [Damage](#damage) section. <!--TODO: make damage section-->
-
-| Level    | 1    | 2    | 3     | 4     | 5     | X                     |
-| -------- | ---- | ---- | ----- | ----- | ----- | --------------------- |
-| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP                |
-| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | (X(X+1)(2X+1)/6)-1 CP |
-
-#### Skills
-Skills are listed on the setting. This should include all of the skills the players or storyteller have added to the setting. These skills are available within the setting to any character passing a DTMS check and can be purchased as normal.
+Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP. Your setting document will have a list of example skills you can take that are appropriate for the setting.
 
 | Level    | 1    | 2    | 3    | 4     | 5     | X+1         |
 | -------- | ---- | ---- | ---- | ----- | ----- | ----------- |
 | CP Cost  | 1 CP | 2 CP | 3 CP | 4 CP  | 5 CP  | X CP        |
 | Total CP | 1 CP | 3 CP | 6 CP | 10 CP | 15 CP | X(X+1)/2 CP |
 
+> pickpocket, pyromancy, intimidation, stealth, clairvoyance, and blocking are all examples of skills.
+
 ### Adding to the Setting
-It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant, propose those too. If the storyteller agrees, "Boom!", you can play what you want. 
+It is the intent of this system that you can play what you want. Players can speak with the storyteller and propose things to be added to the setting. If you want to play a cat-man samurai talk to the storyteller about adding cat-men to the setting and if samurai need special skills or tools to be relevant, propose those too. If the storyteller has no objections, boom, you can play exactly what you want. 
+
+### Attributes
+Attributes `Body`, `Mind`, `Spirit` and `Social`. They are very similar to [skills](#skills) but have meaningful differences. First, every character gets the first level of each attribute for free. Second, attributes cost significantly more CP to level up than skills do. Third, attributes are broad and if a character does not have an applicable skill they can roll an attribute. For this reason attributes are frequently used as defensive skills and for perception checks. Lastly, attributes represent a character's physical, mental, spiritual, and social health. This is discussed in more depth in the [Damage](#damage) section. <!--TODO: make damage section-->
+
+| Level    | 1    | 2    | 3     | 4     | 5     | X                     |
+| -------- | ---- | ---- | ----- | ----- | ----- | --------------------- |
+| CP Cost  | 0 CP | 4 CP | 9 CP  | 16 CP | 25 CP | X*X CP                |
+| Total CP | 0 CP | 4 CP | 13 CP | 29 CP | 54 CP | (X(X+1)(2X+1)/6)-1 CP |
 
 #### Veto
 The storyteller can reject your additions to the setting for any reason. You can bitch and moan but ultimately the storyteller is the one telling the story and doesn't have to put your idea in the story no matter how much you want it there. Come up with a new idea.
@@ -239,7 +239,7 @@ If you create a skill with appropriate scope that is just too powerful for the s
 When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to an unbalanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
 
 ### NPCs
-Tabula has the potential to treat NPCs and PCs the same way. If you go through the character creation process for an NPC, you should end up with a character of similar power level to the PCs, assuming you use the same amount of cp. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Leaving a large chunk of an NPCs CP unspent is a good way to keep them flexible.
+If you go through the character creation process for an NPC, you should end up with a character of similar power level to the PCs, assuming you use the same amount of cp. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Leaving a large chunk of an NPCs CP unspent is a good way to keep them flexible.
 
 ### Printable Character Sheet
 ![characterSheet.png not found](characterSheet.png "Printable Character Sheet")
