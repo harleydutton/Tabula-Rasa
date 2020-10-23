@@ -15,7 +15,6 @@ The roleplaying system is generic so it will work with any Setting produced by t
 - low entry barrier
 - short
 - orthogonal
-- symmetric
 - drama(tic) > balance/realism
 - avoid math/book-keeping
 - DRY using links; otherwise printable

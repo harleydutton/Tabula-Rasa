@@ -86,14 +86,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Zones](#zones)
     - [Battlefields](#battlefields)
     - [Movement](#movement)
-    - [Maps (is this section useful or necessary?)](#maps-is-this-section-useful-or-necessary)
-  - [Damage, wounds, dying, death](#damage-wounds-dying-death)
-    - [Damage](#damage)
-    - [Wounds](#wounds)
-    - [Dying](#dying)
-    - [Death](#death)
-    - [Armor](#armor)
-    - [Weapons](#weapons)
   - [Timing](#timing)
     - [Tick Length](#tick-length)
     - [Action Delay](#action-delay-1)
@@ -101,6 +93,13 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Initiative](#initiative)
     - [Surprise](#surprise)
     - [Ties](#ties)
+  - [Damage, wounds, dying, death](#damage-wounds-dying-death)
+    - [Damage](#damage)
+    - [Wounds](#wounds)
+    - [Dying](#dying)
+    - [Death](#death)
+    - [Armor](#armor)
+    - [Weapons](#weapons)
   - [Actions](#actions)
     - [Major Action](#major-action)
     - [Minor Action](#minor-action)
@@ -115,8 +114,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Distance](#distance-1)
   - [Combat](#combat-1)
     - [Intent](#intent)
-    - [Rolling Initiative](#rolling-initiative)
-    - [Turns](#turns)
       - [Major Actions](#major-actions)
         - [Attacking](#attacking)
         - [advantages and disadvantages](#advantages-and-disadvantages)
@@ -266,7 +263,7 @@ When you want to perform an action involving multiple different skills you might
 > To back flip down some stairs while shooting a fireball up the stairs you would need to pass both `acrobatics` and `fire magic` checks.
 
 ### Contests
-Contests are where two or more characters are trying to be best at some action. The problem comes in that there is a good chance both characters will succeed and so we must use magnitude of success to determine the winner of the contest. You only need one success to pass a skill check. Any successes beyond one contribute to magnitude of success. The character with the highest magnitude of success wins the contest. When the magnitudes of success are tied there is a tie.
+Contests are where two or more characters are trying to be best at some action. The problem comes in that there is a good chance both characters will succeed and so we must use magnitude of success to determine the winner of the contest. You only need one success to pass a skill check. Any successes beyond one contribute to magnitude of success. The character with the highest magnitude of success wins the contest. When the magnitudes of success are tied there is a tie. If determining a winner is important, or if ties killed your family, keep going with the contest until the ties go away.
 
 > Racing, feats of strength, public debates, drinking contents, and gambling are all common contests.
 
@@ -411,21 +408,6 @@ At the appropriate scale, battlefields are very useful for visualizing terrain. 
 ### Movement
 Characters have a tendency to move around battlefields. Typically characters need to pass DTMS checks to move between zones. Whenever a character is in combat and have a movement action to spend they can move between two logically connected adjacent zones on the battlefield. Atypically characters can move between unconnected zones or zones missing a logical connection by by passing a skill check for a relevant skills. Outside of combat characters can usually move around the battlefield with a large degree of freedom.
 
-### Maps (is this section useful or necessary?)
-Whatever the scale may be a map is typically a top-down representation of geographic features, structures or both. There are world maps, region maps, battlefields, star-maps, and a variety of others. When I say map I am referring to any and all of these scopes. I think we have all seen a map but for those of you who haven't...
-
-![worldMap.jpg not found](worldMap.jpg "Example Map")
-
-***
-
-## Damage, wounds, dying, death
-### Damage
-### Wounds
-### Dying
-### Death
-### Armor
-### Weapons
-
 ***
 
 ## Timing 
@@ -458,7 +440,17 @@ When one character sneaks up on another using the [hidden information](#hidden-i
 | oblivious  | current tick + AD + 1d6 | major               |
 
 ### Ties
-When two or more characters would act on the same tick, PCs go before NPCs. If two or more PCs act on the same tick the PC with lower AD acts first. If there is still a tie break the tie randomly. The storyteller can use this method to break ties for NPCs but doesn't have to.
+When two or more characters would act on the same tick, PCs go before NPCs. If two or more PCs act on the same tick the PC with lower AD acts first. If there is still a tie, break the tie randomly. The storyteller can use this method to break ties for NPCs but doesn't have to.
+
+***
+
+## Damage, wounds, dying, death
+### Damage
+### Wounds
+### Dying
+### Death
+### Armor
+### Weapons
 
 ***
 
@@ -524,29 +516,16 @@ suggest having enemies always fail their sneak checks?
 This really isn't a section describing combat, but instead a section describing any extended competitive activity within a story where timing is incredibly important. Sword and gun fights certainly fit the mould, sure, but so do a number of other things like horse races, ritual summoning gone wrong, and trying to command a fleet with light-minutes of delay. Combat in this game is based on actions and cooldowns. Despite this these rules will focus on the more traditional combat and I will leave you, dear reader, to adapt them to your competitive pie-eating contests as necessary.
 
 ### Intent
-It isn't intended to be fair, realistic, or deep. It is intended to be dramatic (and fun). Like the rest of the system players can have their characters do anything they think of. This means players can say "I would like to shoot that robot in the power core" with the reasonable expectation that the robot will be incapacitated if they they pass their `shooting` check. There are two problems with this. First, suddenly gaining the `death` flavor is well and good for henchmen but big-bad-evil-guys need time to monologue and should always be dealt the `dying` flavor instead. Second, again instant death is fine for henchmen but bosses and players should be harder to kill. Typically 
+It isn't intended to be fair, realistic, or deep. It is intended to be dramatic (and fun). Like the rest of the system players can have their characters do anything they think of. This means players can say "I would like to shoot that robot in the power core" with the reasonable expectation that the robot will be incapacitated if they they pass their `shooting` check. There are two problems with this. First, suddenly gaining the `death` flavor is well and good for henchmen but big-bad-evil-guys need time to monologue and should always be dealt the `dying` flavor instead. Second, again instant death is fine for henchmen but bosses and players should be harder to kill. 
 
-
-henchmen but this is not a dramatic way for bosses to go out. The intent is to make it hard to kill named characters before their defences have been lowered. Once the boss robot's force field has been shorted out with a bucket of water then can be dealt some form of the `dying` flavor at normal difficulty and finished off as an action or once combat ends. 
+The intent is to make it hard to kill named characters before their defences have been lowered. Once the boss robot's force field has been shorted out with a bucket of water then can be dealt some form of the `dying` flavor at normal difficulty and finished off as an action or once combat ends. 
 <!-- this should be a BRIEF description of combat and a more lengthy description of why it is necessary -->
-Combat in Tabula, unlike many roleplaying games, is based on AUTs and action cooldowns. AUTs, or Arbitrary Units of Time, are usually around one second but can be modified to suit the scale of the battle. During combat it is the storyteller's job to call out the current AUT starting from 0 and counting up. Characters participating the fight have their actions refreshed every time a number of AUTs have passed equal to their action delay. On the AUT a character's actions refresh that character can use as many of their actions as they want by describing them and rolling skill checks as appropriate. When all characters acting on an AUT are done taking actions the storyteller calls out the next AUT. It is intended that players track the action cooldowns for their characters. Repeat until the fight is over.
-
-### Rolling Initiative
-<!-- this should be a purely mechanical description of how to start a combat -->
-To start a combat scene each character involved will need to roll initiative. To do this each character rolls one d6. The number of pips represents how many turns it will be until that character can act in the combat. I haven't decided if starting delay should be 1d6 or 1d6+AD (AD=a characters action delay).
-
-### Turns
-<!-- this should be a purely mechanical description of how characters take their turns-->
-<!-- all of the various actions should be subsections to this-->
-Character get turns in combat based on their action delay. Effectively a character's action delay determines the cooldown on their actions. If a character has an action delay of 5 they will get to act every 5 ticks of initiative. If they started on initiative tick 8 this means they will act on 8, 13, 18, 23 and so on. Characters that start a combat go on 0. Other characters get 1d6 action delay before they can act in the combat. When a character's turn rolls around they get all of their spent actions back.
-At the start of their turn a characters actions refresh. Actions include a major action, a move action, and a reaction. A move action can be moved for moving and occasionally for dodging when combined with a reaction. A reaction can be spent to hold your action. An action can be used for pretty much everything. A reaction can be used to make a dodge or block check. Major actions are usually used for attacking or interacting in combat. A major action can be used with a reaction to launch a counterattack. Lots of things are free actions: Talking and directing minions is a good example of this. Doing a defensive action for another player costs a reaction and a major action. Whenever you use you reaction you get to take a defensive action as long as it makes sense. Whenever you want to use a move or major action and it is not your tick of initiative it will cost your reaction. Major actions can also be replaced with an additional move action or reaction.
-
 
 #### Major Actions
 Major actions are used to do pretty much everything in combat other than move or take out-of-turn actions. Most of the time you will need to use a major action to attack, interact with the environment, cast spells, create advantages or disadvantages, etc.
 
 ##### Attacking
-Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes an attack and passes the check and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks. If a player has an attack that is an AOE consider adding a limiting factor to it. The default difficulty for a fair fight is "normal" which is to say not trivial, easy, hard, or impossible.
+Attacking costs an action. All attacks are called shots. Describe the attack to the storyteller and they will assign a difficulty. The storyteller does not have to reveal all of an NPCs defences or their effect on the difficulty of attacks made against that NPC but in general they should because it saves time. If a player makes a check for an an attack action and passes it the called shot just happens as usual unless the defender has relevant defences the attacker didn't know about. The idea here is that weak enemies can be defeated outright and you will need to chip down the defences of more difficult enemies before you can defeat them. Attacks that result in wounds that will take a long time to heal or will never heal should be marked on the relevant character sheet as flavor. The difficulty of an attack is based on any relevant flavor like armor and weapons, the context of the attack, and how difficult the called shot is. Consider the attacker's weapon and the defender's armor. Consider context like visibility, elevation, flanking, wounds, etc. Consider how these things influence the difficulty of that specific called shot. Consider the players opinions on what the difficulty should be. To disable and capture an enemy make the appropriate called shot. Weapons do damage in a way that makes sense. Swords do sword-damage, guns do gun-damage and fireballs do fireball-damage. Respective this would be things like cuts/stabs, bullet wounds, and being blown up/set on fire. If wounds (bad flavor from combat) would make a character's ability to move non-trivial, that character is downed. If a character's ability to perform actions ever becomes impossible that character is either unconscious or incapacitated and possibly dead. If a character is ever incapacitated, downed, or unconscious they are likely at risk of being killed by a coup de gras. For all of these things make "does this make sense" checks. If a player has an attack that is an AOE consider adding a limiting factor to it. The default difficulty for a fair fight is "normal" which is to say not trivial, easy, hard, or impossible.
 
 ##### advantages and disadvantages
 As an action character may attempt to create an advantage for themselves or a disadvantage for another character. If the action succeeds whomever is controlling the character gets to describe the advantage they create. If the storyteller finds it reasonable it happens. If not, don’t waste time arguing, just move on.
