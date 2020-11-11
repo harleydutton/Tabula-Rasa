@@ -2,7 +2,7 @@
 
 ## Boilerplate
 Default AD: 10
-Starting CP: 80
+Starting CP: 50
 Mandatory Skills: Body, Mind, Spirit, Social
 Available Skills: Lying, Persuasion, Seduction, Bartering, Public Speaking, Archery, Swordsmanship, Fire Magic, Sense Emotion, Necromancy, Seeing, Hearing, Necromancy, etc., and many more. 
 

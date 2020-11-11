@@ -4,7 +4,7 @@ This README is not intended to be part of Tabula Rasa. Instead it is a meta-docu
 
 Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying game that lets players create their own skills.
 
-The worldbuilding framework produces a Setting. Settings are short, standardized, and easily sharable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
+The worldbuilding framework produces a Setting. Settings are short, standardized, and easily shareable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
 
 The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the setting and start playing very quickly!
 
@@ -90,6 +90,8 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
   - at skill/flavor creation, discuss power level as a limiting factor. it should be a consideration at the least.
   - at skill/flavor creation, discuss the typical use case and difficulty.
   - add an example to scope: fireball, fire magic, magic
+- **Sequoia**
+  - fix formatting
 - **feedback**
   - which terms need to go in the glossary. does the glossary need to exist?
   - where do we need example images, charts, or descriptions?

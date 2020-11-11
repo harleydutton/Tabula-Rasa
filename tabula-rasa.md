@@ -4,16 +4,16 @@
 # Introduction
 Tabula Rasa is a worldbuilding framework and a rules-light, generic roleplaying game that lets players create their own skills and add to the setting easily.
 
-The worldbuilding framework produces a Setting. Settings are short, standardized, and easily sharable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
+The worldbuilding framework produces a Setting. Settings are short, standardized, and easily shareable descriptions of a single place within a world. The intent is that Settings can be used to quickly understand a part of the world such that a player can create a Character or the Storyteller can create an Adventure.
 
-The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the Setting and start playing very quickly!
+The role playing system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the Setting and start playing very quickly!
 
 ## Getting Started
-A night of roleplaying usually lasts anywhere from two to six hours and includes a variety of scenes: Exhilarating chases, nail-biting espionage, terrifying battles, grand speeches, descriptions of exotic lands, and of course joking around in and out of character are all hallmarks of good roleplaying.
+A night of roleplaying usually lasts anywhere from two to six hours and includes a variety of scenes: Exhilarating chases, nail-biting espionage, terrifying battles, grand speeches, descriptions of exotic lands, and, of course, joking around in and out of character are all hallmarks of good roleplaying.
 
 One player will need to be the storyteller. The storyteller is largely responsible for running the game. A storyteller's responsibilities include setting up scenes between characters, planning and narrating events that drive the story, roleplaying NPCs, setting check difficulties, and managing the setting. Once a storyteller is chosen they should go take a look at the [setting](#setting) section and either create or find a setting for their story.
 
-Everyone else will be a player. Players should go straight to the [character_creation](#character-creation) section and begin creating characters using the setting provided by the storyteller. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions in the story.
+Everyone else will be a player. Players should go straight to the [character creation](#character-creation) section and begin creating characters using the setting provided by the storyteller. Once a player has a character, they will provide voice acting, motivations, and personality for the character in addition to controlling their actions in the story.
 
 Most good stories include conflict. Once you have a storyteller, a setting, a story, and a character for each player you will need to know how to resolve conflicts. Conflicts are usually between characters and when they arise they can be resolved by rolling [checks](#check). Everyone should make sure they understand how checks work.
 
@@ -34,7 +34,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
 - [Systems](#systems)
   - [Character Creation](#character-creation)
     - [Identification Information](#identification-information)
-    - [Action Delay](#action-delay)
     - [Remaining Character Points](#remaining-character-points)
     - [Motivations](#motivations)
     - [Aesthetic Description](#aesthetic-description)
@@ -49,6 +48,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
       - [Scope](#scope)
       - [Limiting Factors](#limiting-factors)
       - [Uniqueness](#uniqueness)
+    - [Speed](#speed)
     - [NPCs](#npcs)
     - [Printable Character Sheet](#printable-character-sheet)
   - [Checks](#checks)
@@ -88,7 +88,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Movement](#movement)
   - [Timing](#timing)
     - [Tick Length](#tick-length)
-    - [Action Delay](#action-delay-1)
+    - [Action Delay](#action-delay)
     - [Global Ticker](#global-ticker)
     - [Initiative](#initiative)
     - [Surprise](#surprise)
@@ -128,7 +128,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Entering and Leaving combat](#entering-and-leaving-combat)
     - [War](#war)
 - [Setting](#setting)
-  - [Action Delay](#action-delay-2)
+  - [Action Delay](#action-delay-1)
   - [Character Points](#character-points)
   - [Skills](#skills-1)
   - [Technology and Magic Descriptions](#technology-and-magic-descriptions)
@@ -139,7 +139,7 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
   - [Theme](#theme-1)
 - [Character](#character)
   - [Identification Information](#identification-information-1)
-  - [Action Delay](#action-delay-3)
+  - [Action Delay](#action-delay-2)
   - [Character Points](#character-points-1)
   - [Motivations](#motivations-1)
   - [Skills](#skills-2)
@@ -166,18 +166,10 @@ To make a character first read through the setting document your storyteller has
 ### Identification Information
 These things go on your sheet to keep you and your storyteller sane in real life. You can omit these things if you like but it is not recommended and I already carved out some space on the sheet for it.
 - Name: The character's name
+- Concept: The characters role in the story
 - Player: The player's name
 - Setting: The name of the character's setting
 - Story: The name of the story the character was in
-- Concept: The characters role
-
-### Action Delay
-This is how long your character has to wait to do things in combat. Lower means faster. If you would like to decrease your action delay you can do so by spending CP. The default action delay is 10 but you should take a look at the setting document provided by your storyteller to make sure.
-
-|                | Default | -1 AD | -2 AD | -3 AD | -4 AD | -5 AD | -X AD  |
-| -------------- | ------- | ----- | ----- | ----- | ----- | ----- | ------ |
-| Cost for -1 AD | 0       | 1 CP  | 4 CP  | 9 CP  | 16 CP | 25 CP | X*X CP |
-| Total cost     | 0       | 1 CP  | 5 CP  | 14 CP | 30 CP | 55 CP | ...    |
 
 ### Remaining Character Points
 The storyteller should be tracking the [character points](#character-points) they have distributed to the group on the setting document. Each player should be keeping track of how much of this they have not spent on their character sheet such that they can easily take new skills.
@@ -192,10 +184,10 @@ This is a good place to describe your character's gender, age, weight, build, he
 Flavor is a word or short phrase describing your character. While you could say your character has clothes and the ability to speak, let's not worry about that and instead focus on the things that spice your character up! Flavor can include knowledge, possessions, physique, and even social position. Flavor costs one CP at character creation and can be obtained later in the game. The storyteller can inflict flavor upon characters. If you have  or inflicted later on in the game.
 
 ### Hooks
-Character hooks, or hooks for short, are a special piece of flavor that the storyteller can use to interact specifically with your character to create tension within the story. Adding a hook to your is the typical way to go about getting a [boon](#boons) and it also integrates your character into the story a little better most times. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. When you would like to add a hook to your character you must first discuss it with your storyteller and if they agree to let you take the hook you also get a boon. Hooks are distinct from motivations in that they don't always come from within e.g. being #17 on the FBI most wanted list.
+Hooks are a special piece of flavor that the storyteller can use to interact specifically with your character to create tension within the story. Adding a hook to your character is the typical way to go about getting a [boon](#boons) and it also integrates your character into the story a little better most times. A hook can be a love interest, an enemy, a debt, a cause, a disability, and much more. When you would like to add a hook to your character you must first discuss it with your storyteller and if they agree to let you take the hook you also get a boon. Hooks are distinct from motivations in that they don't always come from within e.g. being #17 on the FBI most wanted list.
 
 ### Boons
-Character boons, or boons for short, are basically the extra powerful version of flavor. Boons are unobtainable except through [hooks](#hooks). Boons allow characters to be abnormally large or a powerful non-human, have a magic skill, be unusually rich or famous, or have smart, loyal minions. Boons can also be exchanged for a renewable [major purchase](#major-purchases).
+Boons are the extra powerful version of flavor. Boons can only be obtained through  [hooks](#hooks). Boons allow characters to be abnormally large, a powerful non-human, unusually rich or famous, or have a magic skill, or some smart, loyal minions. Boons can also be exchanged for a renewable [major purchase](#major-purchases).
 
 ### Skills
 Skills are the most mechanical part of a character. They allow your character to make actions by rolling checks. Skills have levels and are usually self-descriptively named though there is space for skill descriptions on the character sheet. You can purchase skills with CP at character creation and level them up later using CP. Your setting document will have a list of example skills you can take that are appropriate for the setting.
@@ -235,6 +227,14 @@ If you create a skill with appropriate scope that is just too powerful for the s
 #### Uniqueness
 When you add something to the setting you may have it in your head that it will be unique. You will be the only fire mage, you will have the only gun, you will be the only alien, etc. This can very quickly lead to an unbalanced and unenjoyable setting or story. Do not expect to have a monopoly on anything you add to the setting. Where there is one, there can be two.
 
+### Speed
+This is how long your character has to wait to do things in combat. A lower value means you act faster in timed scenes. If you would like to decrease your action delay you can do so by spending CP. The default action delay is 10 but you should take a look at the setting document provided by your storyteller to make sure.
+
+|                | Default | -1 AD | -2 AD | -3 AD | -4 AD | -5 AD | -X AD  |
+| -------------- | ------- | ----- | ----- | ----- | ----- | ----- | ------ |
+| Cost for -1 AD | 0       | 1 CP  | 4 CP  | 9 CP  | 16 CP | 25 CP | X*X CP |
+| Total cost     | 0       | 1 CP  | 5 CP  | 14 CP | 30 CP | 55 CP | ...    |
+
 ### NPCs
 If you go through the character creation process for an NPC, you should end up with a character of similar power level to the PCs, assuming you use the same amount of cp. If they need to be combat capable make sure they have an AD. If they are there to talk make sure they have *at least* one motivation. Leaving a large chunk of an NPCs CP unspent is a good way to keep them flexible.
 
@@ -244,7 +244,7 @@ If you go through the character creation process for an NPC, you should end up w
 ***
 
 ## Checks
-When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. You can always use one of the attributes (`mind`, `body`, `spirit`, and `social`) or you can use a relevant skill your character has. Tell the storyteller what you want to do with your skill and be specific. The storyteller will set a subjective difficulty (target number) for the action. At this point you have three options. You can roll with that difficulty, abort the check, or [challenge](#challenging) the difficulty the storyteller set. If you decide to proceed, roll a number of dice equal the skill's level. If any beat the target number you pass the check and what you described happens.
+When conflict occurs during roleplaying, most of the time, the fairest way to resolve it is by rolling a skill check, or check for short. You can always use one of the attributes (`mind`, `body`, `spirit`, and `social`) or you can use a relevant skill your character has. Tell the storyteller what you want to do with your skill and be specific. The storyteller will set a subjective difficulty (target number) for the action. At this point you have three options. You can roll with that difficulty, abort the check, or [challenge](#challenging) the difficulty the storyteller set. If you decide to proceed, roll a number of dice equal the skill's level. If any meet or exceed the target number you pass the check and what you described happens.
 
 > If Sam wants to jump over a river and has an `athletics` skill of 5, Sam would say "I want to jump across the river." The storyteller might tell him "that will be hard because the rain made the ground muddy and your footing is bad," which means the target number is 6 instead of 5 on a six-sided die. When Sam rolls, if any one of Sam's 5 dice come up as a 6, Sam successfully jumps across the river. On the other hand, if Sam does not get any sixes, he fails to jump across, likely resulting in him landing in the river.
 
@@ -271,7 +271,7 @@ Contests are where two or more characters are trying to be best at some action. 
 There is one special kind of check that the storyteller will make frequently. These are DTMS checks which stands for "Does this make sense?" They don't use dice and they aren't a check in the traditional sense. DTMS checks are just a way for me to shorthand the idea "use your brain to decide if this should be allowed or not."
 
 ### Challenging
-When a player disagrees with the difficulty of a check they can challenge the difficulty the storyteller has set. Effectively this is asking the table to vote for what they think the difficulty should be. The storyteller's vote counts as 1.5. The purpose of this system is to deal with storytellers who are a little unfair some of the time, not make all checks **easy**. Each check can only have it's difficulty challenged once.
+When a player disagrees with the difficulty of a check they can challenge the difficulty the storyteller has set. When a player challenges the difficulty of a check, this means they are asking the table to vote for what they think the difficulty should be. The storyteller's vote counts as 1.5. The purpose of this system is to deal with storytellers who are a little unfair some of the time, not make all checks **easy**. Each check can only have it's difficulty challenged once.
 
 ***
 
@@ -599,13 +599,11 @@ This chapter is for you, the Player. Characters are representations of the ficti
 ## Identification Information
 This info is of little relevance to a character and of great relevance to the actual human people playing them. This stuff is useful to put on your sheet to keep things from getting lost or disorganized but you are welcome to skip it.
 
-| information | description                         | example                    |
-| ----------- | ----------------------------------- | -------------------------- |
-| name        | the characters name in the story    | Thomas Brickjaw            |
-| player      | your name in real life              | Harley                     |
-| story       | the story this character is part of | What Stars?!               |
-| concept     | the role your character plays       | disgruntled police officer |
-| setting     | the name of the setting             | Sequoia                    |
+- Name: The character's name
+- Concept: The characters role in the story
+- Player: The player's name
+- Setting: The name of the character's setting
+- Story: The name of the story the character was in
 
 ## Action Delay
 This is how fast a character is. Making it lower makes the character faster. Action delay can be reduced by spending character points.
@@ -624,7 +622,7 @@ Each character has a list of skills representing the actions they can take in th
 Attributes are very similar to skills with a few exceptions. Like skills, attributes can be used to roll checks but unlike skills attributes are as broad in [scope](#scope) as they can be. Like skills, attributes can be leveled up using CP but they are far more expensive. Unlike skills, attributes act as a character's physical, mental, spiritual, and social health. Furthermore, attributes are often used defensively when no other skill would apply. Lastly, attributes can and often are used for perception checks.
 
 ## Flavor
-Flavor is a mechanic in Tabula used to describe the interesting parts of a character. Almost anything unique that a character *is* or *has* is likely to be flavor. Flavor is used primarily for DTMS (does this make sense) checks and modifying the difficulty on checks. A few examples of flavor might be `armor`, `horse`, `landed noble`, `flaming sword`, `elf`, `big and tall`, etc. for an elvish knight of the summer court. Each piece of flavor should be a short, evocative description.
+Flavor is a mechanic in Tabula used to describe the interesting parts of a character. Almost anything unique that a character *is* or *has* is likely to be flavor. Flavor is used primarily for DTMS (does this make sense) checks and modifying the difficulty on checks. Flavor cannot refer to any part of the system, including AD, skills, or attributes. A few examples of flavor might be `armor`, `horse`, `landed noble`, `flaming sword`, `elf`, `big and tall`, etc. for an elvish knight of the summer court. Each piece of flavor should be a short, evocative description.
 
 ### Bad Flavor
 Negative Flavor is usually acquired in two ways. The first way is usually through deals. Rather than asking for a piece of flavor that does something good and something bad a player might ask for a piece of flavor that is mostly bad and ask that it not cost them CP. If the storyteller agrees that this is bad flavor then you can take it for free. The second way characters usually get negative flavor is from combat. When one character lops off another character's hand with a sword that new `-1 hand` will need to be remembered unless that character ceases to matter. Flavor can handle arbitrary negative effects like wounds perfectly.
