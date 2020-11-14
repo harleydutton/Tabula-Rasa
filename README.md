@@ -52,6 +52,10 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
     - maybe to complement "systems" have another top level section called "definitions". split the parts out of character and setting but still include character and setting and have them reference the smaller sections now. To some degree this is a bad idea because it implies that I should move the things I have defined in each subsection into it and that is crappy organization.
   - Gloomhaven style auto-refreshing consumables?
   - make sure CC, the sheet, and character match. Right now the sheet has "concept" and CC has "aesthetic description" and these are different.
+- **Promises**
+  - in the money section i promise that settings documents will define currency
+  - the money section refers to "downtime". Make it exist.
+  - character sheet needs to track major and minor purchases bought
 - **Distance**
   - rename battlefields to something less combat oriented
   - switch the distance and movement sections. make it clear in the distance section that the system does not determine weapon ranges or the like

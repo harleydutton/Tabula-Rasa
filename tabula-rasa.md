@@ -72,7 +72,6 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Impossible Purchases](#impossible-purchases)
   - [Hidden Information](#hidden-information)
     - [Oblivious](#oblivious)
-    - [Undetected](#undetected)
     - [Suspicious](#suspicious)
     - [Detected](#detected)
   - [Influence](#influence)
@@ -347,9 +346,7 @@ Hidden information in roleplaying games can range from lying, to sneaking up on 
 
 ### Oblivious
 Oblivious is a state for the guard and represents that the guard does not know the hidden information and doesn't even know it exists. This is the default state for every character. At any time a player can announce that their character is suspicious and begin being treated that way. NPCs typically need a reason to become suspicious.
-
-### Undetected
-Undetected is a state for the thief's hidden info and represents that the thief has successfully hidden it and that the guard might know it exists but hasn't detected it. When the thief wants to hide info or change hidden info, if there is a guard who could detect them, they need to pass a relevant check. `Lying`, `stealth`, `disguise`, `traps`, `pickpocket`, etc. are skills they might use.
+ When the thief wants to hide info or change hidden info, if there is a guard who could detect them, they need to pass a relevant check. `Lying`, `stealth`, `disguise`, `traps`, `pickpocket`, etc. are skills they might use.
 > Actions to hide information: Lying, moving silently, putting on a disguise, setting a trap, picking a pocket, etc.
 
 ### Suspicious
