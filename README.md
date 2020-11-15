@@ -1,4 +1,4 @@
-# Tabula-Rasa
+# Tabula-Rasa README.md
 ## About
 This README is not intended to be part of Tabula Rasa. Instead it is a meta-document for tracking design, philosophy, formatting, and tasks. Created by Harley Dutton.
 
@@ -9,7 +9,7 @@ The worldbuilding framework produces a Setting. Settings are short, standardized
 The roleplaying system is generic so it will work with any Setting produced by the worldbuilding framework. The rules are minimal meaning you and your group should be able to create any character imaginable within the setting and start playing very quickly!
 
 ## Design Pillars
-- drama(tic) > balance/realism
+- drama > balance/realism
 - plays fast
 - players make skills
 - generic
@@ -39,11 +39,15 @@ DEATH BY FLAVOR: ~~When does a character die? (when they gain a flavor that woul
 - **Thoughts**
   - distributed storytelling. No storyteller, players create parts of a story and combine them ad libs style.
   - do I need a fatigue system?
+  - do i need a bulk system?
+  - requirements: experienced storyteller, players acting in good faith, 
+  - round based conflict using action economy. series of opposed checks. synchronous as opposed to async. 
 - **Promises**
   - in the money section i promise that settings documents will define currency
   - the money section refers to "downtime". Make it exist.
   - character sheet needs to track major and minor purchases bought
   - the timing section talks about actions. I need to define these.
+  - held actions in timing references reactions which will be in the actions section
 - **Distance**
   - rename battlefields to something less combat oriented
   - switch the distance and movement sections. make it clear in the distance section that the system does not determine weapon ranges or the like
