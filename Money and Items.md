@@ -1,6 +1,5 @@
-
 ## Money and Items
-In Tabula, money is very abstract so as to avoid tedium and allow each setting to have it's own currency. Items will be listed in the setting store with a price of **free**, **cheap**, **expensive** or **unobtainable**. Money can be gotten by converting CP or boons into purchases, and when it is spent it will refresh at the beginning of downtime. Money and Items are both flavor.
+In Tabula, money is very abstract so as to avoid tedium and allow each setting to have it's own currency. Items will be listed in the setting store with a price of **free**, **cheap**, **expensive** or **unobtainable** though this cannot be comprehensive. Money can be gotten by converting CP or boons into purchases, and when it is spent it will refresh at the beginning of downtime. Money and Items are both flavor.
 
 ### Purchasing Power
 Characters all start with no purchasing power. Character points and boons can be converted into purchasing power. This conversion cannot be undone. One character point can be converted to one minor purchasing power. One boon can be converted to one major purchasing power. Track your major and minor purchasing power on your character sheet. Converting boons and CP to purchasing power can be done at character creation or at the beginning of downtime. When you convert a cp or boon to purchasing power you immediately get one of the relevant purchase.

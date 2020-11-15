@@ -65,11 +65,16 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
     - [Skill Progression](#skill-progression)
       - [Attribute Progression](#attribute-progression)
       - [Skill Progression](#skill-progression-1)
-  - [Money](#money)
-    - [Trivial Purchases](#trivial-purchases)
-    - [Minor Purchases](#minor-purchases)
-    - [Major Purchases](#major-purchases)
-    - [Impossible Purchases](#impossible-purchases)
+  - [Money and Items](#money-and-items)
+    - [Purchasing Power](#purchasing-power)
+    - [Purchases](#purchases)
+    - [Items](#items)
+    - [Refreshing](#refreshing)
+    - [Buying](#buying)
+    - [Commissioning](#commissioning)
+    - [Crafting](#crafting-1)
+    - [Selling](#selling)
+    - [Lending](#lending)
   - [Hidden Information](#hidden-information)
     - [Oblivious](#oblivious)
     - [Suspicious](#suspicious)
@@ -146,8 +151,8 @@ Most good stories include conflict. Once you have a storyteller, a setting, a st
   - [Flavor](#flavor-1)
     - [Bad Flavor](#bad-flavor)
     - [Deals](#deals)
-    - [Items](#items)
-    - [Money](#money-1)
+    - [Items](#items-1)
+    - [Money](#money)
     - [Social Flavor](#social-flavor)
     - [Supernatural Flavor](#supernatural-flavor)
     - [Relationships](#relationships)
@@ -310,34 +315,52 @@ The cost to level is the desired level in CP. If you with to level a skill more 
 
 ***
 
-## Money
-In Tabula money has been abstracted away as annoying bookkeeping. Many common items will be effectively free. When you actually have money it will usually be the flavor `minor purchase` or less commonly a `major purchase`. These purchases can be roleplayed as being whatever the native currency of the world is be it gold coins, bank notes, or space-bucks. To understand how these purchases will spend take a look at the store chart on your setting.
+## Money and Items
+In Tabula, money is very abstract so as to avoid tedium and allow each setting to have it's own currency. Items will be listed in the setting store with a price of **free**, **cheap**, **expensive** or **unobtainable** though this cannot be comprehensive. Money can be gotten by converting CP or boons into purchases, and when it is spent it will refresh at the beginning of downtime. Money and Items are both flavor.
 
-> This is the store from Sequoia, the example setting. 
+### Purchasing Power
+Characters all start with no purchasing power. Character points and boons can be converted into purchasing power. This conversion cannot be undone. One character point can be converted to one minor purchasing power. One boon can be converted to one major purchasing power. Track your major and minor purchasing power on your character sheet. Converting boons and CP to purchasing power can be done at character creation or at the beginning of downtime. When you convert a cp or boon to purchasing power you immediately get one of the relevant purchase.
 
-| Trivial       | Minor    | Major       | Impossible |
-| ------------- | -------- | ----------- | ---------- |
-| food          | armor    | training    | metal      |
-| water         | weapons  | ironwood    |            |
-| torches       | tools    | land        |            |
-| entertainment | animals  | vehicles    |            |
-| consumables   | luxuries | medicine    |            |
-| lodging       | meat     | AEther      |            |
-| booze         | jewelry  | magic items |            |
-| clothes       |          | allies      |            |
-| materials     |          | boons       |            |
+### Purchases
+Purchasing power gets you purchases. In game, purchases are represented using the setting's currency. In Sequoia, the example setting, fists of amber and shards of aether are equivalent to minor and major purchases respectively. In Sequoia, you could spend a fist of amber to buy a bottle of booze.
 
-### Trivial Purchases
-Many common things characters will need are effectively free so as to avoid pointless bookkeeping. The idea here is that each character has some way of paying for their adventures, and that when they get back home, they have a roof over their head and food in their belly because *something* they do is profitable, either back home or on the road. Typically food, clothes, ammo, and lodging end up on the list of trivial purchases but a storyteller might want to make you sweat by making one of your basic needs non-trivial.
+> ### Currency
+> Minor Purchases: Fist sized chunks of Amber
+> Major Purchases: Thumb sized shards of AEther
+> ### Store
+> | Free          | Cheap       | Expensive      | Unobtainable |
+> | ------------- | ----------- | -------------- | ------------ |
+> | clothes       | bribes      | training       | metal        |
+> | water         | a weapon    | a magic weapon |              |
+> | torches       | rope        | a house        |              |
+> | entertainment | a chicken   | a horse        |              |
+> |               | a good time | medicine       |              |
+> |               | booze       | AEther         |              |
+> |               | armor       | magic items    |              |
+> |               | food        | allies         |              |
+> |               | lodging     | jewelry        |              |
+> |               | amber       | ironwood       |              |
 
-### Minor Purchases
-The idea behind minor purchases is that while they aren't everyday purchases they are easy to get. Tools, weapons, vehicles, jewelry, and luxuries all typically fall into this category. You can convert your character's character points into minor purchases at a one-for-one ratio but you cannot typically convert them back. The `minor purchase` flavor can be used to pay for goods and services under the "minor" column of the setting's store. A character can have multiple copies of the `minor purchase` flavor.
+### Items
+Items are a type of flavor that can be bought using money. When tracking them on your character sheet, keep track of their price. Put an F, C, or E next to each item to denote them as free, cheap, or expensive respectively.
 
-### Major Purchases
-Major purchases are very similar to minor purchases except that they are worth more. Typically, to obtain a major purchase, you will have to give the storyteller a hook for your character or give up a boon. The `major purchase` flavor can be used to pay for things in the "major" column of the setting's store. Leadership of an organization, elite training, property, and spaceships are all roughly the same value as the flavor `major purchase`. Furthermore, major purchases can also be used to pay off hooks or purchase new boons.
+### Refreshing
+Some of you may be concerned that if you convert boons and CP to items and then  lose them your character will be weaker forever. Fear not! Purchases refresh at the beginning of downtime. Specifically, at the beginning of downtime if you have fewer cheap items and minor purchases than minor purchasing power, you get minor purchases equal to the difference. The same is true of expensive items, major purchases and major purchasing power.
 
-### Impossible Purchases
-Lastly and of least importance we have impossible purchases. There isn't much to say here really. You typically can't obtain these things for one reason or another. They might be illegal, one-of-a-kind, insanely expensive, or simply non-existent in the setting.
+### Buying
+The typical way characters get items is by buying them. This is done by finding a store that has what you want and trading the relevant purchase for it. The upside of this is that you can get the items you want immediately. The downside is that selection is often limited.
+
+### Commissioning
+If the local stores don't have what you want, typically you can pay NPCs to make items for you. This will take some time, possibly cost more, and has the potential to be a scam because you have to pay before you receive your item.
+
+### Crafting
+Crafting can be used to make items. The upside to crafting is that it gives players more flexibility than buying. The downside is that it takes longer and has the potential to fail. Crafting is useful because you make custom items, items that are otherwise unobtainable, items that have never existed, or just whatever you need in the moment. To start, purchase materials of a similar quality to the item you want to end up with. Next, as usual, propose an item to your storyteller. If they accept, describe how you make it and make a roll. The difficulty of the crafting check is determined by tools used, time taken, material price, and the item being made. If you succeed, you get your item. If you don't, the materials are lost.
+
+### Selling
+Items can be sold! If you want your purchase back, simply find a character in the story who wants it. If you sell a cheap or expensive your immediately get your money back and can spend it on something else.
+
+### Lending
+If you let another players character borrow one of your items, it still counts as your item and affects your item counts and purchasing power and not theirs. You cannot break this system by giving all of your items to other characters because your purchases won't refresh.
 
 ***
 
