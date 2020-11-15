@@ -100,6 +100,7 @@ DEATH BY FLAVOR: When does a character die? (when they gain a flavor that would 
   - which terms need to go in the glossary. does the glossary need to exist?
   - where do we need example images, charts, or descriptions?
   - define skills better. Heuristic: skills allow you to *do*
+  - rename flavor to be countable (flavor is uncountable)
   - define flavor better. Heuristic: flavor represents thing you *are* or *have*
 - **formatting**
   - format things using legend
